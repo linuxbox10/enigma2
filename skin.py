@@ -76,10 +76,11 @@ def skin_user_skinname():
 
 # example: loadSkin("nemesis_greenline/skin.xml")
 config.skin = ConfigSubsection()
-DEFAULT_SKIN = "MetrixHD/skin.xml"
-# on SD hardware, PLi-HD will not be available
+DEFAULT_SKIN = SystemInfo["HasFullHDSkinSupport"] and "GlamourAuraFHD/skin.xml" or "MetrixHD/skin.xml"
+DEFAULT_SKIN = "GlamourAuraFHD/skin.xml"
+# on SD hardware, GAFHD will not be available
 if not fileExists(resolveFilename(SCOPE_SKIN, DEFAULT_SKIN)):
-	# in that case, fallback to Magic (which is an SD skin)
+	# in that case, fallback to Metrix (which is an SD skin)
 	DEFAULT_SKIN = "MetrixHD/skin.xml"
 	if not fileExists(resolveFilename(SCOPE_SKIN, DEFAULT_SKIN)):
 		DEFAULT_SKIN = "skin.xml"

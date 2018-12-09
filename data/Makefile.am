@@ -8,6 +8,7 @@ dist_pkgdata_DATA = \
 	radio.mvi \
 	black.mvi \
 	rcpositions.xml \
+	settings \
 	setup.xml \
 	skin_default.xml \
 	skin_subtitles.xml \

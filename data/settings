@@ -1,4 +1,0 @@
-config.misc.graph_mepg.default_mode=true
-config.misc.hotkey.green=Module/Screens.PluginBrowser/PluginBrowser
-config.misc.hotkey.info=Plugins/Extensions/GraphMultiEPG/1
-

@@ -76,8 +76,8 @@ def skin_user_skinname():
 
 # example: loadSkin("nemesis_greenline/skin.xml")
 config.skin = ConfigSubsection()
-DEFAULT_SKIN = SystemInfo["HasFullHDSkinSupport"] and "GlamourAuraFHD/skin.xml" or "MetrixHD/skin.xml"
-DEFAULT_SKIN = "GlamourAuraFHD/skin.xml"
+DEFAULT_SKIN = SystemInfo["HasFullHDSkinSupport"] and "MetrixHD/skin.xml" or "MetrixHD/skin.xml"
+DEFAULT_SKIN = "MetrixHD/skin.xml"
 # on SD hardware, GAFHD will not be available
 if not fileExists(resolveFilename(SCOPE_SKIN, DEFAULT_SKIN)):
 	# in that case, fallback to Metrix (which is an SD skin)

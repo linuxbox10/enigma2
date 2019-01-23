@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-27 17:56+0100\n"
-"PO-Revision-Date: 2018-12-09 11:54+0100\n"
+"POT-Creation-Date: 2019-01-05 18:53+0100\n"
+"PO-Revision-Date: 2018-12-31 15:13+0100\n"
 "Last-Translator: GeirJ <dummy@dummy.com>\n"
 "Language-Team: GeirJ\n"
 "Language: nb\n"
@@ -423,13 +423,18 @@ msgstr[0] "%s det finnes en ny oppdatering"
 msgstr[1] "%s det finnes nye oppdateringer"
 
 #
+#, fuzzy, python-format
+msgid "%s%% Autoinstalling %s"
+msgstr "Installerer %s"
+
+#
 #, python-format
 msgid "%s%d min"
 msgstr "%s%d min"
 
 #, python-format
 msgid "%s%d%s"
-msgstr ""
+msgstr "%s%d%s"
 
 #, python-format
 msgid "%s/%s: %s"
@@ -780,7 +785,6 @@ msgstr "ANSKAFFER TSID/ONID"
 msgid "AGC:"
 msgstr "AGC:"
 
-#, fuzzy
 msgid "ASS File"
 msgstr "ASS fil"
 
@@ -1235,10 +1239,10 @@ msgstr "Lyd PID"
 
 #, python-format
 msgid "Audio PID%s, codec & lang"
-msgstr ""
+msgstr "Lyd-PID%s, codec & språk"
 
 msgid "Audio PID, codec & lang"
-msgstr ""
+msgstr "Lyd-PID, codec & språk"
 
 msgid "Audio auto volume level"
 msgstr "Auto lydvolum nivå"
@@ -1327,11 +1331,6 @@ msgstr "Spill av automatisk blu-ray fil"
 #
 msgid "Auto scart switching"
 msgstr "Auto scart bytte"
-
-#
-#, python-format
-msgid "Autoinstalling %s"
-msgstr "Installerer %s"
 
 msgid "Autoinstalling Completed"
 msgstr "Autoinstallasjonen er ferdig."
@@ -1452,7 +1451,7 @@ msgid "Barbados"
 msgstr "Barbados"
 
 msgid "Basic PID info"
-msgstr ""
+msgstr "Grunnleggende PID-informasjon"
 
 msgid "Basque"
 msgstr "Baskisk"
@@ -1689,6 +1688,11 @@ msgstr "Avbryt eventuelle tekst endringer og avslutt"
 
 msgid "Cancelled upon user request"
 msgstr "Kansellert av bruker"
+
+#
+#, fuzzy
+msgid "Cannot delete downloaded image"
+msgstr "Er du sikker på å slette ferdige timere?"
 
 msgid "Cannot determine"
 msgstr "Kan ikke fastslå"
@@ -2452,6 +2456,9 @@ msgstr "Kunne ikke starte opptak pga. motstridende timer %s"
 msgid "Could not record due to invalid service %s"
 msgstr "Kunne ikke starte opptak på grunn av et utilgjengelig program %s"
 
+msgid "Could not some setup the required directories on the media (e.g. USB stick) - Please verify media and try again!"
+msgstr ""
+
 msgid "Country"
 msgstr "Land"
 
@@ -2545,6 +2552,9 @@ msgstr "Egendefinert hopptid for '7'/'9' tastene"
 msgid "Customize"
 msgstr "Tilpasset innstilling"
 
+msgid "Customize OpenWebIF settings for fallback tuner"
+msgstr ""
+
 msgid "Customize channel list cursor behavior"
 msgstr "Tilpass bytte av kanallister"
 
@@ -2599,7 +2609,7 @@ msgid "DVB CI Delay"
 msgstr "DVB CI forsinkelse"
 
 msgid "DVB Subtitles PID & lang"
-msgstr ""
+msgstr "DVB undertekster PID & språk"
 
 msgid "DVB driver version: "
 msgstr "DVB driver versjon: "
@@ -3035,9 +3045,9 @@ msgid "Do you really want to remove your bookmark of %s?"
 msgstr "Er du sikker på å fjerne ditt bokmerke av %s?"
 
 #
-#, fuzzy, python-format
+#, python-format
 msgid "Do you really want to stop current event and delete timer %s?"
-msgstr "Er du sikker på at du vil slette %s?"
+msgstr "Er du sikker på at du vil stoppe dette opptak og slette timer %s?"
 
 #
 msgid "Do you want this?"
@@ -3275,9 +3285,8 @@ msgstr "El Salvador"
 msgid "Electronic Program Guide"
 msgstr "Elektronisk Program Guide"
 
-#, fuzzy
 msgid "Embedded"
-msgstr "integrert"
+msgstr "Innebygd"
 
 msgid "Empty slot"
 msgstr "Tom"
@@ -3694,9 +3703,8 @@ msgid "Extended"
 msgstr "Ekstra"
 
 #
-#, fuzzy
 msgid "Extended PID info"
-msgstr "Ekstra"
+msgstr "Utvidet PID-informasjon"
 
 #
 msgid "Extended Software"
@@ -5605,7 +5613,7 @@ msgid "Nameserver setup"
 msgstr "Navneserver innstilling"
 
 msgid "Namespace & Orbital pos."
-msgstr ""
+msgstr "Navneområde & Satellittposisjon"
 
 msgid "Namibia"
 msgstr "Namibia"
@@ -6089,9 +6097,8 @@ msgstr "Original"
 msgid "Other"
 msgstr "Annen"
 
-#, fuzzy
 msgid "Other Subtitles & lang"
-msgstr "Undertekst innstilling"
+msgstr "Andre undertekster & språk"
 
 msgid "Output"
 msgstr "Utgang"
@@ -6124,7 +6131,6 @@ msgstr "PCR PID"
 msgid "PDC"
 msgstr "PDC"
 
-#, fuzzy
 msgid "PGS File"
 msgstr "PGS fil"
 
@@ -6205,6 +6211,9 @@ msgstr "Foreldrekontroll og kanalinnstillinger"
 #
 msgid "Parental control setup"
 msgstr "Foreldrekontroll oppsett"
+
+msgid "Password"
+msgstr ""
 
 #
 msgid "Pause"
@@ -6599,6 +6608,11 @@ msgstr "Polarisasjon"
 #
 msgid "Polish"
 msgstr "Polsk"
+
+#
+#, fuzzy
+msgid "Port"
+msgstr "Inngang A"
 
 #
 msgid "Port A"
@@ -7429,14 +7443,12 @@ msgstr "SNR:"
 msgid "SPDIF"
 msgstr "SPDIF"
 
-#, fuzzy
 msgid "SRT File"
 msgstr "SRT fil"
 
 msgid "SRT file"
 msgstr "SRT fil"
 
-#, fuzzy
 msgid "SSA File"
 msgstr "SSA fil"
 
@@ -8081,13 +8093,11 @@ msgstr "Kanal info"
 msgid "Service info - ECM Info"
 msgstr "Kanal info - ECM info"
 
-#, fuzzy
 msgid "Service info - service & Basic PID Info"
-msgstr "Kanal informasjon - kanal & PID'er"
+msgstr "Kanal info - kanal & grunnleggende PID info"
 
-#, fuzzy
 msgid "Service info - service & Extended PID Info"
-msgstr "Kanal informasjon - kanal & PID'er"
+msgstr "Kanal info - kanal & grunnleggende PID info"
 
 msgid "Service info - service & PIDs"
 msgstr "Kanal informasjon - kanal & PID'er"
@@ -8197,6 +8207,18 @@ msgstr "Sekvens gjentakelse brukes hvis antenne systemet krever dette. Normalt h
 
 msgid "Set startup service"
 msgstr "Velg denne som oppstartskanal"
+
+#, fuzzy
+msgid "Set the User ID of the OpenWebif from your fallback tuner"
+msgstr "Aktiver import timer fra reserve tuner"
+
+#, fuzzy
+msgid "Set the password of the OpenWebif from your fallback tuner"
+msgstr "Aktiver import timer fra reserve tuner"
+
+#, fuzzy
+msgid "Set the port of the OpenWebif from your fallback tuner"
+msgstr "Aktiver import timer fra reserve tuner"
 
 msgid "Set the type of the progress indication in the channel selection screen."
 msgstr "Velg hvis du ønsker at programbasert framgang skal vises i kanallisten."
@@ -8403,9 +8425,8 @@ msgid "Show latest upgrade log"
 msgstr "Vis siste oppdaterings logg"
 
 #
-#, fuzzy
 msgid "Show menu or plugin numbers"
-msgstr "Vis meny nummer"
+msgstr "Vis meny eller plugin-numre"
 
 #
 msgid "Show menu paths"
@@ -9269,9 +9290,12 @@ msgstr "System"
 msgid "System & Modulation"
 msgstr "System - Modulasjon"
 
+msgid "T2MI RAW Mode"
+msgstr ""
+
 #. TRANSLATORS: Add here whatever should be shown in the "translator" about screen, up to 6 lines (use \n for newline)
 msgid "TRANSLATOR_INFO"
-msgstr "Siste oversetning til norsk bokmål utført: 09.12.2018"
+msgstr "Siste oversettelse til norsk bokmål utført: 31.12.2018"
 
 #
 msgid "TS file is too large for ISO9660 level 1!"
@@ -9293,9 +9317,8 @@ msgstr "TVs fysiske adresse"
 msgid "TXT PID"
 msgstr "Tekst PID"
 
-#, fuzzy
 msgid "TXT Subtitles page & lang"
-msgstr "Undertekst innstilling"
+msgstr "TXT undertekster side & språk"
 
 msgid "Table of contents for collection"
 msgstr "Innhold for samlingen"
@@ -9649,9 +9672,8 @@ msgstr "Med dette valget kan du skru av display."
 msgid "This option allows you to show all symbols on the display."
 msgstr "Dette alternativet lar deg vise alle symboler på displayet."
 
-#, fuzzy
 msgid "This option allows you to show menu and/or plugin number quick links."
-msgstr "Med dette valget kan du vise menynummer snarveiene."
+msgstr "Dette alternativet lar deg vise meny med eller uten snarveis nummer."
 
 msgid "This option allows you to show menu paths."
 msgstr "Med dette valget kan du vise meny stiene."
@@ -10407,6 +10429,11 @@ msgid "User - bouquets"
 msgstr "Kanallister"
 
 #
+#, fuzzy
+msgid "User ID"
+msgstr "Brukermodus"
+
+#
 msgid "User Mode"
 msgstr "Brukermodus"
 
@@ -10448,7 +10475,6 @@ msgstr "VLAN tilkobling"
 msgid "VMGM (intro trailer)"
 msgstr "VMGM (intro trailer)"
 
-#, fuzzy
 msgid "VOB File"
 msgstr "VOB fil"
 
@@ -10802,6 +10828,10 @@ msgstr "Når dette er på, vil kanallisten ikke lukkes selv om du velger en ny k
 msgid "When enabled you can control the volume with the arrow buttons instead of getting the channel selection list"
 msgstr "Når dette er på, vil fjernkontrollens piltaster brukes til å styre lydvolumet istedenfor at kanallisten åpnes"
 
+#, fuzzy
+msgid "When enabled you can customize the OpenWebIf settings for the fallback tuner"
+msgstr "Når dette på vil timer fra reserve tuner bli importert"
+
 msgid "When enabled you can specify a timeframe to ignore the shutdown timer when the receiver is in standby mode"
 msgstr "Når dette er på, kan du velge et tidsrom som overstyrer slå av timer når mottakeren er i standby modus"
 
@@ -11007,6 +11037,9 @@ msgstr "Trådløst nettverksoppsett."
 
 msgid "Wireless network state"
 msgstr "Trådløs nettverkstilstand"
+
+msgid "With T2MI RAW mode disabled (default) we can use single T2MI PLP de-encapsulation. With T2MI RAW mode enabled we can use astra-sm to analyze T2MI"
+msgstr ""
 
 msgid "With errors:"
 msgstr "Med feil:"
@@ -11911,19 +11944,16 @@ msgid "horizontal"
 msgstr "horisontal"
 
 #
-#, fuzzy
 msgid "in menu and plugins"
-msgstr "Last ned tillegg"
+msgstr "i meny og tilleggene"
 
 #
-#, fuzzy
 msgid "in menu only"
-msgstr "Hoved meny"
+msgstr "bare i meny"
 
 #
-#, fuzzy
 msgid "in plugins only"
-msgstr "Ingen nye tillegg ble funnet"
+msgstr "bare i tilleggene"
 
 msgid "information/education/school program"
 msgstr "informasjon/utdanning/skoleprogram"

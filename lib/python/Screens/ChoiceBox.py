@@ -89,7 +89,9 @@ class ChoiceBox(Screen):
 			"down": self.down,
 			"moveUp": self.additionalMoveUp,
 			"moveDown": self.additionalMoveDown,
-			"menu": self.setDefaultChoiceList
+			"menu": self.setDefaultChoiceList,
+			"rightUp": self.rightUp,
+			"leftUp": self.leftUp
 		}, -1)
 		self.setTitle(windowTitle or _("Select"))
 
@@ -112,7 +114,7 @@ class ChoiceBox(Screen):
 
 		textsize = self["text"].getSize()
 		count = len(self.list)
-		count, scrollbar = (10, 20 + 5) if count > 10 else (count, 0)
+		count, scrollbar = (10, self["list"].instance.getScrollbarWidth() + 5) if count > 10 else (count, 0)
 		offset = self["list"].l.getItemSize().height() * count
 		wsizex = x_width(textsize[0]) + x_offset() + 10 + scrollbar
 		#precount description size
@@ -138,6 +140,16 @@ class ChoiceBox(Screen):
 
 	def keyRight(self):
 		pass
+
+	def rightUp(self):
+		self.updateDescription()
+
+	def leftUp(self):
+		self.updateDescription()
+
+	def updateDescription(self):
+		if len(self["list"].list) > 0:
+			self.displayDescription(self["list"].l.getCurrentSelectionIndex())
 
 	def up(self):
 		if len(self["list"].list) > 0:

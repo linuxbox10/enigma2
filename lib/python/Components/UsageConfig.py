@@ -765,7 +765,7 @@ def InitUsageConfig():
 	config.autolanguage.subtitle_autoselect2.addNotifier(autolanguagesub, initial_call=False)
 	config.autolanguage.subtitle_autoselect3.addNotifier(autolanguagesub, initial_call=False)
 	config.autolanguage.subtitle_autoselect4.addNotifier(autolanguagesub)
-	config.autolanguage.subtitle_hearingimpaired = ConfigYesNo(default = False)
+	config.autolanguage.subtitle_hearingimpaired = ConfigYesNo(default = True)
 	config.autolanguage.subtitle_defaultimpaired = ConfigYesNo(default = False)
 	config.autolanguage.subtitle_defaultdvb = ConfigYesNo(default = False)
 	config.autolanguage.subtitle_usecache = ConfigYesNo(default = True)

@@ -75,10 +75,7 @@ def InitUsageConfig():
 	config.usage.channelselection_preview = ConfigYesNo(default = False)
 	config.usage.show_spinner = ConfigYesNo(default = True)
 	config.usage.menu_sort_weight = ConfigDictionarySet(default = { "mainmenu" : {"submenu" : {} }})
-	config.usage.menu_sort_mode = ConfigSelection(default = "user", choices = [
-		("a_z", _("alphabetical")),
-		("default", _("Default")),
-		("user", _("user defined")),])
+	config.usage.menu_sort_mode = ConfigSelection(default = "default", choices = [("a_z", _("alphabetical")), ("default", _("Default")), ("user", _("user defined")), ("user_hidden", _("user defined hidden"))])
 	config.usage.menu_show_numbers = ConfigSelection(default = "no", choices = [("no", _("no")), ("menu&plugins", _("in menu and plugins")), ("menu", _("in menu only")), ("plugins", _("in plugins only"))])
 	config.usage.menu_path = ConfigSelection(default = "off", choices = [
 		("off", _("Disabled")),
@@ -590,17 +587,17 @@ def InitUsageConfig():
 			open(SystemInfo["HasHdrType"], "w").write(configElement.value)
 		config.av.hdmihdrtype = ConfigSelection(default = "auto", choices={"auto": _("Auto"), "none": _("SDR"), "hdr10": _("HDR10"), "hlg": _("HLG"), "dolby": _("Dolby")})
 		config.av.hdmihdrtype.addNotifier(setHdmiHdrType)
-		
+
 	if SystemInfo["HDRSupport"]:
 		def setHlgSupport(configElement):
 			open("/proc/stb/hdmi/hlg_support", "w").write(configElement.value)
-		config.av.hlg_support = ConfigSelection(default = "auto(EDID)", 
+		config.av.hlg_support = ConfigSelection(default = "auto(EDID)",
 			choices = [ ("auto(EDID)", _("controlled by HDMI")), ("yes", _("force enabled")), ("no", _("force disabled")) ])
 		config.av.hlg_support.addNotifier(setHlgSupport)
 
 		def setHdr10Support(configElement):
 			open("/proc/stb/hdmi/hdr10_support", "w").write(configElement.value)
-		config.av.hdr10_support = ConfigSelection(default = "auto(EDID)", 
+		config.av.hdr10_support = ConfigSelection(default = "auto(EDID)",
 			choices = [ ("auto(EDID)", _("controlled by HDMI")), ("yes", _("force enabled")), ("no", _("force disabled")) ])
 		config.av.hdr10_support.addNotifier(setHdr10Support)
 

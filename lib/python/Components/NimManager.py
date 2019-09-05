@@ -336,7 +336,11 @@ class SecConfigure:
 					sec.setLNBLOFL(21200000)
 					sec.setLNBLOFH(21200000)
 					sec.setLNBThreshold(21200000)
-
+				elif currLnb.lof.value == "reversed_spectrum":
+					sec.setLNBLOFL(currLnb.lofl.value * 1000)
+					sec.setLNBLOFH(currLnb.lofl.value * 1000)
+					sec.setLNBThreshold(currLnb.lofl.value * 1000)
+					sec.setLNBReversedSpectrum(True)
 				if currLnb.increased_voltage.value:
 					sec.setLNBIncreasedVoltage(True)
 				else:
@@ -891,10 +895,19 @@ class NimManager:
 	def getI2CDevice(self, slotid):
 		return self.nim_slots[slotid].getI2C()
 
-	def getNimListOfType(self, type, exception = -1):
+	def getNimListOfType(self, type, exception=-1):
 		# returns a list of indexes for NIMs compatible to the given type, except for 'exception'
-		list = [x.slot for x in self.nim_slots if x.isCompatible(type) and x.slot != exception]
-		return list
+		return [x.slot for x in self.nim_slots if x.isCompatible(type) and x.slot != exception]
+
+	def getEnabledNimListOfType(self, type, exception=-1):
+		def enabled(n):
+			if n.isCompatible(type) and n.slot != exception and n.config_mode != "nothing":
+				if type.startswith("DVB-S") and n.config_mode in ("loopthrough", "satposdepends"):
+					root_id = nimmanager.sec.getRoot(n.slot_id, int(n.config.connectedTo.value))
+					if n.type == nimmanager.nim_slots[root_id].type: # check if connected from a DVB-S to DVB-S2 Nim or vice versa
+						return False
+				return True	
+		return [x.slot for x in self.nim_slots if x.slot != exception and enabled(x)]
 
 	def __init__(self):
 		self.satList = [ ]
@@ -1179,7 +1192,9 @@ def InitNimManager(nimmgr, update_slots = []):
 		"c_band": _("C-Band"),
 		"circular_lnb": _("Circular LNB"),
 		"ka_sat": _("KA-SAT"),
-		"user_defined": _("User defined")}
+		"user_defined": _("User defined"),
+		"reversed_spectrum": _("Reversed Spectrum"),
+	}
 
 	lnb_choices_default = "universal_lnb"
 

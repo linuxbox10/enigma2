@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-29 09:27+0200\n"
-"PO-Revision-Date: 2019-09-13 23:02+0200\n"
+"PO-Revision-Date: 2019-10-18 10:40+0200\n"
 "Last-Translator: mcfly82\n"
 "Language-Team: mcfly82 & wysless\n"
 "Language: hu_HU\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.2.3\n"
+"X-Generator: Poedit 2.2.1\n"
 
 msgid ""
 "\n"
@@ -189,11 +189,11 @@ msgstr "%.0f kB"
 
 #, python-format
 msgid "%.1f°E"
-msgstr ""
+msgstr "%.1f°K"
 
 #, python-format
 msgid "%.1f°W"
-msgstr ""
+msgstr "%.1f°NY"
 
 #, python-format
 msgid "%.2f GB"
@@ -1065,9 +1065,8 @@ msgstr "Arab"
 msgid "Are you sure to purge all deleted userbouquets?"
 msgstr "Biztos benne, hogy véglegesen eltávolítja az összes törölt listát?"
 
-#, fuzzy
 msgid "Are you sure to reboot to"
-msgstr "Biztos benne, hogy eltávolítja ezt a bejegyzést?"
+msgstr "Biztos benne, hogy újraindítja"
 
 #, python-format
 msgid "Are you sure to remove all %d.%d%s%s services?"
@@ -5489,7 +5488,7 @@ msgstr "Norvégia"
 msgid "Norwegian"
 msgstr "Norvég"
 
-msgid "Not Defined"
+msgid "Not defined"
 msgstr "Nincs megadva"
 
 msgid "Not Installed"
@@ -8529,7 +8528,7 @@ msgid "TRANSLATOR_INFO"
 msgstr ""
 "A fordítást készítette:\n"
 "mcfly82 & wysless\n"
-"Utolsó fordítás időpontja: 2019.09.14.\n"
+"Utolsó fordítás időpontja: 2019.10.18.\n"
 "Eredeti fordítás: MediaVox-Team, Robertut\n"
 "A magyar fordítás az OpenPLi projekthez készült.\n"
 "További információ: http://openpli.org"
@@ -10708,8 +10707,8 @@ msgstr "főzés"
 msgid "copy to bouquets"
 msgstr "másolás listába"
 
-msgid "create directory"
-msgstr "mappa létrehozása"
+msgid "Create directory"
+msgstr "Mappa létrehozása"
 
 msgid "daily"
 msgstr "naponta"
@@ -11263,8 +11262,8 @@ msgstr "lista eltávolítása a gyermekzár védelem alól"
 msgid "remove cable services"
 msgstr "kábeles szolgáltatás eltávolítása"
 
-msgid "remove directory"
-msgstr "mappa eltávolítása"
+msgid "Remove directory"
+msgstr "Mappa eltávolítása"
 
 msgid "remove entry"
 msgstr "bejegyzés törlése"
@@ -11492,11 +11491,8 @@ msgstr "beállítás indítási csatornának"
 msgid "successful"
 msgstr "sikeres"
 
-msgid "switch to bookmarks"
-msgstr "átkapcsolás a bookmarkokra"
-
-msgid "switch to filelist"
-msgstr "kapcsolás fájllistára"
+msgid "Switch to bookmarks"
+msgstr "Átkapcsolás a bookmarkokra"
 
 msgid "switch to the next angle"
 msgstr "váltás a következő nézőszögre"
@@ -11573,11 +11569,11 @@ msgstr "nem tesztelhető"
 msgid "until standby/restart"
 msgstr "kikapcsolásig/újraindításig"
 
-msgid "update bookmarks"
-msgstr "könyvjelzők frissítése"
+msgid "Update bookmarks"
+msgstr "Könyvjelzők frissítése"
 
 msgid "used"
-msgstr ""
+msgstr "használt"
 
 msgid "user defined"
 msgstr "felhasználó által megadva"
@@ -11664,7 +11660,7 @@ msgid "yes (keep feeds)"
 msgstr "igen (feed-ek megtartása)"
 
 msgid "yes, but not in multi selections"
-msgstr ""
+msgstr "igen, de nem több kijelöléssel"
 
 msgid "zap"
 msgstr "ugrás"

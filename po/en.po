@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-29 09:27+0200\n"
+"POT-Creation-Date: 2019-10-31 04:08+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: satdreamgr\n"
 "Language-Team: \n"
@@ -1732,10 +1732,6 @@ msgstr "Channel"
 msgid "Channels and EPG"
 msgstr "Channellist menu"
 
-#, fuzzy
-msgid "Channels only"
-msgstr "Channel"
-
 msgid "Chap."
 msgstr "Chap."
 
@@ -2357,6 +2353,9 @@ msgstr ""
 msgid "Create DVD-ISO"
 msgstr "Create DVD-ISO"
 
+msgid "Create directory"
+msgstr "Create directory"
+
 msgid "Create new folder and exit"
 msgstr ""
 
@@ -2965,15 +2964,15 @@ msgstr "Do you want to resume this playback?"
 msgid "Do you want to select a different skin?"
 msgstr ""
 
+msgid "Do you want to update the package:\n"
+msgstr "Do you want to update the package:\n"
+
 #, python-format
 msgid "Do you want to update your receiver to %s?"
 msgstr "Do you want to update your receiver to %s?"
 
 msgid "Do you want to update your receiver?"
 msgstr "Do you want to update your receiver?"
-
-msgid "Do you want to update the package:\n"
-msgstr "Do you want to update the package:\n"
 
 msgid "Dolby"
 msgstr ""
@@ -3052,9 +3051,6 @@ msgstr "EPG language selection 1"
 
 msgid "EPG language selection 2"
 msgstr "EPG language selection 2"
-
-msgid "EPG only"
-msgstr ""
 
 msgid "EPG selection"
 msgstr "EPG selection"
@@ -3984,9 +3980,6 @@ msgstr "Greek"
 msgid "Greek"
 msgstr "Greek"
 
-msgid "Greek (Modern)"
-msgstr ""
-
 msgid "Green"
 msgstr ""
 
@@ -4312,10 +4305,10 @@ msgstr "Image: "
 msgid "Import channels and/or EPG from remote receiver URL also when the receiver is getting out of standby"
 msgstr ""
 
-msgid "Import channels and/or EPG from remote receiver URL when receiver is booted"
+msgid "Import channels and/or EPG from remote receiver URL when receiver or enigma2 is restarted"
 msgstr ""
 
-msgid "Import channels and/or EPG from remote receiver URL when receiver or enigma2 is restarted"
+msgid "Import channels from remote receiver URL when receiver is booted"
 msgstr ""
 
 #, python-format
@@ -4445,9 +4438,6 @@ msgstr "Install channel list"
 
 msgid "Install extensions"
 msgstr ""
-
-msgid "Install extensions."
-msgstr "Install extensions."
 
 msgid "Install local extension"
 msgstr "Install local extension"
@@ -5545,9 +5535,6 @@ msgstr "Norwegian"
 msgid "Norwegian"
 msgstr "Norwegian"
 
-msgid "Not defined"
-msgstr ""
-
 #, fuzzy
 msgid "Not Installed"
 msgstr "Install"
@@ -5557,6 +5544,9 @@ msgstr ""
 
 msgid "Not associated"
 msgstr "Not associated"
+
+msgid "Not defined"
+msgstr ""
 
 #, python-format
 msgid "Not enough disk space. Please free up some disk space and try again. (%d MB required, %d MB available)"
@@ -5629,9 +5619,6 @@ msgstr "Off"
 
 msgid "Offline decode delay (ms)"
 msgstr "Offline decode delay (ms)"
-
-msgid "Ok"
-msgstr "Ok"
 
 msgid "Oman"
 msgstr ""
@@ -6661,6 +6648,9 @@ msgstr "Remove completed timers after (days)"
 msgid "Remove currently selected title"
 msgstr "Remove currently selected title"
 
+msgid "Remove directory"
+msgstr "Remove directory"
+
 msgid "Remove items from trash can after (days)"
 msgstr "Remove items from trash can after (days)"
 
@@ -6694,6 +6684,9 @@ msgstr ""
 
 msgid "Repeat leave standby messages"
 msgstr ""
+
+msgid "Repeat playlist"
+msgstr "Repeat playlist"
 
 msgid "Repeat type"
 msgstr "Repeat type"
@@ -7028,8 +7021,14 @@ msgstr ""
 msgid "Save changes"
 msgstr ""
 
+msgid "Save last directory on exit"
+msgstr "Save last directory on exit"
+
 msgid "Save playlist"
 msgstr "Save playlist"
+
+msgid "Save playlist on exit"
+msgstr "Save playlist on exit"
 
 msgid "Save settings and EPG data"
 msgstr ""
@@ -7850,6 +7849,9 @@ msgstr ""
 msgid "Show latest update log"
 msgstr ""
 
+msgid "Show media player on main menu"
+msgstr "Show media player on main menu"
+
 msgid "Show menu or plugin numbers"
 msgstr ""
 
@@ -8199,6 +8201,9 @@ msgstr ""
 msgid "Sort time"
 msgstr "Sort time"
 
+msgid "Sorting of playlists"
+msgstr "Sorting of playlists"
+
 msgid "Sound"
 msgstr "Sound"
 
@@ -8306,6 +8311,9 @@ msgstr "Standby fan %d voltage"
 
 msgid "Standby in "
 msgstr ""
+
+msgid "Start directory"
+msgstr "Start directory"
 
 msgid "Start from the beginning"
 msgstr "Start from the beginning"
@@ -8574,6 +8582,9 @@ msgstr ""
 
 msgid "Switch to TV mode"
 msgstr ""
+
+msgid "Switch to bookmarks"
+msgstr "Switch to bookmarks"
 
 msgid "Switch to filelist"
 msgstr "Switch to filelist"
@@ -9543,6 +9554,9 @@ msgstr "Update and ask to reboot"
 msgid "Update and reboot (recommended)"
 msgstr "Update and reboot (recommended)"
 
+msgid "Update bookmarks"
+msgstr "Update bookmarks"
+
 msgid "Update channel list only"
 msgstr "Update channel list only"
 
@@ -9564,11 +9578,11 @@ msgstr "Update has completed."
 msgid "Updatefeed not available."
 msgstr "Updatefeed not available."
 
-msgid "Updating software catalog"
-msgstr "Updating software catalog"
-
 msgid "Updating"
 msgstr "Updating"
+
+msgid "Updating software catalog"
+msgstr "Updating software catalog"
 
 msgid "Upper case"
 msgstr ""
@@ -10641,14 +10655,15 @@ msgstr "about to start"
 msgid "activate network adapter configuration"
 msgstr "activate network adapter configuration"
 
+#, fuzzy
+msgid "active"
+msgstr "Relative"
+
 msgid "actual time only"
 msgstr ""
 
 msgid "add alternatives"
 msgstr "add alternatives"
-
-msgid "add bookmark"
-msgstr "add bookmark"
 
 msgid "add bouquet"
 msgstr "add bouquet"
@@ -10821,9 +10836,6 @@ msgstr "cooking"
 
 msgid "copy to bouquets"
 msgstr "copy to bouquets"
-
-msgid "Create directory"
-msgstr "Create directory"
 
 msgid "daily"
 msgstr "daily"
@@ -11374,17 +11386,11 @@ msgstr "remove all new found flags"
 msgid "remove before this position"
 msgstr "remove before this position"
 
-msgid "remove bookmark"
-msgstr "remove bookmark"
-
 msgid "remove bouquet from parental protection"
 msgstr ""
 
 msgid "remove cable services"
 msgstr ""
-
-msgid "Remove directory"
-msgstr "Remove directory"
 
 msgid "remove entry"
 msgstr "remove entry"
@@ -11406,9 +11412,6 @@ msgstr "remove this mark"
 
 msgid "rename entry"
 msgstr ""
-
-msgid "Repeat playlist"
-msgstr "Repeat playlist"
 
 msgid "repeated"
 msgstr "repeated"
@@ -11444,12 +11447,6 @@ msgstr "romance"
 msgid "running"
 msgstr "gardening"
 
-msgid "Save last directory on exit"
-msgstr "Save last directory on exit"
-
-msgid "Save playlist on exit"
-msgstr "Save playlist on exit"
-
 msgid "scan state"
 msgstr "scan state"
 
@@ -11458,9 +11455,6 @@ msgstr "science fiction/fantasy/horror"
 
 msgid "seconds"
 msgstr "seconds"
-
-msgid "select"
-msgstr "select"
 
 msgid "select CAId's"
 msgstr "select CAId's"
@@ -11495,9 +11489,6 @@ msgstr "show alternatives"
 
 msgid "show event details"
 msgstr "show event details"
-
-msgid "Show media player on main menu"
-msgstr "Show media player on main menu"
 
 msgid "show softwaremanager in setup menu"
 msgstr "show softwaremanager in setup menu"
@@ -11575,9 +11566,6 @@ msgstr "social/political issues/economics (general)"
 msgid "social/spiritual science"
 msgstr "social/spiritual science"
 
-msgid "Sorting of playlists"
-msgstr "Sorting of playlists"
-
 msgid "special events"
 msgstr "special events"
 
@@ -11596,9 +11584,6 @@ msgstr "standard"
 msgid "start cut here"
 msgstr "start cut here"
 
-msgid "Start directory"
-msgstr "Start directory"
-
 #, fuzzy
 msgid "starts in a few seconds"
 msgstr "Start offline decode"
@@ -11614,9 +11599,6 @@ msgstr "stop using as startup service"
 
 msgid "successful"
 msgstr ""
-
-msgid "Switch to bookmarks"
-msgstr "Switch to bookmarks"
 
 msgid "switch to the next angle"
 msgstr "switch to the next angle"
@@ -11693,12 +11675,6 @@ msgstr ""
 
 msgid "until standby/restart"
 msgstr "until standby/restart"
-
-msgid "Update bookmarks"
-msgstr "Update bookmarks"
-
-msgid "used"
-msgstr ""
 
 msgid "user defined"
 msgstr "user defined"

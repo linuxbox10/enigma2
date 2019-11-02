@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-29 09:27+0200\n"
+"POT-Creation-Date: 2019-10-31 04:08+0100\n"
 "PO-Revision-Date: 2019-02-13 20:52+0200\n"
 "Last-Translator: jamu\n"
 "Language-Team: BoxFreak/jamu\n"
@@ -1889,10 +1889,6 @@ msgid "Channels and EPG"
 msgstr "Kanavat ja ohjelmaopas"
 
 #
-msgid "Channels only"
-msgstr "Vain kanavat"
-
-#
 msgid "Chap."
 msgstr "Osa"
 
@@ -2550,6 +2546,10 @@ msgstr "Peitä välkkyvä rivi tällä kanavalla"
 #
 msgid "Create DVD-ISO"
 msgstr "Luo DVD-ISO"
+
+#
+msgid "Create directory"
+msgstr "Luo hakemisto"
 
 msgid "Create new folder and exit"
 msgstr "Luo uusi hakemisto ja poistu"
@@ -3240,16 +3240,16 @@ msgstr "Jatketaanko kohdasta, johon katselu viimeksi jäi?"
 msgid "Do you want to select a different skin?"
 msgstr ""
 
+#
+msgid "Do you want to update the package:\n"
+msgstr "Haluatko päivittää ohjelmapaketin:\n"
+
 #, python-format
 msgid "Do you want to update your receiver to %s?"
 msgstr "Haluatko päivittää vastaanottimeesi %s?"
 
 msgid "Do you want to update your receiver?"
 msgstr "Haluatko päivittää vastaanottimesi?"
-
-#
-msgid "Do you want to update the package:\n"
-msgstr "Haluatko päivittää ohjelmapaketin:\n"
 
 msgid "Dolby"
 msgstr ""
@@ -3337,9 +3337,6 @@ msgstr "Ohjelmaoppaan kieli 1"
 
 msgid "EPG language selection 2"
 msgstr "Ohjelmaoppaan kieli 2"
-
-msgid "EPG only"
-msgstr "Vain ohjelmaopas"
 
 #
 msgid "EPG selection"
@@ -4356,9 +4353,6 @@ msgstr "Kreikka"
 msgid "Greek"
 msgstr "Kreikka"
 
-msgid "Greek (Modern)"
-msgstr ""
-
 #
 msgid "Green"
 msgstr "Vihreä"
@@ -4703,10 +4697,11 @@ msgstr "Ohjelmisto: "
 msgid "Import channels and/or EPG from remote receiver URL also when the receiver is getting out of standby"
 msgstr "Tuo kanavat ja/tai ohjelmaopas etävastaanottimelta valmiustilasta poistuttaessa"
 
-msgid "Import channels and/or EPG from remote receiver URL when receiver is booted"
+msgid "Import channels and/or EPG from remote receiver URL when receiver or enigma2 is restarted"
 msgstr "Tuo kanavat ja/tai ohjelmaopas etävastaanottimelta uudelleenkäynnistyksen yhteydessä"
 
-msgid "Import channels and/or EPG from remote receiver URL when receiver or enigma2 is restarted"
+#, fuzzy
+msgid "Import channels from remote receiver URL when receiver is booted"
 msgstr "Tuo kanavat ja/tai ohjelmaopas etävastaanottimelta uudelleenkäynnistyksen yhteydessä"
 
 #, fuzzy, python-format
@@ -4852,10 +4847,6 @@ msgstr "Asenna kanavalista"
 
 #
 msgid "Install extensions"
-msgstr "Asenna laajennukset."
-
-#
-msgid "Install extensions."
 msgstr "Asenna laajennukset."
 
 #
@@ -6112,10 +6103,6 @@ msgid "Norwegian"
 msgstr "Norja"
 
 #
-msgid "Not defined"
-msgstr "Ei määritetty"
-
-#
 #, fuzzy
 msgid "Not Installed"
 msgstr "Asenna"
@@ -6127,6 +6114,10 @@ msgstr "Ei määritetty"
 
 msgid "Not associated"
 msgstr "Ei assosioitu"
+
+#
+msgid "Not defined"
+msgstr "Ei määritetty"
 
 #
 #, python-format
@@ -6206,9 +6197,6 @@ msgstr "Pois"
 
 msgid "Offline decode delay (ms)"
 msgstr "Offline-purkamisen viive (ms)"
-
-msgid "Ok"
-msgstr "Ok"
 
 msgid "Oman"
 msgstr "Oman"
@@ -7380,6 +7368,10 @@ msgstr "Poista toteutuneet ajastukset (päivää) jälkeen"
 msgid "Remove currently selected title"
 msgstr "Poista valittu otsikko"
 
+#
+msgid "Remove directory"
+msgstr "Poista hakemisto"
+
 msgid "Remove items from trash can after (days)"
 msgstr "Tyhjennä roskakori (päivää) jälkeen"
 
@@ -7420,6 +7412,10 @@ msgstr "Toistokerrat"
 
 msgid "Repeat leave standby messages"
 msgstr ""
+
+#
+msgid "Repeat playlist"
+msgstr "Toista soittolista"
 
 #
 msgid "Repeat type"
@@ -7789,8 +7785,16 @@ msgid "Save changes"
 msgstr "Tallenna"
 
 #
+msgid "Save last directory on exit"
+msgstr "Tallenna viimeisin hakemisto suljettaessa"
+
+#
 msgid "Save playlist"
 msgstr "Tallenna soittolista"
+
+#
+msgid "Save playlist on exit"
+msgstr "Tallenna soittolista suljettaessa"
 
 msgid "Save settings and EPG data"
 msgstr "Tallenna asetukset ja ohjelmaoppaan tiedot"
@@ -8689,6 +8693,9 @@ msgstr "Näytä viimeisimmät muutokset"
 msgid "Show latest update log"
 msgstr "Näytä viimeisin päivityslokitiedosto"
 
+msgid "Show media player on main menu"
+msgstr "Näytä mediatoistin päävalikossa"
+
 msgid "Show menu or plugin numbers"
 msgstr "Numeroi valikot ja/tai lisäosat"
 
@@ -9080,6 +9087,9 @@ msgstr "Järjestä lisäosalista oletusasetuksiin?"
 msgid "Sort time"
 msgstr "Aikajärj."
 
+msgid "Sorting of playlists"
+msgstr "Soittolistojen järjestys"
+
 #
 msgid "Sound"
 msgstr "Ääni"
@@ -9194,6 +9204,10 @@ msgstr "Valmiustilan tuuletin %d jännite"
 #
 msgid "Standby in "
 msgstr "Valmiustilaan kun kulunut "
+
+#
+msgid "Start directory"
+msgstr "Aloitushakemisto"
 
 #
 msgid "Start from the beginning"
@@ -9501,6 +9515,10 @@ msgstr ""
 #
 msgid "Switch to TV mode"
 msgstr "Vaihda TV-tilaan"
+
+#
+msgid "Switch to bookmarks"
+msgstr "Vaihda kirjanmerkkeihin"
 
 #
 msgid "Switch to filelist"
@@ -10577,6 +10595,9 @@ msgstr "Päivitä ja uudelleenkäynnistä"
 msgid "Update and reboot (recommended)"
 msgstr "Päivitä ja uudelleenkäynnistä (suositeltava)"
 
+msgid "Update bookmarks"
+msgstr "Päivitä kirjanmerkit"
+
 msgid "Update channel list only"
 msgstr "Päivitä vain kanavalista"
 
@@ -10598,12 +10619,12 @@ msgstr "Päivitys on valmis."
 msgid "Updatefeed not available."
 msgstr "Päivityslähde ei ole saatavilla."
 
-msgid "Updating software catalog"
-msgstr "Päivitetään ohjelmistoluetteloa"
-
 #
 msgid "Updating"
 msgstr "Päivitetään"
+
+msgid "Updating software catalog"
+msgstr "Päivitetään ohjelmistoluetteloa"
 
 msgid "Upper case"
 msgstr "Isot kirjaimet"
@@ -11768,16 +11789,16 @@ msgstr "alkaa juuri"
 msgid "activate network adapter configuration"
 msgstr "aktivoi verkkosovittimen asetukset"
 
+#, fuzzy
+msgid "active"
+msgstr "Suhteellinen"
+
 msgid "actual time only"
 msgstr "Vain nykyinen hetki"
 
 #
 msgid "add alternatives"
 msgstr "Vaihtoehtoisten kanavien lisäys"
-
-#
-msgid "add bookmark"
-msgstr "Lisää kirjanmerkki"
 
 #
 msgid "add bouquet"
@@ -11974,10 +11995,6 @@ msgstr "kokkaus"
 #
 msgid "copy to bouquets"
 msgstr "kopioi suosikkilistalle"
-
-#
-msgid "Create directory"
-msgstr "Luo hakemisto"
 
 #
 msgid "daily"
@@ -12609,19 +12626,11 @@ msgstr "Poista kaikki uusi kanava-liput"
 msgid "remove before this position"
 msgstr "Poista kaikki ennen tätä kohtaa"
 
-#
-msgid "remove bookmark"
-msgstr "Poista kirjanmerkki"
-
 msgid "remove bouquet from parental protection"
 msgstr ""
 
 msgid "remove cable services"
 msgstr ""
-
-#
-msgid "Remove directory"
-msgstr "Poista hakemisto"
 
 #
 msgid "remove entry"
@@ -12649,10 +12658,6 @@ msgstr "Poista tämä merkki"
 #
 msgid "rename entry"
 msgstr "Uudelleennimeä valittu"
-
-#
-msgid "Repeat playlist"
-msgstr "Toista soittolista"
 
 #
 msgid "repeated"
@@ -12691,14 +12696,6 @@ msgid "running"
 msgstr ""
 
 #
-msgid "Save last directory on exit"
-msgstr "Tallenna viimeisin hakemisto suljettaessa"
-
-#
-msgid "Save playlist on exit"
-msgstr "Tallenna soittolista suljettaessa"
-
-#
 msgid "scan state"
 msgstr "Haun tila"
 
@@ -12708,10 +12705,6 @@ msgstr "scifi/fantasia/kauhu"
 #
 msgid "seconds"
 msgstr "sekuntia"
-
-#
-msgid "select"
-msgstr "Valitse"
 
 #
 msgid "select CAId's"
@@ -12752,9 +12745,6 @@ msgstr "Näytä vaihtoehtoiset kanavat"
 #
 msgid "show event details"
 msgstr "Näytä ohjelman tarkemmat tiedot"
-
-msgid "Show media player on main menu"
-msgstr "Näytä mediatoistin päävalikossa"
 
 msgid "show softwaremanager in setup menu"
 msgstr "Näytä ohjelmistonhallinta asetusvalikossa"
@@ -12837,9 +12827,6 @@ msgstr "sosiaaliset/poliittiset aiheet/talous (yleinen)"
 msgid "social/spiritual science"
 msgstr "sosiaalinen/hengellinen tiede"
 
-msgid "Sorting of playlists"
-msgstr "Soittolistojen järjestys"
-
 msgid "special events"
 msgstr "erikoistapahtuma"
 
@@ -12860,10 +12847,6 @@ msgstr "Vakio"
 msgid "start cut here"
 msgstr "Aloita leikkaus tästä"
 
-#
-msgid "Start directory"
-msgstr "Aloitushakemisto"
-
 #, fuzzy
 msgid "starts in a few seconds"
 msgstr "Aloita offline-purku"
@@ -12880,10 +12863,6 @@ msgstr "lopeta käyttämästä käynnistyskanavana"
 
 msgid "successful"
 msgstr ""
-
-#
-msgid "Switch to bookmarks"
-msgstr "Vaihda kirjanmerkkeihin"
 
 #
 msgid "switch to the next angle"
@@ -12972,12 +12951,6 @@ msgstr ""
 #
 msgid "until standby/restart"
 msgstr "valmiustilaan/uudelleenkäynnistykseen asti"
-
-msgid "Update bookmarks"
-msgstr "Päivitä kirjanmerkit"
-
-msgid "used"
-msgstr ""
 
 #
 msgid "user defined"

@@ -1428,7 +1428,7 @@ class MovieSelection(Screen, HelpableScreen, SelectionEventInfo, InfoBarBase, Pr
 				parentalControl.hideBlacklist()
 				self.gotFilename(res, selItem, checkParentControl=False)
 			elif result == False:
-				self.session.open(MessageBox, _("The pin code you entered is wrong."), MessageBox.TYPE_INFO, timeout=3)
+				self.session.open(MessageBox, _("The pin code you entered is wrong."), MessageBox.TYPE_INFO, timeout=5)
 		if not res:
 			return
 		# serviceref must end with /
@@ -1714,6 +1714,8 @@ class MovieSelection(Screen, HelpableScreen, SelectionEventInfo, InfoBarBase, Pr
 					for ext in ('.eit', self.extension + '.cuts', self.extension):
 						newfilename = os.path.join(path, newbasename) + ext
 						oldfilename = os.path.join(path, oldbasename) + ext
+						if not os.path.isfile(oldfilename): # .eit and .cuts maybe not present
+							continue
 						if not os.path.isfile(newfilename):
 							renamelist.append((oldfilename, newfilename))
 						else:

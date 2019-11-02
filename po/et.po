@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Openpli\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-29 09:27+0200\n"
+"POT-Creation-Date: 2019-10-31 04:08+0100\n"
 "PO-Revision-Date: 2019-04-03 06:49+0300\n"
 "Last-Translator: \n"
 "Language-Team: Raivo, Henkka, eesatfan, rimas, zeros\\n faas, sateks, valgekotkas, tigekala, rootsikunn\\n kain, i70, mustkass, pelmeen, Scott\\n <digi-tv.ee>\n"
@@ -1727,9 +1727,6 @@ msgstr "Kanal"
 msgid "Channels and EPG"
 msgstr "Kanalid ja EPG"
 
-msgid "Channels only"
-msgstr "Ainult kanalid"
-
 msgid "Chap."
 msgstr "Peatükk."
 
@@ -2345,6 +2342,9 @@ msgstr "Peida võbeleva katkendjoonega joon selle teenuse jaoks"
 msgid "Create DVD-ISO"
 msgstr "Loo DVD-ISO"
 
+msgid "Create directory"
+msgstr "Loo kataloog"
+
 msgid "Create new folder and exit"
 msgstr "Loo uus kaust ja välju"
 
@@ -2949,15 +2949,15 @@ msgstr "Kas soovid jätkata vaatamist katkestatud kohalt?"
 msgid "Do you want to select a different skin?"
 msgstr "Kas soovid valida teistsuguse kujunduse?"
 
+msgid "Do you want to update the package:\n"
+msgstr "Kas soovid parendada paketti:\n"
+
 #, python-format
 msgid "Do you want to update your receiver to %s?"
 msgstr "Kas soovid uuendada vastuvõtja tarkvara %s?"
 
 msgid "Do you want to update your receiver?"
 msgstr "Kas soovid uuendada vastuvõtja tarkvara?"
-
-msgid "Do you want to update the package:\n"
-msgstr "Kas soovid parendada paketti:\n"
 
 msgid "Dolby"
 msgstr "Dolby"
@@ -3033,9 +3033,6 @@ msgstr "EPG keele valik 1"
 
 msgid "EPG language selection 2"
 msgstr "EPG keele valik 2"
-
-msgid "EPG only"
-msgstr ""
 
 msgid "EPG selection"
 msgstr "Saatekava"
@@ -3971,9 +3968,6 @@ msgstr "Kreeka"
 msgid "Greek"
 msgstr "Kreeka"
 
-msgid "Greek (Modern)"
-msgstr ""
-
 msgid "Green"
 msgstr "Roheline"
 
@@ -4295,11 +4289,12 @@ msgstr "Tarkvara: "
 msgid "Import channels and/or EPG from remote receiver URL also when the receiver is getting out of standby"
 msgstr ""
 
-msgid "Import channels and/or EPG from remote receiver URL when receiver is booted"
-msgstr ""
-
 msgid "Import channels and/or EPG from remote receiver URL when receiver or enigma2 is restarted"
 msgstr ""
+
+#, fuzzy
+msgid "Import channels from remote receiver URL when receiver is booted"
+msgstr "Impordi kaugvastuvõtja URL-ist"
 
 #, python-format
 msgid "Import from fallback tuner failed, %s"
@@ -4424,9 +4419,6 @@ msgstr "Paigalda kanalinimekiri"
 
 msgid "Install extensions"
 msgstr "Paigalda laiendused"
-
-msgid "Install extensions."
-msgstr "Paigalda laiendused."
 
 msgid "Install local extension"
 msgstr "Paigalda kohalik laiendus"
@@ -5507,9 +5499,6 @@ msgstr "Norra"
 msgid "Norwegian"
 msgstr "Norra"
 
-msgid "Not defined"
-msgstr "Määramata"
-
 #, fuzzy
 msgid "Not Installed"
 msgstr "Paigalda"
@@ -5520,6 +5509,9 @@ msgstr "Määramata"
 
 msgid "Not associated"
 msgstr "Pole seotud"
+
+msgid "Not defined"
+msgstr "Määramata"
 
 #, python-format
 msgid "Not enough disk space. Please free up some disk space and try again. (%d MB required, %d MB available)"
@@ -5589,9 +5581,6 @@ msgstr "Väljas"
 
 msgid "Offline decode delay (ms)"
 msgstr "Võrguta dekodeerimise viide (ms)"
-
-msgid "Ok"
-msgstr "Ok"
 
 msgid "Oman"
 msgstr "Omaan"
@@ -6614,6 +6603,9 @@ msgstr "Lõpetatud taimerite kõrvaldamine pärast (päeva)"
 msgid "Remove currently selected title"
 msgstr "Eemalda valitud pealkiri"
 
+msgid "Remove directory"
+msgstr "Kustuta kataloog"
+
 msgid "Remove items from trash can after (days)"
 msgstr "Salvestiste kõrvaldamine prügikastist pärast (päeva)"
 
@@ -6647,6 +6639,9 @@ msgstr "Korda"
 
 msgid "Repeat leave standby messages"
 msgstr "Korda ootele jäämise sõnumeid"
+
+msgid "Repeat playlist"
+msgstr "korda esitusloendit"
 
 msgid "Repeat type"
 msgstr "Kordamise liik"
@@ -6977,7 +6972,13 @@ msgstr "Salvesta ajanihe ja peata see"
 msgid "Save changes"
 msgstr "Salvesta muutused"
 
+msgid "Save last directory on exit"
+msgstr "Pea väljumisel asukoht meeles"
+
 msgid "Save playlist"
+msgstr "Salvesta esitusloend"
+
+msgid "Save playlist on exit"
 msgstr "Salvesta esitusloend"
 
 msgid "Save settings and EPG data"
@@ -7790,6 +7791,9 @@ msgstr "Näita viimaseid kandeid"
 msgid "Show latest update log"
 msgstr "Näita viimast uuenduslogi"
 
+msgid "Show media player on main menu"
+msgstr "Näita meediaesitajat peamenüüs"
+
 #, fuzzy
 msgid "Show menu or plugin numbers"
 msgstr "Näita menüü numbreid"
@@ -8134,6 +8138,9 @@ msgstr "Järjestada laienduste nimekiri vaikimisi?"
 msgid "Sort time"
 msgstr "Aja järgi"
 
+msgid "Sorting of playlists"
+msgstr "Esitusloendite järjestamine"
+
 msgid "Sound"
 msgstr "Heli"
 
@@ -8238,6 +8245,9 @@ msgstr "Vent. %d pinge ooterežiimil"
 
 msgid "Standby in "
 msgstr "Ooterežiimis "
+
+msgid "Start directory"
+msgstr "Juurkaust"
 
 msgid "Start from the beginning"
 msgstr "Alusta algusest"
@@ -8502,6 +8512,9 @@ msgstr "Lülita kanal üles"
 
 msgid "Switch to TV mode"
 msgstr "Lülita TV peale"
+
+msgid "Switch to bookmarks"
+msgstr "Mine lemmikute-loendisse"
 
 msgid "Switch to filelist"
 msgstr "Mine faililoendisse"
@@ -9502,6 +9515,10 @@ msgstr "Uuenda ja taaskäivita"
 msgid "Update and reboot (recommended)"
 msgstr "Uuenda ja taaskäivita (soovitatav)"
 
+#, fuzzy
+msgid "Update bookmarks"
+msgstr "Automaatne järjehoidjad"
+
 msgid "Update channel list only"
 msgstr "Uuenda ainult kanalinimekiri"
 
@@ -9523,11 +9540,11 @@ msgstr "Uuendamine on lõppenud."
 msgid "Updatefeed not available."
 msgstr "Uuenduslink pole saadaval."
 
-msgid "Updating software catalog"
-msgstr "Uuendan tarkvara kataloogi"
-
 msgid "Updating"
 msgstr "Uuendan"
+
+msgid "Updating software catalog"
+msgstr "Uuendan tarkvara kataloogi"
 
 msgid "Upper case"
 msgstr "Suurtähed"
@@ -10610,14 +10627,15 @@ msgstr "algamas"
 msgid "activate network adapter configuration"
 msgstr "aktiveeri võrgukaardi seaded"
 
+#, fuzzy
+msgid "active"
+msgstr "Suhteline"
+
 msgid "actual time only"
 msgstr "ainult tegelik aeg"
 
 msgid "add alternatives"
 msgstr "lisa asenduskanaleid"
-
-msgid "add bookmark"
-msgstr "lisa uus tähis"
 
 msgid "add bouquet"
 msgstr "lisa nimekiri"
@@ -10790,9 +10808,6 @@ msgstr "kokasaade"
 
 msgid "copy to bouquets"
 msgstr "kopeeri nimekirjadesse"
-
-msgid "Create directory"
-msgstr "Loo kataloog"
 
 msgid "daily"
 msgstr "iga päev"
@@ -11341,17 +11356,11 @@ msgstr "kustuta kõik uus kanal-tunnused"
 msgid "remove before this position"
 msgstr "kustuta kõik enne seda kohta"
 
-msgid "remove bookmark"
-msgstr "kustuta järjehoidja"
-
 msgid "remove bouquet from parental protection"
 msgstr "eemalda lemmiknimekirja lukustus"
 
 msgid "remove cable services"
 msgstr "kustuta kaabelTV teenused"
-
-msgid "Remove directory"
-msgstr "Kustuta kataloog"
 
 msgid "remove entry"
 msgstr "kustuta kirje"
@@ -11373,9 +11382,6 @@ msgstr "eemalda see märk"
 
 msgid "rename entry"
 msgstr "nimeta nimekiri ümber"
-
-msgid "Repeat playlist"
-msgstr "korda esitusloendit"
 
 msgid "repeated"
 msgstr "korduvalt"
@@ -11410,12 +11416,6 @@ msgstr "romantika"
 msgid "running"
 msgstr "töötab"
 
-msgid "Save last directory on exit"
-msgstr "Pea väljumisel asukoht meeles"
-
-msgid "Save playlist on exit"
-msgstr "Salvesta esitusloend"
-
 msgid "scan state"
 msgstr "otsingu seis"
 
@@ -11424,9 +11424,6 @@ msgstr "ulme/fantaasia/õudus"
 
 msgid "seconds"
 msgstr "sekundit"
-
-msgid "select"
-msgstr "vali"
 
 msgid "select CAId's"
 msgstr "vali CAID-id"
@@ -11460,9 +11457,6 @@ msgstr "näita asenduskanaleid"
 
 msgid "show event details"
 msgstr "näita saatetutvustust"
-
-msgid "Show media player on main menu"
-msgstr "Näita meediaesitajat peamenüüs"
 
 msgid "show softwaremanager in setup menu"
 msgstr "näita tarkvarahaldurit seadistusmenüüs"
@@ -11540,9 +11534,6 @@ msgstr "ühiskondlikud/poliitilised asjad/majandus (üldiselt)"
 msgid "social/spiritual science"
 msgstr "ühiskonna/hingeteadus"
 
-msgid "Sorting of playlists"
-msgstr "Esitusloendite järjestamine"
-
 msgid "special events"
 msgstr "erisündmused"
 
@@ -11561,9 +11552,6 @@ msgstr "tavaline"
 msgid "start cut here"
 msgstr "alusta lõiget siit"
 
-msgid "Start directory"
-msgstr "Juurkaust"
-
 msgid "starts in a few seconds"
 msgstr "algab mõne sekudi jooksul"
 
@@ -11578,9 +11566,6 @@ msgstr "ära kasuta käivituskanalina"
 
 msgid "successful"
 msgstr "edukas"
-
-msgid "Switch to bookmarks"
-msgstr "Mine lemmikute-loendisse"
 
 msgid "switch to the next angle"
 msgstr "vali järgmine vaatenurk"
@@ -11656,13 +11641,6 @@ msgstr "ebastabiilne"
 
 msgid "until standby/restart"
 msgstr "kuni ooterežiimini/taaskäivitamiseni"
-
-#, fuzzy
-msgid "Update bookmarks"
-msgstr "Automaatne järjehoidjad"
-
-msgid "used"
-msgstr ""
 
 msgid "user defined"
 msgstr "kasutaja määratud"

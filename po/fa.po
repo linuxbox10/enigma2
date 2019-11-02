@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-29 09:27+0200\n"
+"POT-Creation-Date: 2019-10-31 04:08+0100\n"
 "PO-Revision-Date: 2018-02-14 16:51+0330\n"
 "Last-Translator: Persian Prince <persianprince@pe4k.com>\n"
 "Language-Team: Persian Professionals <persianpros@yahoo.com>\n"
@@ -1749,10 +1749,6 @@ msgstr "کانال"
 msgid "Channels and EPG"
 msgstr "منوی لیست کانال"
 
-#, fuzzy
-msgid "Channels only"
-msgstr "کانال"
-
 msgid "Chap."
 msgstr "فصل"
 
@@ -2388,6 +2384,9 @@ msgstr ""
 msgid "Create DVD-ISO"
 msgstr "ایجاد DVD-ISO"
 
+msgid "Create directory"
+msgstr ""
+
 msgid "Create new folder and exit"
 msgstr ""
 
@@ -3009,15 +3008,15 @@ msgstr "آیا میخواهید به پخش این مورد ادامه داده 
 msgid "Do you want to select a different skin?"
 msgstr ""
 
+msgid "Do you want to update the package:\n"
+msgstr "آیا میخواهید بسته به روز رسانی شود:\n"
+
 #, fuzzy, python-format
 msgid "Do you want to update your receiver to %s?"
 msgstr "آیا میخواهید ایمیج را در %s دانلود کنید ؟"
 
 msgid "Do you want to update your receiver?"
 msgstr ""
-
-msgid "Do you want to update the package:\n"
-msgstr "آیا میخواهید بسته به روز رسانی شود:\n"
 
 msgid "Dolby"
 msgstr ""
@@ -3096,9 +3095,6 @@ msgstr "انتخاب زبان EPG 1"
 
 msgid "EPG language selection 2"
 msgstr "انتخاب زبان EPG 2"
-
-msgid "EPG only"
-msgstr ""
 
 msgid "EPG selection"
 msgstr "EPG انتخاب"
@@ -4046,9 +4042,6 @@ msgstr "یونانی"
 msgid "Greek"
 msgstr "یونانی"
 
-msgid "Greek (Modern)"
-msgstr ""
-
 msgid "Green"
 msgstr ""
 
@@ -4372,10 +4365,10 @@ msgstr "عکس: "
 msgid "Import channels and/or EPG from remote receiver URL also when the receiver is getting out of standby"
 msgstr ""
 
-msgid "Import channels and/or EPG from remote receiver URL when receiver is booted"
+msgid "Import channels and/or EPG from remote receiver URL when receiver or enigma2 is restarted"
 msgstr ""
 
-msgid "Import channels and/or EPG from remote receiver URL when receiver or enigma2 is restarted"
+msgid "Import channels from remote receiver URL when receiver is booted"
 msgstr ""
 
 #, python-format
@@ -4507,9 +4500,6 @@ msgstr "نصب بسته محلی"
 
 msgid "Install extensions"
 msgstr ""
-
-msgid "Install extensions."
-msgstr "نصب بسته ها"
 
 msgid "Install local extension"
 msgstr "نصب بسته محلی"
@@ -5644,9 +5634,6 @@ msgstr "نروژی"
 msgid "Norwegian"
 msgstr "نروژی"
 
-msgid "Not defined"
-msgstr ""
-
 #, fuzzy
 msgid "Not Installed"
 msgstr "نصب"
@@ -5655,6 +5642,9 @@ msgid "Not Required"
 msgstr ""
 
 msgid "Not associated"
+msgstr ""
+
+msgid "Not defined"
 msgstr ""
 
 #, fuzzy, python-format
@@ -5723,9 +5713,6 @@ msgstr "خاموش"
 
 msgid "Offline decode delay (ms)"
 msgstr "تاخیر رمز گشایی آفلاین (میلی ثانیه)"
-
-msgid "Ok"
-msgstr "Ok"
 
 msgid "Oman"
 msgstr ""
@@ -6776,6 +6763,9 @@ msgstr ""
 msgid "Remove currently selected title"
 msgstr "حذف عنوان انتخاب شده فعلی"
 
+msgid "Remove directory"
+msgstr ""
+
 msgid "Remove items from trash can after (days)"
 msgstr "حذف موارد از سطل زباله بعد از (روز)"
 
@@ -6809,6 +6799,9 @@ msgid "Repeat"
 msgstr ""
 
 msgid "Repeat leave standby messages"
+msgstr ""
+
+msgid "Repeat playlist"
 msgstr ""
 
 #, fuzzy
@@ -7154,9 +7147,15 @@ msgstr ""
 msgid "Save changes"
 msgstr ""
 
+msgid "Save last directory on exit"
+msgstr ""
+
 #, fuzzy
 msgid "Save playlist"
 msgstr "ذخیره لیست پخش"
+
+msgid "Save playlist on exit"
+msgstr ""
 
 msgid "Save settings and EPG data"
 msgstr ""
@@ -7999,6 +7998,9 @@ msgstr ""
 msgid "Show latest update log"
 msgstr ""
 
+msgid "Show media player on main menu"
+msgstr ""
+
 #, fuzzy
 msgid "Show menu or plugin numbers"
 msgstr "نمایش اعداد منو"
@@ -8361,6 +8363,9 @@ msgstr ""
 msgid "Sort time"
 msgstr "چیدمان بر اساس زمان"
 
+msgid "Sorting of playlists"
+msgstr ""
+
 msgid "Sound"
 msgstr "صدا"
 
@@ -8468,6 +8473,9 @@ msgid "Standby fan %d voltage"
 msgstr "خاموشی موقت فن %d ولتاژ"
 
 msgid "Standby in "
+msgstr ""
+
+msgid "Start directory"
 msgstr ""
 
 msgid "Start from the beginning"
@@ -8746,6 +8754,9 @@ msgid "Switch channel up"
 msgstr ""
 
 msgid "Switch to TV mode"
+msgstr ""
+
+msgid "Switch to bookmarks"
 msgstr ""
 
 msgid "Switch to filelist"
@@ -9685,6 +9696,10 @@ msgstr ""
 msgid "Update and reboot (recommended)"
 msgstr ""
 
+#, fuzzy
+msgid "Update bookmarks"
+msgstr "اسکن خودکار"
+
 msgid "Update channel list only"
 msgstr ""
 
@@ -9705,10 +9720,10 @@ msgstr ""
 msgid "Updatefeed not available."
 msgstr ""
 
-msgid "Updating software catalog"
+msgid "Updating"
 msgstr ""
 
-msgid "Updating"
+msgid "Updating software catalog"
 msgstr ""
 
 msgid "Upper case"
@@ -10730,13 +10745,13 @@ msgstr ""
 msgid "activate network adapter configuration"
 msgstr ""
 
+msgid "active"
+msgstr ""
+
 msgid "actual time only"
 msgstr ""
 
 msgid "add alternatives"
-msgstr ""
-
-msgid "add bookmark"
 msgstr ""
 
 msgid "add bouquet"
@@ -10909,9 +10924,6 @@ msgid "cooking"
 msgstr ""
 
 msgid "copy to bouquets"
-msgstr ""
-
-msgid "Create directory"
 msgstr ""
 
 msgid "daily"
@@ -11461,16 +11473,10 @@ msgstr ""
 msgid "remove before this position"
 msgstr ""
 
-msgid "remove bookmark"
-msgstr ""
-
 msgid "remove bouquet from parental protection"
 msgstr ""
 
 msgid "remove cable services"
-msgstr ""
-
-msgid "Remove directory"
 msgstr ""
 
 msgid "remove entry"
@@ -11492,9 +11498,6 @@ msgid "remove this mark"
 msgstr ""
 
 msgid "rename entry"
-msgstr ""
-
-msgid "Repeat playlist"
 msgstr ""
 
 msgid "repeated"
@@ -11530,12 +11533,6 @@ msgstr "رمانتیک"
 msgid "running"
 msgstr "در حال اجرا"
 
-msgid "Save last directory on exit"
-msgstr ""
-
-msgid "Save playlist on exit"
-msgstr ""
-
 msgid "scan state"
 msgstr ""
 
@@ -11544,9 +11541,6 @@ msgstr ""
 
 msgid "seconds"
 msgstr "ثانیه"
-
-msgid "select"
-msgstr "انتخاب"
 
 msgid "select CAId's"
 msgstr "انتخاب CAId's"
@@ -11579,9 +11573,6 @@ msgid "show alternatives"
 msgstr ""
 
 msgid "show event details"
-msgstr ""
-
-msgid "Show media player on main menu"
 msgstr ""
 
 msgid "show softwaremanager in setup menu"
@@ -11660,9 +11651,6 @@ msgstr ""
 msgid "social/spiritual science"
 msgstr ""
 
-msgid "Sorting of playlists"
-msgstr ""
-
 msgid "special events"
 msgstr ""
 
@@ -11681,9 +11669,6 @@ msgstr "استاندارد"
 msgid "start cut here"
 msgstr ""
 
-msgid "Start directory"
-msgstr ""
-
 msgid "starts in a few seconds"
 msgstr ""
 
@@ -11697,9 +11682,6 @@ msgid "stop using as startup service"
 msgstr ""
 
 msgid "successful"
-msgstr ""
-
-msgid "Switch to bookmarks"
 msgstr ""
 
 msgid "switch to the next angle"
@@ -11775,13 +11757,6 @@ msgid "untestable"
 msgstr ""
 
 msgid "until standby/restart"
-msgstr ""
-
-#, fuzzy
-msgid "Update bookmarks"
-msgstr "اسکن خودکار"
-
-msgid "used"
 msgstr ""
 
 msgid "user defined"

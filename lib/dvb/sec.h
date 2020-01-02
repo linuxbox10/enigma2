@@ -249,7 +249,7 @@ class eDVBSatelliteLNBParameters
 			SatCR_format = SatCR_format_none;
 #ifndef SWIG
 			m_12V_relais_state = OFF;
-			m_lof_hi = m_lof_lo = m_lof_threshold = LNBNum = 0;
+			m_lof_hi = m_lof_lo = m_lof_threshold = 0;
 			m_increased_voltage = false;
 			m_prio = -1;
 #endif
@@ -274,16 +274,13 @@ class eDVBSatelliteLNBParameters
 	eDVBSatelliteRotorParameters m_rotor_parameters;
 
 	int m_prio; // to override automatic tuner management ... -1 is Auto
-	int LNBNum;
 #endif
 public:
 #define guard_offset_min -8000
 #define guard_offset_max 8000
 #define guard_offset_step 8000
 #define MAX_SATCR 32
-#define MAX_FIXED_LNB_POSITIONS 64
-#define MAX_MOVABLE_LNBS 6
-#define MAX_LNBNUM (MAX_FIXED_LNB_POSITIONS + MAX_MOVABLE_LNBS)
+#define MAX_LNBNUM 32
 
 	SatCR_format_t SatCR_format;
 	int SatCR_positions;
@@ -297,6 +294,7 @@ public:
 	int old_orbital_position;
 	int guard_offset_old;
 	int guard_offset;
+	int LNBNum;
 };
 
 class eDVBRegisteredFrontend;
@@ -365,9 +363,7 @@ public:
 	RESULT setLNBThreshold(int threshold);
 	RESULT setLNBIncreasedVoltage(bool onoff);
 	RESULT setLNBPrio(int prio);
-	RESULT setLNBNum(int lnbnum);
-	RESULT getMaxFixedLnbPositions() {return MAX_FIXED_LNB_POSITIONS;}
-	RESULT getMaxLnbNum() {return MAX_LNBNUM;}
+	RESULT setLNBNum(int LNBNum);
 /* DiSEqC Specific Parameters */
 	RESULT setDiSEqCMode(int diseqcmode);
 	RESULT setToneburst(int toneburst);

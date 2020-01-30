@@ -195,15 +195,15 @@ class CommitInfo(Screen):
 
 		self.project = 0
 		self.projects = [
-			("https://api.github.com/repos/linuxbox10/enigma2/commits" + branch, "Enigma2"),
+			("https://api.github.com/repos/openpli/enigma2/commits" + branch, "Enigma2"),
 			("https://api.github.com/repos/openpli/openpli-oe-core/commits" + branch, "Openpli Oe Core"),
 			("https://api.github.com/repos/openpli/enigma2-plugins/commits", "Enigma2 Plugins"),
 			("https://api.github.com/repos/openpli/aio-grab/commits", "Aio Grab"),
 			("https://api.github.com/repos/openpli/enigma2-plugin-extensions-epgimport/commits", "Plugin EPGImport"),
-			("https://api.github.com/repos/linuxbox10/Catseye/commits", "Skin Magic SD"),
+			("https://api.github.com/repos/openpli/enigma2-plugin-skins-magic/commits", "Skin Magic SD"),
 			("https://api.github.com/repos/littlesat/skin-PLiHD/commits", "Skin PLi HD"),
 			("https://api.github.com/repos/E2OpenPlugins/e2openplugin-OpenWebif/commits", "OpenWebif"),
-			("https://api.github.com/repos/linuxbox10/DirtyDonki-Settings/commits", "Dirty Donki settings")
+			("https://api.github.com/repos/haroo/HansSettings/commits", "Hans settings")
 		]
 		self.cachedProjects = {}
 		self.Timer = eTimer()

@@ -82,7 +82,7 @@ def InitUsageConfig():
 		("small", _("Small")),
 		("large", _("Large")),])
 	config.usage.enable_tt_caching = ConfigYesNo(default = True)
-	config.usage.sort_settings = ConfigYesNo(default=True)
+	config.usage.sort_settings = ConfigYesNo(default=False)
 	choicelist = []
 	for i in (10, 30):
 		choicelist.append((str(i), ngettext("%d second", "%d seconds", i) % i))
@@ -131,7 +131,7 @@ def InitUsageConfig():
 	config.usage.leave_movieplayer_onExit = ConfigSelection(default = "popup", choices = [
 		("no", _("no")), ("popup", _("With popup")), ("without popup", _("Without popup")), ("movielist", _("Return to movie list")) ])
 
-	config.usage.setup_level = ConfigSelection(default = "expert", choices = [
+	config.usage.setup_level = ConfigSelection(default = "simple", choices = [
 		("simple", _("Normal")),
 		("intermediate", _("Advanced")),
 		("expert", _("Expert")) ])
@@ -598,17 +598,17 @@ def InitUsageConfig():
 			open(SystemInfo["HasHdrType"], "w").write(configElement.value)
 		config.av.hdmihdrtype = ConfigSelection(default = "auto", choices={"auto": _("Auto"), "none": _("SDR"), "hdr10": _("HDR10"), "hlg": _("HLG"), "dolby": _("Dolby")})
 		config.av.hdmihdrtype.addNotifier(setHdmiHdrType)
-
+		
 	if SystemInfo["HDRSupport"]:
 		def setHlgSupport(configElement):
 			open("/proc/stb/hdmi/hlg_support", "w").write(configElement.value)
-		config.av.hlg_support = ConfigSelection(default = "auto(EDID)",
+		config.av.hlg_support = ConfigSelection(default = "auto(EDID)", 
 			choices = [ ("auto(EDID)", _("controlled by HDMI")), ("yes", _("force enabled")), ("no", _("force disabled")) ])
 		config.av.hlg_support.addNotifier(setHlgSupport)
 
 		def setHdr10Support(configElement):
 			open("/proc/stb/hdmi/hdr10_support", "w").write(configElement.value)
-		config.av.hdr10_support = ConfigSelection(default = "auto(EDID)",
+		config.av.hdr10_support = ConfigSelection(default = "auto(EDID)", 
 			choices = [ ("auto(EDID)", _("controlled by HDMI")), ("yes", _("force enabled")), ("no", _("force disabled")) ])
 		config.av.hdr10_support.addNotifier(setHdr10Support)
 
@@ -747,8 +747,8 @@ def InitUsageConfig():
 	config.autolanguage.audio_autoselect3.addNotifier(autolanguage, initial_call=False)
 	config.autolanguage.audio_autoselect4.addNotifier(autolanguage)
 	config.autolanguage.audio_defaultac3 = ConfigYesNo(default = True)
-	config.autolanguage.audio_defaultddp = ConfigYesNo(default = True)
-	config.autolanguage.audio_usecache = ConfigYesNo(default = False)
+	config.autolanguage.audio_defaultddp = ConfigYesNo(default = False)
+	config.autolanguage.audio_usecache = ConfigYesNo(default = True)
 
 	subtitle_language_choices = audio_language_choices[:1] + audio_language_choices [2:]
 	def getselectedsublanguages(range):

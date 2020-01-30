@@ -127,8 +127,8 @@ class Setup(ConfigListScreen, Screen):
 					continue
 
 				item_text = _(x.get("text", "??").encode("UTF-8"))
-				item_description = _(x.get("description", " ").encode("UTF-8"))
-				b = eval(x.text or "");
+				item_description = _(x.get("description", " ").encode("UTF-8")) # don't change
+				b = eval(x.text or "")
 				if b == "":
 					continue
 				#add to configlist

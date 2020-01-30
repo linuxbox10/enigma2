@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma 2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-18 19:05+0100\n"
+"POT-Creation-Date: 2020-01-28 02:35+0200\n"
 "PO-Revision-Date: 2019-11-19 08:58+0700\n"
 "Last-Translator: krong\n"
 "Language-Team: none\n"
@@ -116,12 +116,12 @@ msgid "%.0f kB"
 msgstr "%.0f kB"
 
 #, python-format
-msgid "%.1f°E"
-msgstr "%.1f°E"
+msgid "%.1f° E"
+msgstr "%.1f° E"
 
 #, python-format
-msgid "%.1f°W"
-msgstr "%.1f°W"
+msgid "%.1f° W"
+msgstr "%.1f° W"
 
 #, python-format
 msgid "%.2f GB"
@@ -462,6 +462,9 @@ msgstr "Hộp thư 16: 9"
 msgid "16:9 always"
 msgstr "16: 9 luôn"
 
+msgid "16K"
+msgstr ""
+
 msgid "18 V"
 msgstr "18 V"
 
@@ -522,6 +525,10 @@ msgstr "Hộp thư 4: 3"
 msgid "4:3 PanScan"
 msgstr "Quét 4: 3 Pan"
 
+#, fuzzy
+msgid "4K"
+msgstr "4"
+
 msgid "5"
 msgstr "5"
 
@@ -537,6 +544,10 @@ msgstr "7"
 msgid "8"
 msgstr "8"
 
+#, fuzzy
+msgid "8K"
+msgstr "8"
+
 msgid "8bit"
 msgstr "8bit"
 
@@ -546,11 +557,26 @@ msgstr "9"
 msgid ": 0000 - default (disabled)"
 msgstr ": 0000 - mặc định (bị tắt)"
 
+#, fuzzy
+msgid "< Current >"
+msgstr "Giá trị hiện tại: "
+
+#, fuzzy
+msgid "< Default + Picon >"
+msgstr "<Da mặc định>"
+
+#, fuzzy
+msgid "< Default >"
+msgstr "<Da mặc định>"
+
+msgid "< Emergency >"
+msgstr ""
+
+msgid "< Pending restart >"
+msgstr ""
+
 msgid "<Current movielist location>"
 msgstr "<Vị trí di chuyển hiện tại>"
-
-msgid "<Default Skin>"
-msgstr "<Da mặc định>"
 
 msgid "<Default movie location>"
 msgstr "<Vị trí phim mặc định>"
@@ -700,11 +726,17 @@ msgstr "Nhà cung cấp ATSC"
 msgid "Abort"
 msgstr "Thông tin phần mền"
 
+msgid "Abort alternatives edit"
+msgstr "Hủy bỏ thay thế chỉnh sửa"
+
+msgid "Abort bouquet edit"
+msgstr "Hủy bỏ gói kênh"
+
+msgid "Abort favourites edit"
+msgstr "Hủy bỏ yêu thích chỉnh sửa"
+
 msgid "About"
 msgstr "Thông tin phần mền"
-
-msgid "About..."
-msgstr "Thông tin phần mền..."
 
 msgid "Accesspoint:"
 msgstr "Điểm truy cập:"
@@ -745,11 +777,17 @@ msgstr "Thêm một mục nhập máy chủ tên"
 msgid "Add a new title"
 msgstr "Thêm một tiêu đề mới"
 
+msgid "Add alternatives"
+msgstr "Thêm lựa chọn thay thế"
+
 msgid "Add bookmark"
 msgstr "Thêm dấu trang"
 
 msgid "Add bouquet"
 msgstr "Thêm gói kênh"
+
+msgid "Add bouquet to parental protection"
+msgstr "Thêm gói kênh để bảo vệ cha mẹ"
 
 msgid "Add directory to playlist"
 msgstr "Thêm thư mục vào danh sách phát"
@@ -759,6 +797,9 @@ msgstr "Thêm tập tin vào danh sách phát"
 
 msgid "Add files to playlist"
 msgstr "Thêm tệp vào danh sách phát"
+
+msgid "Add marker"
+msgstr "Thêm điểm đánh dấu"
 
 msgid "Add provider"
 msgstr "Thêm nhà cung cấp"
@@ -778,6 +819,12 @@ msgstr "Thêm ghi âm (dừng sau sự kiện hiện tại)"
 msgid "Add service"
 msgstr "Thêm dịch vụ"
 
+msgid "Add service to bouquet"
+msgstr "Thêm dịch vụ vào gói kênh"
+
+msgid "Add service to favourites"
+msgstr "Thêm dịch vụ vào mục yêu thích"
+
 msgid "Add services to this bouquet?"
 msgstr "Thêm dịch vụ vào gói kênh?"
 
@@ -792,6 +839,9 @@ msgstr "Thêm vào gói kênh"
 
 msgid "Add to favourites"
 msgstr "Thêm vào mục ưa thích"
+
+msgid "Add to parental protection"
+msgstr "Thêm vào sự bảo vệ của cha mẹ"
 
 msgid "Add/remove change timer for current event"
 msgstr "Thêm / xóa bộ đếm thời gian thay đổi cho sự kiện hiện tại"
@@ -1553,8 +1603,18 @@ msgstr "Canada"
 msgid "Cancel"
 msgstr "Hủy bỏ"
 
+msgid "Cancel any changes to the currently active skin"
+msgstr ""
+
+msgid "Cancel any changes to the currently active skin and exit all menus"
+msgstr ""
+
 msgid "Cancel any text changes and exit"
 msgstr "Hủy bỏ mọi thay đổi văn bản và thoát"
+
+#, fuzzy
+msgid "Cancel execution?"
+msgstr "Chọn kênh"
 
 msgid "Cancelled upon user request"
 msgstr "Hủy theo yêu cầu của người dùng"
@@ -1849,15 +1909,15 @@ msgstr "Cấu hình chi tiết quét"
 msgid "Config resolution of pictures"
 msgstr "Cấu hình độ phân giải của hình ảnh"
 
+msgid "Configuration"
+msgstr "Cấu hình"
+
 msgid "Configuration mode"
 msgstr "Chế độ cấu hình"
 
 #, python-format
 msgid "Configuration mode: %s"
 msgstr "Chế độ cấu hình:%s"
-
-msgid "Configuration"
-msgstr "Cấu hình"
 
 msgid "Configure ATSC"
 msgstr "Cấu hình ATSC"
@@ -1876,6 +1936,10 @@ msgstr "Định cấu hình độ trễ bổ sung để cải thiện đồng b�
 
 msgid "Configure an additional delay to improve subtitle synchronisation."
 msgstr "Định cấu hình độ trễ bổ sung để cải thiện đồng bộ hóa phụ đề."
+
+#, fuzzy
+msgid "Configure default type for new timers."
+msgstr "Cấu hình netmask."
 
 msgid "Configure for how long the infobar will remain visible after activation."
 msgstr "Định cấu hình trong bao lâu infobar sẽ vẫn hiển thị sau khi kích hoạt."
@@ -2249,6 +2313,9 @@ msgstr "Quần đảo Cook"
 msgid "Copy"
 msgstr "Sao chép"
 
+msgid "Copy to bouquets"
+msgstr "Sao chép vào gói kênh"
+
 msgid "Costa Rica"
 msgstr "Costa Rica"
 
@@ -2497,6 +2564,10 @@ msgstr "Vị trí phim mặc định"
 msgid "Default settings"
 msgstr "Thiết lập mặc định"
 
+#, fuzzy
+msgid "Default timer type"
+msgstr "Xóa bộ đếm thời gian"
+
 msgid "Define the location of the EPG Cache file."
 msgstr "Xác định vị trí của tệp EPG Cache."
 
@@ -2710,6 +2781,9 @@ msgstr "Vô hiệu hóa quét nền"
 msgid "Disable current event but not coming events"
 msgstr "Vô hiệu hóa sự kiện hiện tại nhưng không đến sự kiện"
 
+msgid "Disable move mode"
+msgstr "Tắt chế độ di chuyển"
+
 msgid "Disable timer"
 msgstr "Tắt bộ hẹn giờ"
 
@@ -2736,6 +2810,10 @@ msgstr "Hiển thị thông tin EPG cho sự kiện hiện tại"
 
 msgid "Display EPG list for current channel"
 msgstr "Hiển thị danh sách EPG cho kênh hiện tại"
+
+#, fuzzy
+msgid "Display Skin"
+msgstr "Thiết lập hiển thị"
 
 msgid "Display and userinterface"
 msgstr "Giao diện hiển thị và người dùng"
@@ -2978,6 +3056,9 @@ msgstr "Lựa chọn EPG"
 msgid "EPG settings"
 msgstr "Cài đặt EPG"
 
+msgid "EPG:"
+msgstr ""
+
 #, python-format
 msgid "ERROR - failed to scan (%s)!"
 msgstr "ERROR - failed to scan (%s)!"
@@ -3000,6 +3081,9 @@ msgstr "Chỉnh sửa"
 
 msgid "Edit DNS"
 msgstr "Chỉnh sửa DNS"
+
+msgid "Edit alternatives"
+msgstr "Chỉnh sửa thay thế"
 
 msgid "Edit chapters of current title"
 msgstr "Chỉnh sửa các chương của tiêu đề hiện tại"
@@ -3098,17 +3182,26 @@ msgstr "Cho phép tự động quét nhanh"
 msgid "Enable auto fast scan for %s"
 msgstr "Cho phép tự động quét nhanh cho%s"
 
+msgid "Enable bouquet edit"
+msgstr "Cho phép chỉnh sửa gói kênh"
+
 msgid "Enable bouquet selection in multi-EPG"
 msgstr "Cho phép lựa chọn gói kênh trong đa EPG"
 
 msgid "Enable fallback remote receiver"
 msgstr "Cho phép thu từ xa dự phòng"
 
+msgid "Enable favourites edit"
+msgstr "Cho phép chỉnh sửa yêu thích"
+
 msgid "Enable freesat EPG"
 msgstr "Kích hoạt EPG freesat"
 
 msgid "Enable import timer from fallback tuner"
 msgstr "Kích hoạt tính năng hẹn giờ nhập từ bộ điều chỉnh dự phòng"
+
+msgid "Enable move mode"
+msgstr "Cho phép chế độ di chuyển"
 
 msgid "Enable multiple bouquets"
 msgstr "Cho phép nhiều gói kênh"
@@ -3158,6 +3251,15 @@ msgstr "Loại khóa mã hóa"
 msgid "Encryption:"
 msgstr "Mã hóa:"
 
+msgid "End alternatives edit"
+msgstr "Kết thúc thay thế chỉnh sửa"
+
+msgid "End bouquet edit"
+msgstr "Kết thúc chỉnh sửa gói kênh"
+
+msgid "End favourites edit"
+msgstr "Kết thúc yêu thích chỉnh sửa"
+
 msgid "End time"
 msgstr "Thời gian kết thúc"
 
@@ -3180,9 +3282,6 @@ msgstr "Mức gỡ lỗi Enigma: %d\n"
 
 msgid "Enigma version: "
 msgstr "Phiên bản Enigma: "
-
-msgid "Enigma2 skin selector"
-msgstr "Bộ chọn da Enigma2"
 
 msgid "Enter"
 msgstr "Đi vào"
@@ -3282,9 +3381,6 @@ msgid ""
 msgstr ""
 "Lỗi trong khi giải nén hình ảnh\n"
 "%s"
-
-msgid "Error executing plugin"
-msgstr "Lỗi thực thi plugin"
 
 msgid "Error stop stream!"
 msgstr "Lỗi dừng luồng!"
@@ -3401,9 +3497,6 @@ msgstr "Thoát khỏi thuật sĩ mạng"
 msgid "Exit the wizard"
 msgstr "Thoát khỏi trình hướng dẫn"
 
-msgid "Exit/OK"
-msgstr "Thoát / Đồng ý"
-
 msgid "Expand"
 msgstr "Mở rộng"
 
@@ -3513,6 +3606,9 @@ msgstr "FEC"
 
 msgid "FEC:"
 msgstr "FEC:"
+
+msgid "FHD"
+msgstr ""
 
 msgid "FTA"
 msgstr "FTA"
@@ -3633,6 +3729,9 @@ msgstr "Vị trí cuối cùng tại chỉ số"
 
 msgid "Final scroll delay"
 msgstr "Độ trễ cuộn cuối cùng"
+
+msgid "Find currently playing service"
+msgstr "Tìm dịch vụ hiện đang chơi"
 
 msgid "Fine movement"
 msgstr "Phong trào tốt"
@@ -3770,18 +3869,15 @@ msgstr "Phiên bản GStreamer: "
 msgid "GUI Settings"
 msgstr "Cài đặt GUI"
 
+#, fuzzy
+msgid "GUI Skin"
+msgstr "Cài đặt GUI"
+
 msgid ""
 "GUI needs a restart to apply a new language\n"
 "Do you want to restart the GUI now?"
 msgstr ""
 "GUI cần khởi động lại để áp dụng ngôn ngữ mới\n"
-"Bạn có muốn khởi động lại GUI bây giờ không?"
-
-msgid ""
-"GUI needs a restart to apply a new skin\n"
-"Do you want to restart the GUI now?"
-msgstr ""
-"GUI cần khởi động lại để áp dụng giao diện mới\n"
 "Bạn có muốn khởi động lại GUI bây giờ không?"
 
 msgid "Gabon"
@@ -3939,6 +4035,10 @@ msgstr "Guyana"
 
 msgid "H"
 msgstr "H"
+
+#, fuzzy
+msgid "HD"
+msgstr "D"
 
 msgid "HD list"
 msgstr "Danh sách HD"
@@ -4421,9 +4521,6 @@ msgstr "Đảo ngược, thí điểm và triển khai"
 msgid "Invert"
 msgstr "Đảo ngược"
 
-msgid "Ipkg"
-msgstr "Ipkg"
-
 msgid "Iran (Islamic Republic of)"
 msgstr "Iran (Cộng hòa Hồi giáo)"
 
@@ -4835,6 +4932,11 @@ msgstr "Nhập thủ công từ bộ điều chỉnh dự phòng"
 msgid "Manufacturer"
 msgstr "Nhà chế tạo"
 
+msgid ""
+"Manufacturer reset in progress\n"
+"Pease wait until enigma2 restarts"
+msgstr ""
+
 msgid "Margin after recording (minutes)"
 msgstr "Ký quỹ sau khi ghi (phút)"
 
@@ -5027,6 +5129,22 @@ msgstr "Di chuyển con trỏ bàn phím ảo lên"
 
 msgid "Move to position X"
 msgstr "Di chuyển đến vị trí X"
+
+#, fuzzy
+msgid "Move to the next page"
+msgstr "chuyển sang góc tiếp theo"
+
+#, fuzzy
+msgid "Move to the next skin"
+msgstr "chuyển xuống mục tiếp theo"
+
+#, fuzzy
+msgid "Move to the previous page"
+msgstr "tua lại chương trước"
+
+#, fuzzy
+msgid "Move to the previous skin"
+msgstr "di chuyển đến mục trước"
 
 msgid "Move west"
 msgstr "Di chuyển về phía tây"
@@ -5572,6 +5690,9 @@ msgstr "Mở bộ chỉnh cài đặt "
 msgid "Open the movie list"
 msgstr "Mở danh sách phim"
 
+msgid "Opkg"
+msgstr ""
+
 msgid "Options disable timer"
 msgstr "Tùy chọn tắt hẹn giờ"
 
@@ -5760,6 +5881,9 @@ msgstr "Chơi DVD"
 msgid "Play DVDs"
 msgstr "Chơi DVD"
 
+msgid "Play as Picture in Picture"
+msgstr "Chơi như hình trong ảnh"
+
 msgid "Play audio-CD..."
 msgstr "Phát CD âm thanh ..."
 
@@ -5777,6 +5901,9 @@ msgstr "Phát từ mục tiếp theo hoặc danh sách phát"
 
 msgid "Play from previous mark or playlist entry"
 msgstr "Phát từ mục trước hoặc danh sách phát"
+
+msgid "Play in main window"
+msgstr "Chơi trong gió chính"
 
 msgid "Play music..."
 msgstr "Chơi nhạc..."
@@ -6179,7 +6306,8 @@ msgstr "Nhấn MENU trên điều khiển từ xa của bạn để có thêm t�
 msgid "Press OK on your remote control to continue."
 msgstr "Nhấn OK trên điều khiển từ xa của bạn để tiếp tục."
 
-msgid "Press OK to activate the selected skin."
+#, fuzzy, python-format
+msgid "Press OK to activate the selected%s skin."
 msgstr "Nhấn OK để kích hoạt giao diện đã chọn."
 
 msgid "Press OK to activate the settings."
@@ -6191,6 +6319,10 @@ msgstr "Nhấn OK để chỉnh sửa cài đặt."
 #, python-format
 msgid "Press OK to get further details for %s"
 msgstr "Nhấn OK để biết thêm chi tiết cho%s"
+
+#, fuzzy, python-format
+msgid "Press OK to keep the currently selected%s skin."
+msgstr "Nhấn OK để kích hoạt giao diện đã chọn."
 
 msgid "Press OK to scan"
 msgstr "Nhấn OK để quét"
@@ -6316,6 +6448,9 @@ msgstr "Các nhà cung cấp"
 msgid "Puerto Rico"
 msgstr "Puerto Rico"
 
+msgid "Purge deleted user bouquets"
+msgstr "Thanh lọc người dùng đã xóa"
+
 msgid "Put TV in standby"
 msgstr "Đặt TV ở chế độ chờ"
 
@@ -6373,6 +6508,10 @@ msgstr "Thực sự xóa bộ tính giờ thực hiện?"
 
 msgid "Really exit the subservices quickzap?"
 msgstr "Thực sự thoát khỏi dịch vụ phụ quickzap?"
+
+#, fuzzy
+msgid "Really perform a manufacturer reset now?"
+msgstr "Bảo vệ màn hình đặt lại của nhà sản xuất"
 
 msgid "Really reboot now?"
 msgstr "Thực sự khởi động lại bây giờ?"
@@ -6517,11 +6656,23 @@ msgstr "Xóa một dấu"
 msgid "Remove a nameserver entry"
 msgstr "Xóa một mục nhập máy chủ tên"
 
+msgid "Remove all alternatives"
+msgstr "Loại bỏ tất cả các lựa chọn thay thế"
+
 msgid "Remove all logfiles"
 msgstr "Xóa tất cả logfiles"
 
+msgid "Remove all new found flags"
+msgstr "Xóa tất cả các cờ mới tìm thấy"
+
 msgid "Remove bookmark"
 msgstr "Xóa dấu trang"
+
+msgid "Remove bouquet from parental protection"
+msgstr "Loại bỏ bó hoa khỏi sự bảo vệ của cha mẹ"
+
+msgid "Remove cable services"
+msgstr "Loại bỏ dịch vụ cáp"
 
 msgid "Remove completed timers after (days)"
 msgstr "Xóa bộ định thời đã hoàn thành sau (ngày)"
@@ -6532,11 +6683,26 @@ msgstr "Xóa tiêu đề hiện được chọn"
 msgid "Remove directory"
 msgstr "Xóa thư mục"
 
+msgid "Remove entry"
+msgstr "Xoá mục nhập"
+
+msgid "Remove from parental protection"
+msgstr "Loại bỏ khỏi sự bảo vệ của cha mẹ"
+
 msgid "Remove items from trash can after (days)"
 msgstr "Loại bỏ các mục từ thùng rác sau (ngày)"
 
+msgid "Remove new found flag"
+msgstr "Xóa cờ mới tìm thấy"
+
 msgid "Remove plugins"
 msgstr "Xóa plugin"
+
+msgid "Remove selected satellite"
+msgstr "Nền văn hóa mới"
+
+msgid "Remove terrestrial services"
+msgstr "Loại bỏ các dịch vụ trên mặt đất"
 
 msgid "Remove this logfile"
 msgstr "Xóa tệp logfile này"
@@ -6556,6 +6722,9 @@ msgstr "Xóa bảng phân vùng"
 
 msgid "Rename"
 msgstr "Đổi tên"
+
+msgid "Rename entry"
+msgstr "Đổi tên mục nhập"
 
 msgid "Rename name and description for new events"
 msgstr "Đổi tên và mô tả cho các sự kiện mới"
@@ -6668,6 +6837,13 @@ msgstr "Khôi phục"
 
 msgid "Restore backups"
 msgstr "Khôi phục bản sao lưu"
+
+#, fuzzy
+msgid "Restore defaults"
+msgstr "Đặt mặc định"
+
+msgid "Restore deleted user bouquets"
+msgstr "Khôi phục lại những người dùng đã xóa"
 
 msgid "Restore system settings"
 msgstr "Khôi phục cài đặt hệ thống"
@@ -6886,6 +7062,10 @@ msgstr "Lưu lại"
 
 msgid "Save / Enter text and exit"
 msgstr "Lưu / Nhập văn bản và thoát"
+
+#, fuzzy
+msgid "Save and activate the currently selected skin"
+msgstr "Nhấn OK để kích hoạt giao diện đã chọn."
 
 msgid "Save and exit"
 msgstr "Lưu và thoát"
@@ -7335,9 +7515,6 @@ msgstr "Chọn mạng không dây"
 msgid "Select your ATSC provider."
 msgstr "Chọn nhà cung cấp ATSC của bạn."
 
-msgid "Select your Skin"
-msgstr "Chọn làn da của bạn"
-
 msgid ""
 "Select your backup device.\n"
 "Current device: "
@@ -7404,6 +7581,9 @@ msgstr "Dịch vụ & PID"
 
 msgid "Service ID"
 msgstr "ID dịch vụ"
+
+msgid "Service belongs to a parental protected bouquet"
+msgstr "Dịch vụ là trong bó hoa bảo vệ cha mẹ"
 
 msgid "Service has been added to the favourites."
 msgstr "Dịch vụ đã được thêm vào mục yêu thích."
@@ -7486,14 +7666,14 @@ msgstr "Đặt tất cả các phím nóng để mặc định?"
 msgid "Set alternative fallback tuners for DVB-T/C or ATSC"
 msgstr "Đặt bộ điều chỉnh dự phòng thay thế cho DVB-T / C hoặc ATSC"
 
+msgid "Set as startup service"
+msgstr "Đặt làm dịch vụ khởi động"
+
 msgid "Set blocktimes by weekday"
 msgstr "Đặt blocktimes theo ngày trong tuần"
 
 msgid "Set default"
 msgstr "Đặt mặc định"
-
-msgid "Set default settings?"
-msgstr "Đặt cài đặt mặc định?"
 
 msgid "Set end time"
 msgstr "Đặt thời gian kết thúc"
@@ -7635,6 +7815,9 @@ msgstr "Hiển thị scart VCR trên menu chính"
 
 msgid "Show WLAN status"
 msgstr "Hiển thị trạng thái mạng WLAN"
+
+msgid "Show alternatives"
+msgstr "Hiển thị thay thế"
 
 msgid "Show animation while busy"
 msgstr "Hiển thị hình ảnh động trong khi bận rộn"
@@ -7816,6 +7999,9 @@ msgstr "Hiển thị trình phát radio ..."
 msgid "Show the tv player..."
 msgstr "Hiển thị trình phát tv ..."
 
+msgid "Show transponder info"
+msgstr "Hiển thị thông tin transponder"
+
 msgid "Show underline characters in filenames"
 msgstr "Hiển thị các ký tự gạch chân trong tên tệp"
 
@@ -7906,12 +8092,16 @@ msgstr "Vĩ độ trang web"
 msgid "Site longitude"
 msgstr "Kinh độ trang web"
 
-msgid "Skin"
-msgstr "Da"
-
 #, python-format
 msgid "Skin & Resolution: %s (%sx%s)\n"
 msgstr "Da & Độ phân giải:%s (%sx%s)\n"
+
+#, fuzzy
+msgid "Skin Selection Actions"
+msgstr "Chọn hành động"
+
+msgid "SkinSelector: Restart GUI"
+msgstr ""
 
 msgid "Skins"
 msgstr "Da"
@@ -8304,6 +8494,9 @@ msgstr "Dừng timeshift"
 msgid "Stop timeshift?"
 msgstr "Dừng timeshift?"
 
+msgid "Stop using as startup service"
+msgstr "Ngừng sử dụng làm dịch vụ khởi động"
+
 msgid "Stopped"
 msgstr "Ngừng"
 
@@ -8541,6 +8734,9 @@ msgstr "Mục lục thu thập"
 
 msgid "Tags"
 msgstr "Cột thẻ"
+
+msgid "Taiwan"
+msgstr ""
 
 msgid "Tajikistan"
 msgstr "Tajikistan"
@@ -9050,6 +9246,10 @@ msgstr "Lựa chọn hẹn giờ ..."
 msgid "Timer type"
 msgstr "Loại hẹn giờ"
 
+#, fuzzy
+msgid "Timer:"
+msgstr "Hẹn giờ"
+
 msgid "Timeshift"
 msgstr "Timeshift"
 
@@ -9080,8 +9280,16 @@ msgstr "Thuộc tính tiêu đề"
 msgid "Titleset mode"
 msgstr "Chế độ tiêu đề"
 
+#, python-format
+msgid "To apply the selected '%s' skin the GUI needs to restart.  Would you like to restart the GUI now?"
+msgstr ""
+
 msgid "To audio selection"
 msgstr "Để lựa chọn âm thanh"
+
+#, python-format
+msgid "To save and apply the selected '%s' skin the GUI needs to restart.  Would you like to save the selection and restart the GUI now?"
+msgstr ""
 
 msgid "To subtitle selection"
 msgstr "Để lựa chọn phụ đề"
@@ -10477,9 +10685,6 @@ msgstr "Zimbabwe"
 msgid "[REC]"
 msgstr "[GHI]"
 
-msgid "[a]"
-msgstr "[a]"
-
 msgid "[alternative edit]"
 msgstr "[chỉnh sửa thay thế]"
 
@@ -10498,15 +10703,6 @@ msgstr "một gui để gán dịch vụ / nhà cung cấp cho các mô-đun gia
 msgid "a gui to assign services/providers/caids to common interface modules"
 msgstr "một gui để gán dịch vụ / nhà cung cấp / người trả tiền cho các mô-đun giao diện phổ biến"
 
-msgid "Abort alternatives edit"
-msgstr "Hủy bỏ thay thế chỉnh sửa"
-
-msgid "Abort bouquet edit"
-msgstr "Hủy bỏ gói kênh"
-
-msgid "Abort favourites edit"
-msgstr "Hủy bỏ yêu thích chỉnh sửa"
-
 msgid "about to start"
 msgstr "về để bắt đầu"
 
@@ -10518,24 +10714,6 @@ msgstr "hoạt động"
 
 msgid "actual time only"
 msgstr "chỉ thời gian thực tế"
-
-msgid "Add alternatives"
-msgstr "Thêm lựa chọn thay thế"
-
-msgid "Add bouquet to parental protection"
-msgstr "Thêm gói kênh để bảo vệ cha mẹ"
-
-msgid "Add marker"
-msgstr "Thêm điểm đánh dấu"
-
-msgid "Add service to bouquet"
-msgstr "Thêm dịch vụ vào gói kênh"
-
-msgid "Add service to favourites"
-msgstr "Thêm dịch vụ vào mục yêu thích"
-
-msgid "Add to parental protection"
-msgstr "Thêm vào sự bảo vệ của cha mẹ"
 
 msgid "adult movie/drama"
 msgstr "phim / phim người lớn"
@@ -10688,9 +10866,6 @@ msgstr "được điều khiển bởi HDMI"
 msgid "cooking"
 msgstr "nấu ăn"
 
-msgid "Copy to bouquets"
-msgstr "Sao chép vào gói kênh"
-
 msgid "daily"
 msgstr "hằng ngày"
 
@@ -10714,9 +10889,6 @@ msgstr "vô hiệu hóa"
 
 msgid "disable intro screen"
 msgstr "tắt màn hình giới thiệu"
-
-msgid "Disable move mode"
-msgstr "Tắt chế độ di chuyển"
 
 msgid "disabled"
 msgstr "cho phép/không cho phép"
@@ -10745,9 +10917,6 @@ msgstr "đông"
 msgid "economics/social advisory"
 msgstr "kinh tế / tư vấn xã hội"
 
-msgid "Edit alternatives"
-msgstr "Chỉnh sửa thay thế"
-
 msgid "education/science/factual topics (general)"
 msgstr "giáo dục / khoa học / chủ đề thực tế (chung)"
 
@@ -10760,32 +10929,14 @@ msgstr "trống"
 msgid "enable"
 msgstr "cho phép"
 
-msgid "Enable bouquet edit"
-msgstr "Cho phép chỉnh sửa gói kênh"
-
-msgid "Enable favourites edit"
-msgstr "Cho phép chỉnh sửa yêu thích"
-
 msgid "enable intro screen"
 msgstr "bật màn hình giới thiệu"
-
-msgid "Enable move mode"
-msgstr "Cho phép chế độ di chuyển"
 
 msgid "enabled"
 msgstr "kích hoạt"
 
-msgid "End alternatives edit"
-msgstr "Kết thúc thay thế chỉnh sửa"
-
-msgid "End bouquet edit"
-msgstr "Kết thúc chỉnh sửa gói kênh"
-
 msgid "end cut here"
 msgstr "kết thúc cắt ở đây"
-
-msgid "End favourites edit"
-msgstr "Kết thúc yêu thích chỉnh sửa"
 
 msgid "entertainment (10-16 year old)"
 msgstr "giải trí (10-16 tuổi)"
@@ -10855,9 +11006,6 @@ msgstr "tên tệp"
 
 msgid "film/cinema"
 msgstr "phim / rạp chiếu phim"
-
-msgid "Find currently playing service"
-msgstr "Tìm dịch vụ hiện đang chơi"
 
 msgid "fine arts"
 msgstr "mỹ thuật"
@@ -11183,12 +11331,6 @@ msgstr "tạm dừng"
 msgid "performing arts"
 msgstr "biểu diễn nghệ thuật"
 
-msgid "Play as Picture in Picture"
-msgstr "Chơi như hình trong ảnh"
-
-msgid "Play in main window"
-msgstr "Chơi trong gió chính"
-
 msgid "please press OK when ready"
 msgstr "vui lòng nhấn OK khi sẵn sàng"
 
@@ -11200,9 +11342,6 @@ msgstr "văn hóa đại chúng / nghệ thuật truyền thống"
 
 msgid "pre-school children's program"
 msgstr "chương trình trẻ em mẫu giáo"
-
-msgid "Purge deleted user bouquets"
-msgstr "Thanh lọc người dùng đã xóa"
 
 msgid "receiver software because updates are available."
 msgstr "phần mềm đầu thu vì cập nhật có sẵn."
@@ -11225,50 +11364,17 @@ msgstr "người đáng chú ý"
 msgid "remove after this position"
 msgstr "loại bỏ sau vị trí này"
 
-msgid "Remove all alternatives"
-msgstr "Loại bỏ tất cả các lựa chọn thay thế"
-
-msgid "Remove all new found flags"
-msgstr "Xóa tất cả các cờ mới tìm thấy"
-
 msgid "remove before this position"
 msgstr "loại bỏ trước vị trí này"
 
-msgid "Remove bouquet from parental protection"
-msgstr "Loại bỏ bó hoa khỏi sự bảo vệ của cha mẹ"
-
-msgid "Remove cable services"
-msgstr "Loại bỏ dịch vụ cáp"
-
-msgid "Remove entry"
-msgstr "Xoá mục nhập"
-
-msgid "Remove from parental protection"
-msgstr "Loại bỏ khỏi sự bảo vệ của cha mẹ"
-
-msgid "Remove new found flag"
-msgstr "Xóa cờ mới tìm thấy"
-
-msgid "Remove selected satellite"
-msgstr "Nền văn hóa mới"
-
-msgid "Remove terrestrial services"
-msgstr "Loại bỏ các dịch vụ trên mặt đất"
-
 msgid "remove this mark"
 msgstr "xóa dấu này"
-
-msgid "Rename entry"
-msgstr "Đổi tên mục nhập"
 
 msgid "repeated"
 msgstr "lặp đi lặp lại"
 
 msgid "reserved for future use"
 msgstr "để dành mai sau dùng"
-
-msgid "Restore deleted user bouquets"
-msgstr "Khôi phục lại những người dùng đã xóa"
 
 msgid "reverse by date"
 msgstr "đảo ngược theo ngày"
@@ -11315,23 +11421,14 @@ msgstr "nhạc nghiêm túc / nhạc cổ điển"
 msgid "serious/classical/religious/historical movie/drama"
 msgstr "nghiêm túc / cổ điển / tôn giáo / lịch sử phim / kịch"
 
-msgid "Service belongs to a parental protected bouquet"
-msgstr "Dịch vụ là trong bó hoa bảo vệ cha mẹ"
-
 msgid "service off-air"
 msgstr "dịch vụ ngoài không khí"
-
-msgid "Set as startup service"
-msgstr "Đặt làm dịch vụ khởi động"
 
 msgid "show DVD main menu"
 msgstr "hiển thị menu chính DVD"
 
 msgid "show all tags"
 msgstr "hiển thị tất cả các thẻ"
-
-msgid "Show alternatives"
-msgstr "Hiển thị thay thế"
 
 msgid "show event details"
 msgstr "hiển thị chi tiết sự kiện"
@@ -11341,9 +11438,6 @@ msgstr "hiển thị softwaremanager trong menu cài đặt"
 
 msgid "show softwaremanager on blue button"
 msgstr "hiển thị softwaremanager trên nút màu xanh"
-
-msgid "Show transponder info"
-msgstr "Hiển thị thông tin transponder"
 
 msgid "show/game show (general)"
 msgstr "chương trình / trò chơi (nói chung)"
@@ -11439,9 +11533,6 @@ msgstr "kích cỡ"
 msgid "stereo"
 msgstr "âm thanh nổi"
 
-msgid "Stop using as startup service"
-msgstr "Ngừng sử dụng làm dịch vụ khởi động"
-
 msgid "successful"
 msgstr "thành công"
 
@@ -11468,6 +11559,9 @@ msgstr "tệp mẫu"
 
 msgid "tennis/squash"
 msgstr "quần vợt / bóng quần"
+
+msgid "testing"
+msgstr "đang làm việc"
 
 msgid "this bouquet is protected by a parental control pin"
 msgstr "gói kênh này được bảo vệ bởi một chốt kiểm soát của cha mẹ"
@@ -11588,9 +11682,6 @@ msgstr "với tên bộ chỉnh"
 
 msgid "with_errors"
 msgstr "có -nỗi"
-
-msgid "working"
-msgstr "đang làm việc"
 
 msgid "xp1000"
 msgstr "xp1000"

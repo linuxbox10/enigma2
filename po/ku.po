@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2 Kurdish translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-18 18:59+0100\n"
+"POT-Creation-Date: 2020-01-28 02:35+0200\n"
 "PO-Revision-Date: 2013-04-22 04:29+0330\n"
 "Last-Translator: dimili21\n"
 "Language-Team: \n"
@@ -117,11 +117,11 @@ msgid "%.0f kB"
 msgstr ""
 
 #, python-format
-msgid "%.1f°E"
+msgid "%.1f° E"
 msgstr ""
 
 #, python-format
-msgid "%.1f°W"
+msgid "%.1f° W"
 msgstr ""
 
 #, python-format
@@ -459,6 +459,9 @@ msgstr "16:9 Letterbox"
 msgid "16:9 always"
 msgstr "16:9 daim"
 
+msgid "16K"
+msgstr ""
+
 msgid "18 V"
 msgstr "18 V"
 
@@ -519,6 +522,10 @@ msgstr "4:3 Letterbox"
 msgid "4:3 PanScan"
 msgstr "4:3 PanScan"
 
+#, fuzzy
+msgid "4K"
+msgstr "4"
+
 msgid "5"
 msgstr "5"
 
@@ -534,6 +541,10 @@ msgstr "7"
 msgid "8"
 msgstr "8"
 
+#, fuzzy
+msgid "8K"
+msgstr "8"
+
 msgid "8bit"
 msgstr ""
 
@@ -543,12 +554,26 @@ msgstr "9"
 msgid ": 0000 - default (disabled)"
 msgstr ""
 
-msgid "<Current movielist location>"
-msgstr "<konuma listekén filma>"
+#, fuzzy
+msgid "< Current >"
+msgstr "Current value: "
 
 #, fuzzy
-msgid "<Default Skin>"
+msgid "< Default + Picon >"
 msgstr "Default settings"
+
+#, fuzzy
+msgid "< Default >"
+msgstr "Default settings"
+
+msgid "< Emergency >"
+msgstr ""
+
+msgid "< Pending restart >"
+msgstr ""
+
+msgid "<Current movielist location>"
+msgstr "<konuma listekén filma>"
 
 msgid "<Default movie location>"
 msgstr "<Default Nava Filma>"
@@ -700,11 +725,17 @@ msgstr ""
 msgid "Abort"
 msgstr "Bettal Bike"
 
+msgid "Abort alternatives edit"
+msgstr "Abort alternatives edit"
+
+msgid "Abort bouquet edit"
+msgstr "Abort bouquet edit"
+
+msgid "Abort favourites edit"
+msgstr "Abort favourites edit"
+
 msgid "About"
 msgstr "Heqé wi"
-
-msgid "About..."
-msgstr "Heqé wi..."
 
 msgid "Accesspoint:"
 msgstr "Bigehize (Access Point):"
@@ -745,8 +776,17 @@ msgstr "Yek Navé nu léke"
 msgid "Add a new title"
 msgstr "Navé Seroki"
 
+msgid "Add alternatives"
+msgstr "Add alternatives"
+
 msgid "Add bookmark"
 msgstr "Léke bookmark"
+
+msgid "Add bouquet"
+msgstr "Add bouquet"
+
+msgid "Add bouquet to parental protection"
+msgstr ""
 
 msgid "Add directory to playlist"
 msgstr "Listeya Xebatéra dosya léke"
@@ -756,6 +796,9 @@ msgstr "Listeya Xebatéra dosya léke"
 
 msgid "Add files to playlist"
 msgstr "Listeya Xebatéra dosya léke"
+
+msgid "Add marker"
+msgstr "Add marker"
 
 msgid "Add provider"
 msgstr "Add provider"
@@ -775,6 +818,12 @@ msgstr "Add recording (stop after current event)"
 msgid "Add service"
 msgstr "Hizmeté Nu girédi"
 
+msgid "Add service to bouquet"
+msgstr "Add service to bouquet"
+
+msgid "Add service to favourites"
+msgstr "Add service to favourites"
+
 #, fuzzy
 msgid "Add services to this bouquet?"
 msgstr "Add service to bouquet"
@@ -790,6 +839,9 @@ msgstr "bouqueta nu girédi"
 
 msgid "Add to favourites"
 msgstr "Favoriye Nu Girédi"
+
+msgid "Add to parental protection"
+msgstr "Add to parental protection"
 
 msgid "Add/remove change timer for current event"
 msgstr ""
@@ -1554,8 +1606,18 @@ msgstr ""
 msgid "Cancel"
 msgstr "Berdi"
 
+msgid "Cancel any changes to the currently active skin"
+msgstr ""
+
+msgid "Cancel any changes to the currently active skin and exit all menus"
+msgstr ""
+
 msgid "Cancel any text changes and exit"
 msgstr ""
+
+#, fuzzy
+msgid "Cancel execution?"
+msgstr "Channel selection"
 
 msgid "Cancelled upon user request"
 msgstr ""
@@ -1857,15 +1919,15 @@ msgstr ""
 msgid "Config resolution of pictures"
 msgstr ""
 
+msgid "Configuration"
+msgstr "Çékirin"
+
 msgid "Configuration mode"
 msgstr "Çékirina Ru"
 
 #, python-format
 msgid "Configuration mode: %s"
 msgstr "Configuration mode: %s"
-
-msgid "Configuration"
-msgstr "Çékirin"
 
 #, fuzzy
 msgid "Configure ATSC"
@@ -1888,6 +1950,10 @@ msgstr ""
 
 msgid "Configure an additional delay to improve subtitle synchronisation."
 msgstr ""
+
+#, fuzzy
+msgid "Configure default type for new timers."
+msgstr "Configure the netmask."
 
 msgid "Configure for how long the infobar will remain visible after activation."
 msgstr "Configure for how long the infobar will remain visible after activation."
@@ -2265,6 +2331,9 @@ msgstr ""
 msgid "Copy"
 msgstr "Copy"
 
+msgid "Copy to bouquets"
+msgstr "Copy to bouquets"
+
 msgid "Costa Rica"
 msgstr ""
 
@@ -2519,6 +2588,10 @@ msgid "Default settings"
 msgstr "Default settings"
 
 #, fuzzy
+msgid "Default timer type"
+msgstr "Timer type"
+
+#, fuzzy
 msgid "Define the location of the EPG Cache file."
 msgstr "Configure the aspect ratio of the screen."
 
@@ -2733,6 +2806,9 @@ msgstr "Disable background scanning"
 msgid "Disable current event but not coming events"
 msgstr ""
 
+msgid "Disable move mode"
+msgstr "Disable move mode"
+
 msgid "Disable timer"
 msgstr "Disable timer"
 
@@ -2760,6 +2836,10 @@ msgstr ""
 #, fuzzy
 msgid "Display EPG list for current channel"
 msgstr "Show EPG for current channel..."
+
+#, fuzzy
+msgid "Display Skin"
+msgstr "Çékirina Roniya Ekran"
 
 msgid "Display and userinterface"
 msgstr "Display and userinterface"
@@ -3008,6 +3088,9 @@ msgstr "EPG selection"
 msgid "EPG settings"
 msgstr "EPG Çékirin"
 
+msgid "EPG:"
+msgstr ""
+
 #, python-format
 msgid "ERROR - failed to scan (%s)!"
 msgstr "ERROR - failed to scan (%s)!"
@@ -3030,6 +3113,9 @@ msgstr "Edit"
 
 msgid "Edit DNS"
 msgstr "Edit DNS"
+
+msgid "Edit alternatives"
+msgstr "Edit alternatives"
 
 msgid "Edit chapters of current title"
 msgstr "Edit chapters of current title"
@@ -3132,17 +3218,26 @@ msgstr ""
 msgid "Enable auto fast scan for %s"
 msgstr ""
 
+msgid "Enable bouquet edit"
+msgstr "Enable bouquet edit"
+
 msgid "Enable bouquet selection in multi-EPG"
 msgstr "Enable bouquet selection in multi-EPG"
 
 msgid "Enable fallback remote receiver"
 msgstr ""
 
+msgid "Enable favourites edit"
+msgstr "Enable favourites edit"
+
 msgid "Enable freesat EPG"
 msgstr "Enable freesat EPG"
 
 msgid "Enable import timer from fallback tuner"
 msgstr ""
+
+msgid "Enable move mode"
+msgstr "Enable move mode"
 
 msgid "Enable multiple bouquets"
 msgstr "Enable multiple bouquets"
@@ -3192,6 +3287,15 @@ msgstr "Encryption key type"
 msgid "Encryption:"
 msgstr "Encryption:"
 
+msgid "End alternatives edit"
+msgstr "End alternatives edit"
+
+msgid "End bouquet edit"
+msgstr "End bouquet edit"
+
+msgid "End favourites edit"
+msgstr "End favourites edit"
+
 msgid "End time"
 msgstr "Vext derbas bu"
 
@@ -3215,9 +3319,6 @@ msgstr ""
 #, fuzzy
 msgid "Enigma version: "
 msgstr "Kernel version: "
-
-msgid "Enigma2 skin selector"
-msgstr "Enigma2 skin selector"
 
 #, fuzzy
 msgid "Enter"
@@ -3313,9 +3414,6 @@ msgid ""
 "Error during unzipping image\n"
 "%s"
 msgstr ""
-
-msgid "Error executing plugin"
-msgstr "Error executing plugin"
 
 msgid "Error stop stream!"
 msgstr ""
@@ -3431,9 +3529,6 @@ msgstr "Exit network wizard"
 msgid "Exit the wizard"
 msgstr "Exit the wizard"
 
-msgid "Exit/OK"
-msgstr ""
-
 msgid "Expand"
 msgstr ""
 
@@ -3537,6 +3632,9 @@ msgid "FEC"
 msgstr "FEC"
 
 msgid "FEC:"
+msgstr ""
+
+msgid "FHD"
 msgstr ""
 
 msgid "FTA"
@@ -3655,6 +3753,9 @@ msgid "Final position at index"
 msgstr "Final position at index"
 
 msgid "Final scroll delay"
+msgstr ""
+
+msgid "Find currently playing service"
 msgstr ""
 
 msgid "Fine movement"
@@ -3799,17 +3900,14 @@ msgstr "Kernel version: "
 msgid "GUI Settings"
 msgstr "Settings"
 
+#, fuzzy
+msgid "GUI Skin"
+msgstr "Settings"
+
 msgid ""
 "GUI needs a restart to apply a new language\n"
 "Do you want to restart the GUI now?"
 msgstr ""
-
-msgid ""
-"GUI needs a restart to apply a new skin\n"
-"Do you want to restart the GUI now?"
-msgstr ""
-"GUI needs a restart to apply a new skin\n"
-"Do you want to restart the GUI now?"
 
 msgid "Gabon"
 msgstr ""
@@ -3968,6 +4066,10 @@ msgstr ""
 
 msgid "H"
 msgstr ""
+
+#, fuzzy
+msgid "HD"
+msgstr "D"
 
 msgid "HD list"
 msgstr "HD list"
@@ -4457,9 +4559,6 @@ msgstr ""
 msgid "Invert"
 msgstr "Invert"
 
-msgid "Ipkg"
-msgstr "Ipkg"
-
 msgid "Iran (Islamic Republic of)"
 msgstr ""
 
@@ -4877,6 +4976,11 @@ msgstr ""
 msgid "Manufacturer"
 msgstr "Manufacturer"
 
+msgid ""
+"Manufacturer reset in progress\n"
+"Pease wait until enigma2 restarts"
+msgstr ""
+
 msgid "Margin after recording (minutes)"
 msgstr "Margin after recording (minutes)"
 
@@ -5076,6 +5180,22 @@ msgstr ""
 
 msgid "Move to position X"
 msgstr "Move to position X"
+
+#, fuzzy
+msgid "Move to the next page"
+msgstr "switch to the next angle"
+
+#, fuzzy
+msgid "Move to the next skin"
+msgstr "move down to next entry"
+
+#, fuzzy
+msgid "Move to the previous page"
+msgstr "rewind to the previous chapter"
+
+#, fuzzy
+msgid "Move to the previous skin"
+msgstr "move up to previous entry"
 
 msgid "Move west"
 msgstr "Move west"
@@ -5634,6 +5754,9 @@ msgstr ""
 msgid "Open the movie list"
 msgstr "Open the movie list"
 
+msgid "Opkg"
+msgstr ""
+
 msgid "Options disable timer"
 msgstr ""
 
@@ -5825,6 +5948,9 @@ msgstr "Play DVD"
 msgid "Play DVDs"
 msgstr "Play DVD"
 
+msgid "Play as Picture in Picture"
+msgstr "Play as Picture in Picture"
+
 msgid "Play audio-CD..."
 msgstr "Play audio-CD..."
 
@@ -5843,6 +5969,9 @@ msgstr "Play from next mark or playlist entry"
 
 msgid "Play from previous mark or playlist entry"
 msgstr "Play from previous mark or playlist entry"
+
+msgid "Play in main window"
+msgstr "Play in main window"
 
 msgid "Play music..."
 msgstr "Play music..."
@@ -6254,7 +6383,8 @@ msgstr "Press MENU on your remote control for additional options."
 msgid "Press OK on your remote control to continue."
 msgstr "Press OK on your remote control to continue."
 
-msgid "Press OK to activate the selected skin."
+#, fuzzy, python-format
+msgid "Press OK to activate the selected%s skin."
 msgstr "Press OK to activate the selected skin."
 
 msgid "Press OK to activate the settings."
@@ -6266,6 +6396,10 @@ msgstr "Press OK to edit the settings."
 #, python-format
 msgid "Press OK to get further details for %s"
 msgstr "Press OK to get further details for %s"
+
+#, fuzzy, python-format
+msgid "Press OK to keep the currently selected%s skin."
+msgstr "Press OK to activate the selected skin."
 
 msgid "Press OK to scan"
 msgstr "Press OK to scan"
@@ -6392,6 +6526,9 @@ msgstr "Providers"
 msgid "Puerto Rico"
 msgstr ""
 
+msgid "Purge deleted user bouquets"
+msgstr ""
+
 msgid "Put TV in standby"
 msgstr "Put TV in standby"
 
@@ -6449,6 +6586,9 @@ msgstr "Really delete done timers?"
 
 msgid "Really exit the subservices quickzap?"
 msgstr "Really exit the subservices quickzap?"
+
+msgid "Really perform a manufacturer reset now?"
+msgstr ""
 
 msgid "Really reboot now?"
 msgstr "Really reboot now?"
@@ -6596,11 +6736,23 @@ msgstr "Remove a mark"
 msgid "Remove a nameserver entry"
 msgstr "Remove a nameserver entry"
 
+msgid "Remove all alternatives"
+msgstr "Remove all alternatives"
+
 msgid "Remove all logfiles"
 msgstr ""
 
+msgid "Remove all new found flags"
+msgstr "Remove all new found flags"
+
 msgid "Remove bookmark"
 msgstr "Remove bookmark"
+
+msgid "Remove bouquet from parental protection"
+msgstr ""
+
+msgid "Remove cable services"
+msgstr ""
 
 msgid "Remove completed timers after (days)"
 msgstr "Remove completed timers after (days)"
@@ -6611,11 +6763,26 @@ msgstr "Remove currently selected title"
 msgid "Remove directory"
 msgstr "Remove directory"
 
+msgid "Remove entry"
+msgstr "Remove entry"
+
+msgid "Remove from parental protection"
+msgstr "Remove from parental protection"
+
 msgid "Remove items from trash can after (days)"
 msgstr "Remove items from trash can after (days)"
 
+msgid "Remove new found flag"
+msgstr "Remove new found flag"
+
 msgid "Remove plugins"
 msgstr "Remove plugins"
+
+msgid "Remove selected satellite"
+msgstr "Remove selected satellite"
+
+msgid "Remove terrestrial services"
+msgstr ""
 
 msgid "Remove this logfile"
 msgstr ""
@@ -6635,6 +6802,9 @@ msgstr "Removing partition table"
 
 msgid "Rename"
 msgstr "Rename"
+
+msgid "Rename entry"
+msgstr ""
 
 msgid "Rename name and description for new events"
 msgstr ""
@@ -6751,6 +6921,13 @@ msgstr "Restore"
 
 msgid "Restore backups"
 msgstr "Restore backups"
+
+#, fuzzy
+msgid "Restore defaults"
+msgstr "Restore backups"
+
+msgid "Restore deleted user bouquets"
+msgstr ""
 
 msgid "Restore system settings"
 msgstr "Restore system settings"
@@ -6974,6 +7151,10 @@ msgstr "Save"
 
 msgid "Save / Enter text and exit"
 msgstr ""
+
+#, fuzzy
+msgid "Save and activate the currently selected skin"
+msgstr "Press OK to activate the selected skin."
 
 msgid "Save and exit"
 msgstr ""
@@ -7435,9 +7616,6 @@ msgstr "Select wireless network"
 msgid "Select your ATSC provider."
 msgstr "Select provider to add..."
 
-msgid "Select your Skin"
-msgstr ""
-
 msgid ""
 "Select your backup device.\n"
 "Current device: "
@@ -7504,6 +7682,9 @@ msgid "Service & PIDs"
 msgstr ""
 
 msgid "Service ID"
+msgstr ""
+
+msgid "Service belongs to a parental protected bouquet"
 msgstr ""
 
 msgid "Service has been added to the favourites."
@@ -7591,13 +7772,13 @@ msgstr ""
 msgid "Set alternative fallback tuners for DVB-T/C or ATSC"
 msgstr ""
 
+msgid "Set as startup service"
+msgstr "Set as startup service"
+
 msgid "Set blocktimes by weekday"
 msgstr ""
 
 msgid "Set default"
-msgstr ""
-
-msgid "Set default settings?"
 msgstr ""
 
 msgid "Set end time"
@@ -7743,6 +7924,9 @@ msgstr ""
 
 msgid "Show WLAN status"
 msgstr "Show WLAN status"
+
+msgid "Show alternatives"
+msgstr "Show alternatives"
 
 msgid "Show animation while busy"
 msgstr "Show animation while busy"
@@ -7925,6 +8109,9 @@ msgstr "Show the radio player..."
 msgid "Show the tv player..."
 msgstr "Show the tv player..."
 
+msgid "Show transponder info"
+msgstr "Show transponder info"
+
 #, fuzzy
 msgid "Show underline characters in filenames"
 msgstr "Limit character set for recording filenames"
@@ -8018,11 +8205,15 @@ msgstr "Site latitude"
 msgid "Site longitude"
 msgstr "Site longitude"
 
-msgid "Skin"
-msgstr "Ruyé Cihaz"
-
 #, python-format
 msgid "Skin & Resolution: %s (%sx%s)\n"
+msgstr ""
+
+#, fuzzy
+msgid "Skin Selection Actions"
+msgstr "Select backup location"
+
+msgid "SkinSelector: Restart GUI"
 msgstr ""
 
 msgid "Skins"
@@ -8426,6 +8617,9 @@ msgstr "Stop timeshift"
 msgid "Stop timeshift?"
 msgstr "Stop timeshift?"
 
+msgid "Stop using as startup service"
+msgstr "Stop using as startup service"
+
 msgid "Stopped"
 msgstr "Stopped"
 
@@ -8667,6 +8861,9 @@ msgstr "Table of contents for collection"
 
 msgid "Tags"
 msgstr "Tags"
+
+msgid "Taiwan"
+msgstr ""
 
 msgid "Tajikistan"
 msgstr ""
@@ -9161,6 +9358,10 @@ msgstr ""
 msgid "Timer type"
 msgstr "Timer type"
 
+#, fuzzy
+msgid "Timer:"
+msgstr "Vext"
+
 msgid "Timeshift"
 msgstr "Timeshift"
 
@@ -9191,8 +9392,16 @@ msgstr "Title properties"
 msgid "Titleset mode"
 msgstr "Titleset mode"
 
+#, python-format
+msgid "To apply the selected '%s' skin the GUI needs to restart.  Would you like to restart the GUI now?"
+msgstr ""
+
 msgid "To audio selection"
 msgstr "To audio selection"
+
+#, python-format
+msgid "To save and apply the selected '%s' skin the GUI needs to restart.  Would you like to save the selection and restart the GUI now?"
+msgstr ""
 
 msgid "To subtitle selection"
 msgstr "To subtitle selection"
@@ -10599,9 +10808,6 @@ msgstr ""
 msgid "[REC]"
 msgstr ""
 
-msgid "[a]"
-msgstr ""
-
 msgid "[alternative edit]"
 msgstr "[alternative edit]"
 
@@ -10620,15 +10826,6 @@ msgstr "a gui to assign services/providers to common interface modules"
 msgid "a gui to assign services/providers/caids to common interface modules"
 msgstr "a gui to assign services/providers/caids to common interface modules"
 
-msgid "Abort alternatives edit"
-msgstr "Abort alternatives edit"
-
-msgid "Abort bouquet edit"
-msgstr "Abort bouquet edit"
-
-msgid "Abort favourites edit"
-msgstr "Abort favourites edit"
-
 msgid "about to start"
 msgstr "about to start"
 
@@ -10641,27 +10838,6 @@ msgstr "Relative"
 
 msgid "actual time only"
 msgstr ""
-
-msgid "Add alternatives"
-msgstr "Add alternatives"
-
-msgid "Add bouquet"
-msgstr "Add bouquet"
-
-msgid "Add bouquet to parental protection"
-msgstr ""
-
-msgid "Add marker"
-msgstr "Add marker"
-
-msgid "Add service to bouquet"
-msgstr "Add service to bouquet"
-
-msgid "Add service to favourites"
-msgstr "Add service to favourites"
-
-msgid "Add to parental protection"
-msgstr "Add to parental protection"
 
 msgid "adult movie/drama"
 msgstr "adult movie/drama"
@@ -10814,9 +10990,6 @@ msgstr ""
 msgid "cooking"
 msgstr "cooking"
 
-msgid "Copy to bouquets"
-msgstr "Copy to bouquets"
-
 msgid "daily"
 msgstr "daily"
 
@@ -10840,9 +11013,6 @@ msgstr "disable"
 
 msgid "disable intro screen"
 msgstr ""
-
-msgid "Disable move mode"
-msgstr "Disable move mode"
 
 msgid "disabled"
 msgstr "disabled"
@@ -10871,9 +11041,6 @@ msgstr "east"
 msgid "economics/social advisory"
 msgstr "economics/social advisory"
 
-msgid "Edit alternatives"
-msgstr "Edit alternatives"
-
 msgid "education/science/factual topics (general)"
 msgstr "education/science/factual topics (general)"
 
@@ -10886,32 +11053,14 @@ msgstr "empty"
 msgid "enable"
 msgstr "enable"
 
-msgid "Enable bouquet edit"
-msgstr "Enable bouquet edit"
-
-msgid "Enable favourites edit"
-msgstr "Enable favourites edit"
-
 msgid "enable intro screen"
 msgstr ""
-
-msgid "Enable move mode"
-msgstr "Enable move mode"
 
 msgid "enabled"
 msgstr "enabled"
 
-msgid "End alternatives edit"
-msgstr "End alternatives edit"
-
-msgid "End bouquet edit"
-msgstr "End bouquet edit"
-
 msgid "end cut here"
 msgstr "end cut here"
-
-msgid "End favourites edit"
-msgstr "End favourites edit"
 
 msgid "entertainment (10-16 year old)"
 msgstr "entertainment (10-16 year old)"
@@ -10981,9 +11130,6 @@ msgstr "filename"
 
 msgid "film/cinema"
 msgstr "film/cinema"
-
-msgid "Find currently playing service"
-msgstr ""
 
 msgid "fine arts"
 msgstr "fine arts"
@@ -11315,12 +11461,6 @@ msgstr ""
 msgid "performing arts"
 msgstr "performing arts"
 
-msgid "Play as Picture in Picture"
-msgstr "Play as Picture in Picture"
-
-msgid "Play in main window"
-msgstr "Play in main window"
-
 msgid "please press OK when ready"
 msgstr "please press OK when ready"
 
@@ -11332,9 +11472,6 @@ msgstr "popular culture/traditional arts"
 
 msgid "pre-school children's program"
 msgstr "pre-school children's program"
-
-msgid "Purge deleted user bouquets"
-msgstr ""
 
 msgid "receiver software because updates are available."
 msgstr "receiver software because updates are available."
@@ -11357,49 +11494,16 @@ msgstr "remarkable people"
 msgid "remove after this position"
 msgstr "remove after this position"
 
-msgid "Remove all alternatives"
-msgstr "Remove all alternatives"
-
-msgid "Remove all new found flags"
-msgstr "Remove all new found flags"
-
 msgid "remove before this position"
 msgstr "remove before this position"
 
-msgid "Remove bouquet from parental protection"
-msgstr ""
-
-msgid "Remove cable services"
-msgstr ""
-
-msgid "Remove entry"
-msgstr "Remove entry"
-
-msgid "Remove from parental protection"
-msgstr "Remove from parental protection"
-
-msgid "Remove new found flag"
-msgstr "Remove new found flag"
-
-msgid "Remove selected satellite"
-msgstr "Remove selected satellite"
-
-msgid "Remove terrestrial services"
-msgstr ""
-
 msgid "remove this mark"
 msgstr "remove this mark"
-
-msgid "Rename entry"
-msgstr ""
 
 msgid "repeated"
 msgstr "repeated"
 
 msgid "reserved for future use"
-msgstr ""
-
-msgid "Restore deleted user bouquets"
 msgstr ""
 
 msgid "reverse by date"
@@ -11448,23 +11552,14 @@ msgstr "serious music/classic music"
 msgid "serious/classical/religious/historical movie/drama"
 msgstr "serious/classical/religious/historical movie/drama"
 
-msgid "Service belongs to a parental protected bouquet"
-msgstr ""
-
 msgid "service off-air"
 msgstr ""
-
-msgid "Set as startup service"
-msgstr "Set as startup service"
 
 msgid "show DVD main menu"
 msgstr "show DVD main menu"
 
 msgid "show all tags"
 msgstr "show all tags"
-
-msgid "Show alternatives"
-msgstr "Show alternatives"
 
 msgid "show event details"
 msgstr "show event details"
@@ -11474,9 +11569,6 @@ msgstr "show softwaremanager in setup menu"
 
 msgid "show softwaremanager on blue button"
 msgstr "show softwaremanager on blue button"
-
-msgid "Show transponder info"
-msgstr "Show transponder info"
 
 msgid "show/game show (general)"
 msgstr "show/game show (general)"
@@ -11573,9 +11665,6 @@ msgstr "stepsize"
 msgid "stereo"
 msgstr "stereo"
 
-msgid "Stop using as startup service"
-msgstr "Stop using as startup service"
-
 msgid "successful"
 msgstr ""
 
@@ -11602,6 +11691,9 @@ msgstr "template file"
 
 msgid "tennis/squash"
 msgstr "tennis/squash"
+
+msgid "testing"
+msgstr "testing"
 
 msgid "this bouquet is protected by a parental control pin"
 msgstr ""
@@ -11724,9 +11816,6 @@ msgstr ""
 
 msgid "with_errors"
 msgstr ""
-
-msgid "working"
-msgstr "working"
 
 msgid "xp1000"
 msgstr ""

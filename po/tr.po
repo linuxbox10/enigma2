@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OPENPLi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-18 18:59+0100\n"
+"POT-Creation-Date: 2020-01-28 02:35+0200\n"
 "PO-Revision-Date: 2015-12-18 21:05+0200\n"
 "Last-Translator: Yetkin AYDIN <yetkina@gmail.com>\n"
 "Language-Team: http://www.hurforum.com <yetkina@gmail.com>\n"
@@ -120,11 +120,11 @@ msgid "%.0f kB"
 msgstr ""
 
 #, python-format
-msgid "%.1f°E"
+msgid "%.1f° E"
 msgstr ""
 
 #, python-format
-msgid "%.1f°W"
+msgid "%.1f° W"
 msgstr ""
 
 #, python-format
@@ -451,6 +451,9 @@ msgstr "16:9 Sinemaskop"
 msgid "16:9 always"
 msgstr "16:9 Her Zaman"
 
+msgid "16K"
+msgstr ""
+
 msgid "18 V"
 msgstr "18 V"
 
@@ -511,6 +514,10 @@ msgstr "4:3 Sinemaskop"
 msgid "4:3 PanScan"
 msgstr "4:3 PanScan"
 
+#, fuzzy
+msgid "4K"
+msgstr "4"
+
 msgid "5"
 msgstr "5"
 
@@ -526,6 +533,10 @@ msgstr "7"
 msgid "8"
 msgstr "8"
 
+#, fuzzy
+msgid "8K"
+msgstr "8"
+
 msgid "8bit"
 msgstr ""
 
@@ -535,12 +546,26 @@ msgstr "9"
 msgid ": 0000 - default (disabled)"
 msgstr ""
 
-msgid "<Current movielist location>"
-msgstr "<Mevcut film listesi konumu>"
+#, fuzzy
+msgid "< Current >"
+msgstr "Mevcut değer: "
 
 #, fuzzy
-msgid "<Default Skin>"
+msgid "< Default + Picon >"
 msgstr "Varsayılan ayarlar"
+
+#, fuzzy
+msgid "< Default >"
+msgstr "Varsayılan ayarlar"
+
+msgid "< Emergency >"
+msgstr ""
+
+msgid "< Pending restart >"
+msgstr ""
+
+msgid "<Current movielist location>"
+msgstr "<Mevcut film listesi konumu>"
 
 msgid "<Default movie location>"
 msgstr "<Varsayılan film konumu>"
@@ -692,11 +717,17 @@ msgstr ""
 msgid "Abort"
 msgstr "Vazgeç"
 
+msgid "Abort alternatives edit"
+msgstr "Alternatif düzenlemeden çık"
+
+msgid "Abort bouquet edit"
+msgstr "Buket düzenlemekten vazgeç"
+
+msgid "Abort favourites edit"
+msgstr "Favori düzenlemekten vazgeç"
+
 msgid "About"
 msgstr "Hakkında"
-
-msgid "About..."
-msgstr "Hakkında..."
 
 msgid "Accesspoint:"
 msgstr "Erişim noktası:"
@@ -737,8 +768,17 @@ msgstr "İsim sunucusu ekleyin"
 msgid "Add a new title"
 msgstr "Yeni başlık ekle"
 
+msgid "Add alternatives"
+msgstr "Alternatiflere ekle"
+
 msgid "Add bookmark"
 msgstr "Yer işareti ekle"
+
+msgid "Add bouquet"
+msgstr "Buket oluştur"
+
+msgid "Add bouquet to parental protection"
+msgstr "Bukete Aile Koruması ekle"
 
 msgid "Add directory to playlist"
 msgstr "Klasörü Çalma listesine ekle"
@@ -748,6 +788,9 @@ msgstr "Dosyayı Çalma listesine ekle"
 
 msgid "Add files to playlist"
 msgstr "Dosyaları Çalma listesine ekle"
+
+msgid "Add marker"
+msgstr "İşaretçi Ekle"
 
 msgid "Add provider"
 msgstr "Sağlayıcı ekle"
@@ -767,6 +810,12 @@ msgstr "Kayıt Ekle (geçerli olaydan sonra dur)"
 msgid "Add service"
 msgstr "Servis Ekle"
 
+msgid "Add service to bouquet"
+msgstr "Kanalı Bukete Ekle"
+
+msgid "Add service to favourites"
+msgstr "Kanalı Favorilere Ekle"
+
 #, fuzzy
 msgid "Add services to this bouquet?"
 msgstr "Kanalı Bukete Ekle"
@@ -782,6 +831,9 @@ msgstr "Bukete ekle"
 
 msgid "Add to favourites"
 msgstr "Favorilere ekle"
+
+msgid "Add to parental protection"
+msgstr "Aile koruması ekle"
 
 msgid "Add/remove change timer for current event"
 msgstr "Geçerli olay için zamanlayıcı Ekle/Sil"
@@ -1550,8 +1602,18 @@ msgstr ""
 msgid "Cancel"
 msgstr "Vazgeç"
 
+msgid "Cancel any changes to the currently active skin"
+msgstr ""
+
+msgid "Cancel any changes to the currently active skin and exit all menus"
+msgstr ""
+
 msgid "Cancel any text changes and exit"
 msgstr ""
+
+#, fuzzy
+msgid "Cancel execution?"
+msgstr "Kanal Seçimi"
 
 msgid "Cancelled upon user request"
 msgstr ""
@@ -1854,15 +1916,15 @@ msgstr ""
 msgid "Config resolution of pictures"
 msgstr "Resim çözünürlüğü"
 
+msgid "Configuration"
+msgstr "Yapılandırma"
+
 msgid "Configuration mode"
 msgstr "Yapılandırma modu"
 
 #, python-format
 msgid "Configuration mode: %s"
 msgstr "Yapılandırma modu: %s"
-
-msgid "Configuration"
-msgstr "Yapılandırma"
 
 #, fuzzy
 msgid "Configure ATSC"
@@ -1885,6 +1947,10 @@ msgstr "Altyazı senkronizasyonu için gecikme yapılandırması."
 
 msgid "Configure an additional delay to improve subtitle synchronisation."
 msgstr "Altyazı senkronizasyonu için gecikme yapılandırması."
+
+#, fuzzy
+msgid "Configure default type for new timers."
+msgstr "Ağ maskesini yapılandırın."
 
 msgid "Configure for how long the infobar will remain visible after activation."
 msgstr "Bilgi çubuğunun görünme süresi."
@@ -2263,6 +2329,9 @@ msgstr ""
 msgid "Copy"
 msgstr "Kopyala"
 
+msgid "Copy to bouquets"
+msgstr "Buketlere Kopyala"
+
 msgid "Costa Rica"
 msgstr ""
 
@@ -2521,6 +2590,10 @@ msgid "Default settings"
 msgstr "Varsayılan ayarlar"
 
 #, fuzzy
+msgid "Default timer type"
+msgstr "Zamanlayıcıyı sil"
+
+#, fuzzy
 msgid "Define the location of the EPG Cache file."
 msgstr "Ekranın en boy oranını yapılandırın."
 
@@ -2739,6 +2812,9 @@ msgstr "Arka plan taramasını devre dışı bırak"
 msgid "Disable current event but not coming events"
 msgstr "Mevcut işlemi devre dışı fakat  yeni işlem yapılamıyor."
 
+msgid "Disable move mode"
+msgstr "Taşıma Kipini Kapat"
+
 msgid "Disable timer"
 msgstr "Zamanlayıcı Devredışı"
 
@@ -2767,6 +2843,10 @@ msgstr "Zaman Kaydırmayı kaydet geçerli olay için"
 #, fuzzy
 msgid "Display EPG list for current channel"
 msgstr "Mevcut kanal için EPG göster..."
+
+#, fuzzy
+msgid "Display Skin"
+msgstr "Ekran kurulumu"
 
 msgid "Display and userinterface"
 msgstr "Görüntüleme ve kullanıcı arayüzü"
@@ -3015,6 +3095,9 @@ msgstr "EPG Dil seçimi"
 msgid "EPG settings"
 msgstr "EPG ayarları"
 
+msgid "EPG:"
+msgstr ""
+
 #, python-format
 msgid "ERROR - failed to scan (%s)!"
 msgstr "HATA - Tarama başarısız (%s)!"
@@ -3037,6 +3120,9 @@ msgstr "Düzenle"
 
 msgid "Edit DNS"
 msgstr "DNS Düzenle"
+
+msgid "Edit alternatives"
+msgstr "Alternatifleri Düzenle"
 
 msgid "Edit chapters of current title"
 msgstr "Geçerli başlık için bölümleri düzenle"
@@ -3139,17 +3225,26 @@ msgstr "Otomatik hızlı taramayı etkinleştir"
 msgid "Enable auto fast scan for %s"
 msgstr ""
 
+msgid "Enable bouquet edit"
+msgstr "Buket düzenlemeyi aç"
+
 msgid "Enable bouquet selection in multi-EPG"
 msgstr "Çoklu-EPG içinde buket seçimini etkinleştir"
 
 msgid "Enable fallback remote receiver"
 msgstr "Yedek cihaz kontrolu"
 
+msgid "Enable favourites edit"
+msgstr "Favori düzenlemeyi aç"
+
 msgid "Enable freesat EPG"
 msgstr "Freesat EPG Aktif"
 
 msgid "Enable import timer from fallback tuner"
 msgstr ""
+
+msgid "Enable move mode"
+msgstr "Taşıma kipini aç"
 
 msgid "Enable multiple bouquets"
 msgstr "Çoklu buket kullanımını etkin"
@@ -3199,6 +3294,15 @@ msgstr "Şifreleme tipi"
 msgid "Encryption:"
 msgstr "Şifreleme:"
 
+msgid "End alternatives edit"
+msgstr "Alternatif düzenlemeyi bitir"
+
+msgid "End bouquet edit"
+msgstr "Buket düzenlemeyi bitir"
+
+msgid "End favourites edit"
+msgstr "Favori düzenlemeyi bitir"
+
 msgid "End time"
 msgstr "Bitiş zamanı"
 
@@ -3222,9 +3326,6 @@ msgstr ""
 #, fuzzy
 msgid "Enigma version: "
 msgstr "Çekirdek sürümü:"
-
-msgid "Enigma2 skin selector"
-msgstr "Arayüz Seçici"
 
 #, fuzzy
 msgid "Enter"
@@ -3320,9 +3421,6 @@ msgid ""
 "Error during unzipping image\n"
 "%s"
 msgstr ""
-
-msgid "Error executing plugin"
-msgstr "Eklentinin çalıştırılması sırasında hata oluştu"
 
 msgid "Error stop stream!"
 msgstr ""
@@ -3438,9 +3536,6 @@ msgstr "Ağ sihirbazından çık"
 msgid "Exit the wizard"
 msgstr "Sihirbazdan çık"
 
-msgid "Exit/OK"
-msgstr "OK/Çık"
-
 msgid "Expand"
 msgstr ""
 
@@ -3546,6 +3641,9 @@ msgstr "FEC"
 
 msgid "FEC:"
 msgstr "FEC:"
+
+msgid "FHD"
+msgstr ""
 
 msgid "FTA"
 msgstr "FTA"
@@ -3672,6 +3770,9 @@ msgstr "Dizindeki son pozisyonda"
 
 msgid "Final scroll delay"
 msgstr "Nihai kaydırma gecikmesi"
+
+msgid "Find currently playing service"
+msgstr "Şu anda oynanan servisi bul"
 
 msgid "Fine movement"
 msgstr "Ince hareket"
@@ -3815,17 +3916,14 @@ msgstr "Çekirdek sürümü:"
 msgid "GUI Settings"
 msgstr "Ayarlar"
 
+#, fuzzy
+msgid "GUI Skin"
+msgstr "Ayarlar"
+
 msgid ""
 "GUI needs a restart to apply a new language\n"
 "Do you want to restart the GUI now?"
 msgstr ""
-
-msgid ""
-"GUI needs a restart to apply a new skin\n"
-"Do you want to restart the GUI now?"
-msgstr ""
-"Yeni arayüzü etkinleştirmek için yeniden başlatma gerekiyor\n"
-"Grafik arayüzünü (GUI) yeniden başlatmak istiyor musunuz?"
 
 msgid "Gabon"
 msgstr ""
@@ -3985,6 +4083,10 @@ msgstr ""
 
 msgid "H"
 msgstr ""
+
+#, fuzzy
+msgid "HD"
+msgstr "D"
 
 msgid "HD list"
 msgstr "HD listesi"
@@ -4480,9 +4582,6 @@ msgstr ""
 msgid "Invert"
 msgstr "Ters"
 
-msgid "Ipkg"
-msgstr "Ipkg"
-
 msgid "Iran (Islamic Republic of)"
 msgstr ""
 
@@ -4899,6 +4998,11 @@ msgstr ""
 msgid "Manufacturer"
 msgstr "Üretici"
 
+msgid ""
+"Manufacturer reset in progress\n"
+"Pease wait until enigma2 restarts"
+msgstr ""
+
 msgid "Margin after recording (minutes)"
 msgstr "Kayıttan sonra Marj (dakika)"
 
@@ -5097,6 +5201,22 @@ msgstr ""
 
 msgid "Move to position X"
 msgstr "'X' pozisyonuna taşı"
+
+#, fuzzy
+msgid "Move to the next page"
+msgstr "Sonraki açıyı seç"
+
+#, fuzzy
+msgid "Move to the next skin"
+msgstr "Bir alta taşı"
+
+#, fuzzy
+msgid "Move to the previous page"
+msgstr "Önceki bölüme geri git"
+
+#, fuzzy
+msgid "Move to the previous skin"
+msgstr "Bir üste taşı"
 
 msgid "Move west"
 msgstr "Batıya taşı"
@@ -5656,6 +5776,9 @@ msgstr "Tuner Kurulumu"
 msgid "Open the movie list"
 msgstr "Film listesinden aç"
 
+msgid "Opkg"
+msgstr ""
+
 msgid "Options disable timer"
 msgstr "Zamanlayıcı Devredışı"
 
@@ -5849,6 +5972,9 @@ msgstr "DVD Oynat"
 msgid "Play DVDs"
 msgstr "DVD Oynat"
 
+msgid "Play as Picture in Picture"
+msgstr "Resim içinde resim (RiR) olarak göster"
+
 msgid "Play audio-CD..."
 msgstr "Müzik-CD si çal..."
 
@@ -5867,6 +5993,9 @@ msgstr "Sonraki işatten veya çalma listesi girişinden oynat"
 
 msgid "Play from previous mark or playlist entry"
 msgstr "Önceki işatten veya çalma listesi girişinden oynat"
+
+msgid "Play in main window"
+msgstr "Ana pencerede oynat"
 
 msgid "Play music..."
 msgstr "Müzik çal..."
@@ -6280,7 +6409,8 @@ msgstr "Ek seçenekler için uzaktan kumanda üzerindeki MENU düğmesine basın
 msgid "Press OK on your remote control to continue."
 msgstr "Devam etmek için kumandanızın OK tuşuna basın."
 
-msgid "Press OK to activate the selected skin."
+#, fuzzy, python-format
+msgid "Press OK to activate the selected%s skin."
 msgstr "Arayüzü etkinleştirmek için OK'a basın."
 
 msgid "Press OK to activate the settings."
@@ -6292,6 +6422,10 @@ msgstr "Düzenlemek için OK tuşuna basın."
 #, python-format
 msgid "Press OK to get further details for %s"
 msgstr "%s detayları için OK tuşuna basın"
+
+#, fuzzy, python-format
+msgid "Press OK to keep the currently selected%s skin."
+msgstr "Arayüzü etkinleştirmek için OK'a basın."
 
 msgid "Press OK to scan"
 msgstr "Arama için OK'a basın"
@@ -6419,6 +6553,9 @@ msgstr "Yayıncılar"
 msgid "Puerto Rico"
 msgstr ""
 
+msgid "Purge deleted user bouquets"
+msgstr "Buketleri Sil"
+
 msgid "Put TV in standby"
 msgstr "TV yi bekleme konumuna al"
 
@@ -6476,6 +6613,10 @@ msgstr "Tamamlanan zamanlayıcıları silmek istiyor musunuz?"
 
 msgid "Really exit the subservices quickzap?"
 msgstr "Alt servislerde hızlı kanal değiştirme iptal olsun mu?"
+
+#, fuzzy
+msgid "Really perform a manufacturer reset now?"
+msgstr "Fabrika ayarları koruması"
 
 msgid "Really reboot now?"
 msgstr "Yeniden başlatmak istiyor musunuz?"
@@ -6623,11 +6764,23 @@ msgstr "İşaret Kaldır"
 msgid "Remove a nameserver entry"
 msgstr "İsim sunucusu girişini sil"
 
+msgid "Remove all alternatives"
+msgstr "Alternatiflerin tümünü kaldır"
+
 msgid "Remove all logfiles"
 msgstr ""
 
+msgid "Remove all new found flags"
+msgstr "Yeni bulundu, İşaretlerinin Tümünü Kaldır"
+
 msgid "Remove bookmark"
 msgstr "Kısayolu sil"
+
+msgid "Remove bouquet from parental protection"
+msgstr "Aile korumasından çıkar"
+
+msgid "Remove cable services"
+msgstr "Kablo servisleri sil"
 
 msgid "Remove completed timers after (days)"
 msgstr "Tamamlanmış zamanlayıcıları kaldırın (gün) sonra"
@@ -6638,11 +6791,26 @@ msgstr "Seçilen geçerli başlığı sil"
 msgid "Remove directory"
 msgstr "Klasörü sil"
 
+msgid "Remove entry"
+msgstr "Seçili Kanalı/Buketi Sil"
+
+msgid "Remove from parental protection"
+msgstr "Aile korumasından çıkar"
+
 msgid "Remove items from trash can after (days)"
 msgstr "Çöp Kutusu öğelerini (gün) sonra kaldır"
 
+msgid "Remove new found flag"
+msgstr "Yeni bulundu işaretini kaldır"
+
 msgid "Remove plugins"
 msgstr "Eklenti Sil"
+
+msgid "Remove selected satellite"
+msgstr "Seçili, Uyduyu Sil"
+
+msgid "Remove terrestrial services"
+msgstr "Karasal servisleri sil"
 
 msgid "Remove this logfile"
 msgstr ""
@@ -6661,6 +6829,9 @@ msgid "Removing partition table"
 msgstr "Bölümleme tablosu kaldırılıyor"
 
 msgid "Rename"
+msgstr "Ad değiştir "
+
+msgid "Rename entry"
 msgstr "Ad değiştir "
 
 msgid "Rename name and description for new events"
@@ -6779,6 +6950,13 @@ msgstr "Geri Yükle"
 
 msgid "Restore backups"
 msgstr "Yedekten geri yükle"
+
+#, fuzzy
+msgid "Restore defaults"
+msgstr "Varsayılan olarak ayarla"
+
+msgid "Restore deleted user bouquets"
+msgstr "Silinen buketleri geri yükle"
 
 msgid "Restore system settings"
 msgstr "Sistem ayarlarını geri yükle"
@@ -7004,6 +7182,10 @@ msgstr "Kaydet"
 #, fuzzy
 msgid "Save / Enter text and exit"
 msgstr "Kaydet ve çık"
+
+#, fuzzy
+msgid "Save and activate the currently selected skin"
+msgstr "Arayüzü etkinleştirmek için OK'a basın."
 
 msgid "Save and exit"
 msgstr "Kaydet ve çık"
@@ -7462,9 +7644,6 @@ msgstr "Kablosuz ağ seçin"
 msgid "Select your ATSC provider."
 msgstr "Eklenecek yayıncıyı seçin..."
 
-msgid "Select your Skin"
-msgstr ""
-
 msgid ""
 "Select your backup device.\n"
 "Current device: "
@@ -7531,6 +7710,9 @@ msgid "Service & PIDs"
 msgstr ""
 
 msgid "Service ID"
+msgstr ""
+
+msgid "Service belongs to a parental protected bouquet"
 msgstr ""
 
 msgid "Service has been added to the favourites."
@@ -7618,14 +7800,14 @@ msgstr "Tüm Kısa yol Tuşlarını Varsayılanla değiştir?"
 msgid "Set alternative fallback tuners for DVB-T/C or ATSC"
 msgstr ""
 
+msgid "Set as startup service"
+msgstr "Başlangıç kanalı yap."
+
 msgid "Set blocktimes by weekday"
 msgstr ""
 
 msgid "Set default"
 msgstr "Varsayılan olarak ayarla"
-
-msgid "Set default settings?"
-msgstr ""
 
 msgid "Set end time"
 msgstr "Bitiş zamanını ayarla"
@@ -7770,6 +7952,9 @@ msgstr "Ana menüde VCR scart göster"
 
 msgid "Show WLAN status"
 msgstr "WLAN durumunu göster"
+
+msgid "Show alternatives"
+msgstr "Alternatifleri göster"
 
 msgid "Show animation while busy"
 msgstr "Meşgulken Animasyon Göster"
@@ -7952,6 +8137,9 @@ msgstr "Radyo kanal listesini göster..."
 msgid "Show the tv player..."
 msgstr "TV kanal listesini göster..."
 
+msgid "Show transponder info"
+msgstr "Transponder bilgisini göster"
+
 #, fuzzy
 msgid "Show underline characters in filenames"
 msgstr "Kayıt dosya adları için karakter kümesi sınırı"
@@ -8045,11 +8233,15 @@ msgstr "Sayfa enlemi"
 msgid "Site longitude"
 msgstr "Sayfa boylamı"
 
-msgid "Skin"
-msgstr "Arayüz"
-
 #, python-format
 msgid "Skin & Resolution: %s (%sx%s)\n"
+msgstr ""
+
+#, fuzzy
+msgid "Skin Selection Actions"
+msgstr "Eylem seçimi"
+
+msgid "SkinSelector: Restart GUI"
 msgstr ""
 
 msgid "Skins"
@@ -8452,6 +8644,9 @@ msgstr "Zaman kaydırmayı durdur"
 msgid "Stop timeshift?"
 msgstr "Zaman kaydırma dursun mu?"
 
+msgid "Stop using as startup service"
+msgstr "Başlangıç servislerini durdurun"
+
 msgid "Stopped"
 msgstr "Durduruldu"
 
@@ -8701,6 +8896,9 @@ msgstr "Toplananlar tablosunun içeriği"
 
 msgid "Tags"
 msgstr "Etiketler"
+
+msgid "Taiwan"
+msgstr ""
 
 msgid "Tajikistan"
 msgstr ""
@@ -9206,6 +9404,10 @@ msgstr "Zamanlayıcı seçimi..."
 msgid "Timer type"
 msgstr "Zamanlayıcı tipi"
 
+#, fuzzy
+msgid "Timer:"
+msgstr "Zamanlayıcı"
+
 msgid "Timeshift"
 msgstr "Zaman Kaydırma"
 
@@ -9236,8 +9438,16 @@ msgstr "Başlık özellikleri"
 msgid "Titleset mode"
 msgstr "Başlıkseti kipi"
 
+#, python-format
+msgid "To apply the selected '%s' skin the GUI needs to restart.  Would you like to restart the GUI now?"
+msgstr ""
+
 msgid "To audio selection"
 msgstr "Ses seçimi için"
+
+#, python-format
+msgid "To save and apply the selected '%s' skin the GUI needs to restart.  Would you like to save the selection and restart the GUI now?"
+msgstr ""
 
 msgid "To subtitle selection"
 msgstr "Altyazı seçimi için"
@@ -10651,9 +10861,6 @@ msgstr ""
 msgid "[REC]"
 msgstr "[REC]"
 
-msgid "[a]"
-msgstr ""
-
 msgid "[alternative edit]"
 msgstr "[Alternatif Düzenle]"
 
@@ -10672,15 +10879,6 @@ msgstr "Karrt/Modül için Kanal/Yayıncı Belirleme "
 msgid "a gui to assign services/providers/caids to common interface modules"
 msgstr "Karrt/Modül için Kanal/Yayıncı/Caid atama arayüzü"
 
-msgid "Abort alternatives edit"
-msgstr "Alternatif düzenlemeden çık"
-
-msgid "Abort bouquet edit"
-msgstr "Buket düzenlemekten vazgeç"
-
-msgid "Abort favourites edit"
-msgstr "Favori düzenlemekten vazgeç"
-
 msgid "about to start"
 msgstr "Başlamak üzere"
 
@@ -10693,27 +10891,6 @@ msgstr "İlgili"
 
 msgid "actual time only"
 msgstr "Sadece gerçek zamanlı"
-
-msgid "Add alternatives"
-msgstr "Alternatiflere ekle"
-
-msgid "Add bouquet"
-msgstr "Buket oluştur"
-
-msgid "Add bouquet to parental protection"
-msgstr "Bukete Aile Koruması ekle"
-
-msgid "Add marker"
-msgstr "İşaretçi Ekle"
-
-msgid "Add service to bouquet"
-msgstr "Kanalı Bukete Ekle"
-
-msgid "Add service to favourites"
-msgstr "Kanalı Favorilere Ekle"
-
-msgid "Add to parental protection"
-msgstr "Aile koruması ekle"
 
 msgid "adult movie/drama"
 msgstr "Yetişkin Film/Drama"
@@ -10867,9 +11044,6 @@ msgstr ""
 msgid "cooking"
 msgstr "Yemek"
 
-msgid "Copy to bouquets"
-msgstr "Buketlere Kopyala"
-
 msgid "daily"
 msgstr "Günlük"
 
@@ -10893,9 +11067,6 @@ msgstr "Pasif"
 
 msgid "disable intro screen"
 msgstr ""
-
-msgid "Disable move mode"
-msgstr "Taşıma Kipini Kapat"
 
 msgid "disabled"
 msgstr "Devre dışı"
@@ -10924,9 +11095,6 @@ msgstr "Doğu"
 msgid "economics/social advisory"
 msgstr "Ekonomi/Sosyal"
 
-msgid "Edit alternatives"
-msgstr "Alternatifleri Düzenle"
-
 msgid "education/science/factual topics (general)"
 msgstr "Eğitim/Bilim /Gerçeklere Dayanan Konular (Genel)"
 
@@ -10939,32 +11107,14 @@ msgstr "Boş"
 msgid "enable"
 msgstr "Etkin"
 
-msgid "Enable bouquet edit"
-msgstr "Buket düzenlemeyi aç"
-
-msgid "Enable favourites edit"
-msgstr "Favori düzenlemeyi aç"
-
 msgid "enable intro screen"
 msgstr ""
-
-msgid "Enable move mode"
-msgstr "Taşıma kipini aç"
 
 msgid "enabled"
 msgstr "Etkin"
 
-msgid "End alternatives edit"
-msgstr "Alternatif düzenlemeyi bitir"
-
-msgid "End bouquet edit"
-msgstr "Buket düzenlemeyi bitir"
-
 msgid "end cut here"
 msgstr "Kesimi burada bitir"
-
-msgid "End favourites edit"
-msgstr "Favori düzenlemeyi bitir"
 
 msgid "entertainment (10-16 year old)"
 msgstr "Eğlence (10-16 yaş)"
@@ -11034,9 +11184,6 @@ msgstr "Dosya Adı"
 
 msgid "film/cinema"
 msgstr "Film/Sinema"
-
-msgid "Find currently playing service"
-msgstr "Şu anda oynanan servisi bul"
 
 msgid "fine arts"
 msgstr "Güzel Sanatlar"
@@ -11369,12 +11516,6 @@ msgstr ""
 msgid "performing arts"
 msgstr "Sahne Sanatları"
 
-msgid "Play as Picture in Picture"
-msgstr "Resim içinde resim (RiR) olarak göster"
-
-msgid "Play in main window"
-msgstr "Ana pencerede oynat"
-
 msgid "please press OK when ready"
 msgstr "Lütfen hazır olduğunuzda OK' a basın."
 
@@ -11386,9 +11527,6 @@ msgstr "Popüler Kültür/Geleneksel Sanatlar"
 
 msgid "pre-school children's program"
 msgstr "Okul Öncesi Çocuk Programı"
-
-msgid "Purge deleted user bouquets"
-msgstr "Buketleri Sil"
 
 msgid "receiver software because updates are available."
 msgstr "Yazılım güncellemesi var."
@@ -11411,50 +11549,17 @@ msgstr "Önemli İnsanlar"
 msgid "remove after this position"
 msgstr "Bu noktadan sonrasını kaldır"
 
-msgid "Remove all alternatives"
-msgstr "Alternatiflerin tümünü kaldır"
-
-msgid "Remove all new found flags"
-msgstr "Yeni bulundu, İşaretlerinin Tümünü Kaldır"
-
 msgid "remove before this position"
 msgstr "Bu noktadan öncekileri kaldır."
 
-msgid "Remove bouquet from parental protection"
-msgstr "Aile korumasından çıkar"
-
-msgid "Remove cable services"
-msgstr "Kablo servisleri sil"
-
-msgid "Remove entry"
-msgstr "Seçili Kanalı/Buketi Sil"
-
-msgid "Remove from parental protection"
-msgstr "Aile korumasından çıkar"
-
-msgid "Remove new found flag"
-msgstr "Yeni bulundu işaretini kaldır"
-
-msgid "Remove selected satellite"
-msgstr "Seçili, Uyduyu Sil"
-
-msgid "Remove terrestrial services"
-msgstr "Karasal servisleri sil"
-
 msgid "remove this mark"
 msgstr "Sil"
-
-msgid "Rename entry"
-msgstr "Ad değiştir "
 
 msgid "repeated"
 msgstr "Tekrarla"
 
 msgid "reserved for future use"
 msgstr ""
-
-msgid "Restore deleted user bouquets"
-msgstr "Silinen buketleri geri yükle"
 
 msgid "reverse by date"
 msgstr "Tarihe Göre, Tersine"
@@ -11502,24 +11607,15 @@ msgstr "Müzik/Klasik Müzik"
 msgid "serious/classical/religious/historical movie/drama"
 msgstr "Seri/Klasik/Dini/Tarihi/Dram"
 
-msgid "Service belongs to a parental protected bouquet"
-msgstr ""
-
 #, fuzzy
 msgid "service off-air"
 msgstr "Kanalı Favorilere Ekle"
-
-msgid "Set as startup service"
-msgstr "Başlangıç kanalı yap."
 
 msgid "show DVD main menu"
 msgstr "DVD ana menüsünü göster"
 
 msgid "show all tags"
 msgstr "Tüm etiketleri göster"
-
-msgid "Show alternatives"
-msgstr "Alternatifleri göster"
 
 msgid "show event details"
 msgstr "EPG detaylarını göster"
@@ -11529,9 +11625,6 @@ msgstr "Kurulum menüsünde yazılım yöneticisini gösterir"
 
 msgid "show softwaremanager on blue button"
 msgstr "Mavi Düğme, yazılım yöneticisini gösterir."
-
-msgid "Show transponder info"
-msgstr "Transponder bilgisini göster"
 
 msgid "show/game show (general)"
 msgstr "Gösteri/Oyun(Genel)"
@@ -11628,9 +11721,6 @@ msgstr "Adım sayısı"
 msgid "stereo"
 msgstr "Steryo"
 
-msgid "Stop using as startup service"
-msgstr "Başlangıç servislerini durdurun"
-
 msgid "successful"
 msgstr ""
 
@@ -11657,6 +11747,9 @@ msgstr "Taslak dosya"
 
 msgid "tennis/squash"
 msgstr "Tenis"
+
+msgid "testing"
+msgstr "Çalışıyor"
 
 msgid "this bouquet is protected by a parental control pin"
 msgstr "Bu buket Aile Koruma Şifresi ile Kilitlenmiş"
@@ -11778,9 +11871,6 @@ msgstr "Tuner adının yanında"
 
 msgid "with_errors"
 msgstr ""
-
-msgid "working"
-msgstr "Çalışıyor"
 
 msgid "xp1000"
 msgstr "xp1000"

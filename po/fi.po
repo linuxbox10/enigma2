@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-18 18:59+0100\n"
+"POT-Creation-Date: 2020-01-28 02:35+0200\n"
 "PO-Revision-Date: 2019-02-13 20:52+0200\n"
 "Last-Translator: jamu\n"
 "Language-Team: BoxFreak/jamu\n"
@@ -122,11 +122,11 @@ msgid "%.0f kB"
 msgstr "%.0f kB"
 
 #, python-format
-msgid "%.1f°E"
+msgid "%.1f° E"
 msgstr ""
 
 #, python-format
-msgid "%.1f°W"
+msgid "%.1f° W"
 msgstr ""
 
 #, python-format
@@ -491,6 +491,9 @@ msgstr "16:9 Letterbox"
 msgid "16:9 always"
 msgstr "16:9 automatiikka"
 
+msgid "16K"
+msgstr ""
+
 #
 msgid "18 V"
 msgstr "18 V"
@@ -555,6 +558,10 @@ msgstr "4:3 Letterbox"
 msgid "4:3 PanScan"
 msgstr "4:3 Pan&Scan"
 
+#, fuzzy
+msgid "4K"
+msgstr "4"
+
 msgid "5"
 msgstr "5"
 
@@ -570,6 +577,10 @@ msgstr "7"
 msgid "8"
 msgstr "8"
 
+#, fuzzy
+msgid "8K"
+msgstr "8"
+
 msgid "8bit"
 msgstr "8bit"
 
@@ -579,12 +590,29 @@ msgstr "9"
 msgid ": 0000 - default (disabled)"
 msgstr ""
 
-msgid "<Current movielist location>"
-msgstr "<Nykyinen tallennushakemisto>"
+#
+#, fuzzy
+msgid "< Current >"
+msgstr "Arvo: "
 
 #
-msgid "<Default Skin>"
+#, fuzzy
+msgid "< Default + Picon >"
 msgstr "<Oletus Teema>"
+
+#
+#, fuzzy
+msgid "< Default >"
+msgstr "<Oletus Teema>"
+
+msgid "< Emergency >"
+msgstr ""
+
+msgid "< Pending restart >"
+msgstr ""
+
+msgid "<Current movielist location>"
+msgstr "<Nykyinen tallennushakemisto>"
 
 msgid "<Default movie location>"
 msgstr "<Oletushakemisto>"
@@ -750,12 +778,20 @@ msgid "Abort"
 msgstr "Keskeytä"
 
 #
-msgid "About"
-msgstr "Tietoja"
+msgid "Abort alternatives edit"
+msgstr "Peruuta muutokset ja poistu"
 
 #
-msgid "About..."
-msgstr "Tietoja..."
+msgid "Abort bouquet edit"
+msgstr "Peruuta muutokset ja poistu"
+
+#
+msgid "Abort favourites edit"
+msgstr "Peruuta muutokset ja poistu"
+
+#
+msgid "About"
+msgstr "Tietoja"
 
 #
 msgid "Accesspoint:"
@@ -806,8 +842,19 @@ msgid "Add a new title"
 msgstr "Lisää uusi tallenne"
 
 #
+msgid "Add alternatives"
+msgstr "Vaihtoehtoisten kanavien lisäys"
+
+#
 msgid "Add bookmark"
 msgstr "Lisää kirjanmerkki"
+
+#
+msgid "Add bouquet"
+msgstr "Lisää uusi suosikkilista"
+
+msgid "Add bouquet to parental protection"
+msgstr ""
 
 #
 msgid "Add directory to playlist"
@@ -820,6 +867,10 @@ msgstr "Lisää tiedosto soittolistalle"
 #
 msgid "Add files to playlist"
 msgstr "Lisää tiedostot soittolistalle"
+
+#
+msgid "Add marker"
+msgstr "Lisää väliotsikko"
 
 #
 msgid "Add provider"
@@ -842,6 +893,14 @@ msgid "Add service"
 msgstr "Lisää kanava"
 
 #
+msgid "Add service to bouquet"
+msgstr "Lisää kanava suosikkilistalle"
+
+#
+msgid "Add service to favourites"
+msgstr "Lisää kanava suosikkeihin"
+
+#
 #, fuzzy
 msgid "Add services to this bouquet?"
 msgstr "Lisää kanava suosikkilistalle"
@@ -861,6 +920,10 @@ msgstr "Lisää suosikkilistalle"
 #
 msgid "Add to favourites"
 msgstr "Lisää suosikkilistalle"
+
+#
+msgid "Add to parental protection"
+msgstr "Lisää lapsilukkoon"
 
 msgid "Add/remove change timer for current event"
 msgstr "Lisää/poista ajastus nykyiselle ohjelmalle"
@@ -1688,8 +1751,19 @@ msgstr "Canada"
 msgid "Cancel"
 msgstr "Peruuta"
 
+msgid "Cancel any changes to the currently active skin"
+msgstr ""
+
+msgid "Cancel any changes to the currently active skin and exit all menus"
+msgstr ""
+
 msgid "Cancel any text changes and exit"
 msgstr ""
+
+#
+#, fuzzy
+msgid "Cancel execution?"
+msgstr "Kanavanvalinta"
 
 msgid "Cancelled upon user request"
 msgstr "Keskeytetty käyttäjän toimesta"
@@ -2034,6 +2108,9 @@ msgstr ""
 msgid "Config resolution of pictures"
 msgstr "Kuvien resoluutio"
 
+msgid "Configuration"
+msgstr "Asetukset"
+
 msgid "Configuration mode"
 msgstr "Asetustila"
 
@@ -2041,9 +2118,6 @@ msgstr "Asetustila"
 #, python-format
 msgid "Configuration mode: %s"
 msgstr "Toimintatila: %s"
-
-msgid "Configuration"
-msgstr "Asetukset"
 
 msgid "Configure ATSC"
 msgstr "Määritä ATSC"
@@ -2062,6 +2136,10 @@ msgstr "Määritä ylimääräinen viive parantaaksesi ulkoisten tekstitysten aj
 
 msgid "Configure an additional delay to improve subtitle synchronisation."
 msgstr "Määritä ylimääräinen viive parantaaksesi tekstitysten ajoitusta."
+
+#, fuzzy
+msgid "Configure default type for new timers."
+msgstr "Määritä verkkomaski."
 
 msgid "Configure for how long the infobar will remain visible after activation."
 msgstr "Määrittää kuinka kauan tietopalkki on näkyvissä käynnistyksen jälkeen."
@@ -2448,6 +2526,10 @@ msgstr "Cook Islands"
 msgid "Copy"
 msgstr "Kopioi"
 
+#
+msgid "Copy to bouquets"
+msgstr "Kopioi suosikkilistalle"
+
 msgid "Costa Rica"
 msgstr "Costa Rica"
 
@@ -2731,6 +2813,11 @@ msgstr "Oletushakemisto tallennuksille"
 msgid "Default settings"
 msgstr "Oletusasetukset"
 
+#
+#, fuzzy
+msgid "Default timer type"
+msgstr "Poista ajastus"
+
 msgid "Define the location of the EPG Cache file."
 msgstr "Määritä ohjelmaoppaan välimuistitiedoston sijainti."
 
@@ -2974,6 +3061,10 @@ msgid "Disable current event but not coming events"
 msgstr "Poista tämän ohjelman ajastus käytöstä, mutta ei tulevia"
 
 #
+msgid "Disable move mode"
+msgstr "Poistu siirtotilasta"
+
+#
 msgid "Disable timer"
 msgstr "Poista tämä ajastus käytöstä"
 
@@ -3006,6 +3097,10 @@ msgstr "Näytä ohjelmaoppaan tiedot tälle ohjelmalle"
 #
 msgid "Display EPG list for current channel"
 msgstr "Näytä ohjelmaoppaan listaus tälle kanavalle"
+
+#, fuzzy
+msgid "Display Skin"
+msgstr "Etupaneelin näyttö"
 
 #
 msgid "Display and userinterface"
@@ -3287,6 +3382,9 @@ msgstr "Ohjelmaoppaan valinta"
 msgid "EPG settings"
 msgstr "Ohjelmaoppaan asetukset"
 
+msgid "EPG:"
+msgstr ""
+
 #
 #, python-format
 msgid "ERROR - failed to scan (%s)!"
@@ -3313,6 +3411,10 @@ msgstr "Muokkaa"
 #
 msgid "Edit DNS"
 msgstr "Muuta DNS"
+
+#
+msgid "Edit alternatives"
+msgstr "Vaihtoehtoisten kanavien lisäys ja poisto"
 
 #
 msgid "Edit chapters of current title"
@@ -3424,17 +3526,29 @@ msgstr "Ota käyttöön autom. pikahaku"
 msgid "Enable auto fast scan for %s"
 msgstr "Ota käyttöön automaattinen pikahaku -> %s"
 
+#
+msgid "Enable bouquet edit"
+msgstr "Kanavalistojen lisäys ja poisto"
+
 msgid "Enable bouquet selection in multi-EPG"
 msgstr "Käytä suosikkilistojen valintaa useammassa ohjelmaoppaassa "
 
 msgid "Enable fallback remote receiver"
 msgstr "Ota käyttöön etävastaanotin"
 
+#
+msgid "Enable favourites edit"
+msgstr "Suosikkien lisäys ja poisto"
+
 msgid "Enable freesat EPG"
 msgstr "Ota käyttöön Freesat EPG"
 
 msgid "Enable import timer from fallback tuner"
 msgstr "Tuo ajastimet etävastaaottimelta"
+
+#
+msgid "Enable move mode"
+msgstr "Suosikkien järjestely"
 
 #
 msgid "Enable multiple bouquets"
@@ -3493,6 +3607,18 @@ msgid "Encryption:"
 msgstr "Salaus:"
 
 #
+msgid "End alternatives edit"
+msgstr "Tallenna muutokset ja poistu"
+
+#
+msgid "End bouquet edit"
+msgstr "Tallenna muutokset ja poistu"
+
+#
+msgid "End favourites edit"
+msgstr "Tallenna muutokset ja poistu"
+
+#
 msgid "End time"
 msgstr "Lopetusaika"
 
@@ -3516,9 +3642,6 @@ msgstr "Enigman debug-taso: %d\n"
 
 msgid "Enigma version: "
 msgstr "Enigman versio: "
-
-msgid "Enigma2 skin selector"
-msgstr "Enigma2 teeman valinta"
 
 msgid "Enter"
 msgstr ""
@@ -3617,10 +3740,6 @@ msgid ""
 "Error during unzipping image\n"
 "%s"
 msgstr ""
-
-#
-msgid "Error executing plugin"
-msgstr "Virhe plugin-lisäosan suorittamisessa"
 
 msgid "Error stop stream!"
 msgstr ""
@@ -3748,10 +3867,6 @@ msgstr "Poistu verkkoasennuksesta"
 msgid "Exit the wizard"
 msgstr "Poistu ohjatusta asennustoiminnosta"
 
-#
-msgid "Exit/OK"
-msgstr "Poistu/OK"
-
 msgid "Expand"
 msgstr ""
 
@@ -3867,6 +3982,9 @@ msgstr "FEC"
 
 msgid "FEC:"
 msgstr "FEC:"
+
+msgid "FHD"
+msgstr ""
 
 msgid "FTA"
 msgstr "FTA"
@@ -3995,6 +4113,9 @@ msgstr "Lopullinen sijainti muistipaikassa"
 
 msgid "Final scroll delay"
 msgstr "Rullausviive lopussa"
+
+msgid "Find currently playing service"
+msgstr "Etsi käynnissä oleva kanava"
 
 #
 msgid "Fine movement"
@@ -4151,19 +4272,16 @@ msgstr "GStreamer versio:"
 msgid "GUI Settings"
 msgstr "Käyttöliittymän asetukset"
 
+#
+#, fuzzy
+msgid "GUI Skin"
+msgstr "Käyttöliittymän asetukset"
+
 msgid ""
 "GUI needs a restart to apply a new language\n"
 "Do you want to restart the GUI now?"
 msgstr ""
 "Kieli vaihtuu kun käyttöliittymä on käynnistetty\n"
-"Haluatko käynnistää käyttöliittymän uudelleen nyt?"
-
-#
-msgid ""
-"GUI needs a restart to apply a new skin\n"
-"Do you want to restart the GUI now?"
-msgstr ""
-"Teema vaihtuu kun käyttöliittymä on käynnistetty\n"
 "Haluatko käynnistää käyttöliittymän uudelleen nyt?"
 
 msgid "Gabon"
@@ -4335,6 +4453,10 @@ msgstr "Guyana"
 
 msgid "H"
 msgstr ""
+
+#, fuzzy
+msgid "HD"
+msgstr "D"
 
 msgid "HD list"
 msgstr "HD lista"
@@ -4871,9 +4993,6 @@ msgstr "Inversio, Pilot & Roll-off"
 msgid "Invert"
 msgstr "Käänteinen"
 
-msgid "Ipkg"
-msgstr "Ipkg"
-
 msgid "Iran (Islamic Republic of)"
 msgstr "Iran"
 
@@ -5348,6 +5467,11 @@ msgstr "Tuo ajastimet etävastaaottimelta"
 msgid "Manufacturer"
 msgstr "Valmistaja"
 
+msgid ""
+"Manufacturer reset in progress\n"
+"Pease wait until enigma2 restarts"
+msgstr ""
+
 #
 msgid "Margin after recording (minutes)"
 msgstr "Lisäaika tallenteen jälkeen (minuuttia)"
@@ -5566,6 +5690,26 @@ msgstr ""
 #
 msgid "Move to position X"
 msgstr "Mene sijaintiin X"
+
+#
+#, fuzzy
+msgid "Move to the next page"
+msgstr "Vaihda seuraavaan kuvakulmaan"
+
+#
+#, fuzzy
+msgid "Move to the next skin"
+msgstr "siirry seuraavaan kohtaan"
+
+#
+#, fuzzy
+msgid "Move to the previous page"
+msgstr "Kelaa edelliseen kappaleeseen"
+
+#
+#, fuzzy
+msgid "Move to the previous skin"
+msgstr "siirry edelliseen kohtaan"
 
 #
 msgid "Move west"
@@ -6210,6 +6354,9 @@ msgstr "Avaa viritinasetukset"
 msgid "Open the movie list"
 msgstr "Avaa tallenneluettelo"
 
+msgid "Opkg"
+msgstr ""
+
 msgid "Options disable timer"
 msgstr "Keskeytä ajastus"
 
@@ -6417,6 +6564,9 @@ msgstr "Toista DVD"
 msgid "Play DVDs"
 msgstr "Toista DVD"
 
+msgid "Play as Picture in Picture"
+msgstr "Toista kuva-kuvassa (PiP)"
+
 #
 msgid "Play audio-CD..."
 msgstr "Toista ääni-CD..."
@@ -6438,6 +6588,9 @@ msgstr "Toista seuraavasta merkistä tai soittolistan valinnasta"
 #
 msgid "Play from previous mark or playlist entry"
 msgstr "Toista edellisestä merkistä tai soittolistan valinnasta"
+
+msgid "Play in main window"
+msgstr "Toista pääikkunassa"
 
 #
 msgid "Play music..."
@@ -6912,7 +7065,8 @@ msgid "Press OK on your remote control to continue."
 msgstr "Jatka painamalla OK-näppäintä."
 
 #
-msgid "Press OK to activate the selected skin."
+#, fuzzy, python-format
+msgid "Press OK to activate the selected%s skin."
 msgstr "Ota valittu teema käyttöön painamalla OK."
 
 #
@@ -6927,6 +7081,11 @@ msgstr "Muokkaa painamalla OK."
 #, python-format
 msgid "Press OK to get further details for %s"
 msgstr "Katso %s lisätietoja OK-näppäimellä"
+
+#
+#, fuzzy, python-format
+msgid "Press OK to keep the currently selected%s skin."
+msgstr "Ota valittu teema käyttöön painamalla OK."
 
 #
 msgid "Press OK to scan"
@@ -7076,6 +7235,9 @@ msgstr "Palveluntarjoajat"
 msgid "Puerto Rico"
 msgstr "Puerto Rico"
 
+msgid "Purge deleted user bouquets"
+msgstr ""
+
 msgid "Put TV in standby"
 msgstr "Laita TV valmiustilaan"
 
@@ -7143,6 +7305,10 @@ msgstr "Poistetaanko toteutuneet ajastukset?"
 #
 msgid "Really exit the subservices quickzap?"
 msgstr "Poistu alipalveluiden pikavaihdosta?"
+
+#, fuzzy
+msgid "Really perform a manufacturer reset now?"
+msgstr "Suojaa tehdasasetusvalikko"
 
 #
 msgid "Really reboot now?"
@@ -7309,12 +7475,26 @@ msgstr "Poista merkki"
 msgid "Remove a nameserver entry"
 msgstr "Poista nimipalvelin"
 
+#
+msgid "Remove all alternatives"
+msgstr "Poista kaikki vaihtoehtoiset kanavat"
+
 msgid "Remove all logfiles"
 msgstr ""
 
 #
+msgid "Remove all new found flags"
+msgstr "Poista kaikki uusi kanava-liput"
+
+#
 msgid "Remove bookmark"
 msgstr "Poista kirjanmerkki"
+
+msgid "Remove bouquet from parental protection"
+msgstr ""
+
+msgid "Remove cable services"
+msgstr ""
 
 msgid "Remove completed timers after (days)"
 msgstr "Poista toteutuneet ajastukset (päivää) jälkeen"
@@ -7327,12 +7507,31 @@ msgstr "Poista valittu otsikko"
 msgid "Remove directory"
 msgstr "Poista hakemisto"
 
+#
+msgid "Remove entry"
+msgstr "Poista valittu"
+
+#
+msgid "Remove from parental protection"
+msgstr "Poista lapsilukosta"
+
 msgid "Remove items from trash can after (days)"
 msgstr "Tyhjennä roskakori (päivää) jälkeen"
 
 #
+msgid "Remove new found flag"
+msgstr "Poista uusi kanava-lippu"
+
+#
 msgid "Remove plugins"
 msgstr "Poista lisäosia"
+
+#
+msgid "Remove selected satellite"
+msgstr "Poista valittu satelliitti"
+
+msgid "Remove terrestrial services"
+msgstr ""
 
 msgid "Remove this logfile"
 msgstr ""
@@ -7357,6 +7556,10 @@ msgstr "Poistetaan levyosioita"
 #
 msgid "Rename"
 msgstr "Uudelleennimeä"
+
+#
+msgid "Rename entry"
+msgstr "Uudelleennimeä valittu"
 
 msgid "Rename name and description for new events"
 msgstr "Muokkaa nimi ja kuvaus uusille tapahtumille"
@@ -7488,6 +7691,13 @@ msgstr "Palauta"
 #
 msgid "Restore backups"
 msgstr "Palauta varmuuskopiot"
+
+#, fuzzy
+msgid "Restore defaults"
+msgstr "Oletus"
+
+msgid "Restore deleted user bouquets"
+msgstr ""
 
 #
 msgid "Restore system settings"
@@ -7733,6 +7943,11 @@ msgstr "Tallenna"
 
 msgid "Save / Enter text and exit"
 msgstr "Tallenna teksti ja poistu"
+
+#
+#, fuzzy
+msgid "Save and activate the currently selected skin"
+msgstr "Ota valittu teema käyttöön painamalla OK."
 
 msgid "Save and exit"
 msgstr "Tallenna ja poistu"
@@ -8243,9 +8458,6 @@ msgstr "Valitse WLAN-verkko"
 msgid "Select your ATSC provider."
 msgstr "ATSC palveluntarjoaja"
 
-msgid "Select your Skin"
-msgstr "Valitse Teema"
-
 #
 msgid ""
 "Select your backup device.\n"
@@ -8324,6 +8536,9 @@ msgstr "Kanava & PID:t"
 #
 msgid "Service ID"
 msgstr "Kanava ID"
+
+msgid "Service belongs to a parental protected bouquet"
+msgstr ""
 
 #
 msgid "Service has been added to the favourites."
@@ -8417,14 +8632,14 @@ msgstr ""
 msgid "Set alternative fallback tuners for DVB-T/C or ATSC"
 msgstr ""
 
+msgid "Set as startup service"
+msgstr "Aseta käynnistyskanavaksi"
+
 msgid "Set blocktimes by weekday"
 msgstr "Aseta aikaväli päiväkohtaisesti"
 
 msgid "Set default"
 msgstr "Oletus"
-
-msgid "Set default settings?"
-msgstr ""
 
 #
 msgid "Set end time"
@@ -8575,6 +8790,10 @@ msgstr "Näytä VCR-Scart päävalikossa"
 #
 msgid "Show WLAN status"
 msgstr "Näytä WLAN:in tila"
+
+#
+msgid "Show alternatives"
+msgstr "Näytä vaihtoehtoiset kanavat"
 
 msgid "Show animation while busy"
 msgstr "Näytä animaatio(rattaat) kun varattu"
@@ -8776,6 +8995,10 @@ msgstr "Näytä radiosoitin..."
 msgid "Show the tv player..."
 msgstr "Näytä tv..."
 
+#
+msgid "Show transponder info"
+msgstr "Näytä lähettimen tietoja"
+
 #, fuzzy
 msgid "Show underline characters in filenames"
 msgstr "Rajoita tallenteiden merkistöä"
@@ -8886,12 +9109,16 @@ msgstr "Leveysaste"
 msgid "Site longitude"
 msgstr "Pituusaste"
 
-#
-msgid "Skin"
-msgstr "Teema"
-
 #, python-format
 msgid "Skin & Resolution: %s (%sx%s)\n"
+msgstr ""
+
+#
+#, fuzzy
+msgid "Skin Selection Actions"
+msgstr "Valitse toiminto"
+
+msgid "SkinSelector: Restart GUI"
 msgstr ""
 
 #
@@ -9344,6 +9571,9 @@ msgstr "Pysäytä ajansiirto"
 msgid "Stop timeshift?"
 msgstr "Lopetetaanko ajansiirto?"
 
+msgid "Stop using as startup service"
+msgstr "Lopeta käyttämästä käynnistyskanavana"
+
 msgid "Stopped"
 msgstr "Pysäytetty"
 
@@ -9616,6 +9846,9 @@ msgstr "Kokoelman sisällysluettelo"
 #
 msgid "Tags"
 msgstr "Avainsanat"
+
+msgid "Taiwan"
+msgstr ""
 
 msgid "Tajikistan"
 msgstr "Tajikistan"
@@ -10164,6 +10397,10 @@ msgstr "Ajastinvalinta"
 msgid "Timer type"
 msgstr "Ajastuksen tyyppi"
 
+#, fuzzy
+msgid "Timer:"
+msgstr "Ajastukset"
+
 #
 msgid "Timeshift"
 msgstr "Ajansiirto"
@@ -10200,8 +10437,16 @@ msgstr "Ominaisuudet"
 msgid "Titleset mode"
 msgstr "Tila"
 
+#, python-format
+msgid "To apply the selected '%s' skin the GUI needs to restart.  Would you like to restart the GUI now?"
+msgstr ""
+
 msgid "To audio selection"
 msgstr "Avaa äänivalinta"
+
+#, python-format
+msgid "To save and apply the selected '%s' skin the GUI needs to restart.  Would you like to save the selection and restart the GUI now?"
+msgstr ""
 
 msgid "To subtitle selection"
 msgstr "Avaa tekstitysvalinta"
@@ -11727,9 +11972,6 @@ msgstr "Zimbabwe"
 msgid "[REC]"
 msgstr ""
 
-msgid "[a]"
-msgstr "[a]"
-
 #
 msgid "[alternative edit]"
 msgstr "[Vaihtoehtojen lisäys ja poisto]"
@@ -11753,18 +11995,6 @@ msgid "a gui to assign services/providers/caids to common interface modules"
 msgstr "Käyttöliittymä kanavien/palvelutarjoajien/CAId:en määrittämiseen CI-moduuleille"
 
 #
-msgid "Abort alternatives edit"
-msgstr "Peruuta muutokset ja poistu"
-
-#
-msgid "Abort bouquet edit"
-msgstr "Peruuta muutokset ja poistu"
-
-#
-msgid "Abort favourites edit"
-msgstr "Peruuta muutokset ja poistu"
-
-#
 msgid "about to start"
 msgstr "alkaa juuri"
 
@@ -11777,33 +12007,6 @@ msgstr "Suhteellinen"
 
 msgid "actual time only"
 msgstr "Vain nykyinen hetki"
-
-#
-msgid "Add alternatives"
-msgstr "Vaihtoehtoisten kanavien lisäys"
-
-#
-msgid "Add bouquet"
-msgstr "Lisää uusi suosikkilista"
-
-msgid "Add bouquet to parental protection"
-msgstr ""
-
-#
-msgid "Add marker"
-msgstr "Lisää väliotsikko"
-
-#
-msgid "Add service to bouquet"
-msgstr "Lisää kanava suosikkilistalle"
-
-#
-msgid "Add service to favourites"
-msgstr "Lisää kanava suosikkeihin"
-
-#
-msgid "Add to parental protection"
-msgstr "Lisää lapsilukkoon"
 
 msgid "adult movie/drama"
 msgstr "aikuisviihde"
@@ -11975,10 +12178,6 @@ msgid "cooking"
 msgstr "kokkaus"
 
 #
-msgid "Copy to bouquets"
-msgstr "Kopioi suosikkilistalle"
-
-#
 msgid "daily"
 msgstr "Päivittäin"
 
@@ -12006,10 +12205,6 @@ msgstr "Pois"
 
 msgid "disable intro screen"
 msgstr ""
-
-#
-msgid "Disable move mode"
-msgstr "Poistu siirtotilasta"
 
 #
 msgid "disabled"
@@ -12043,10 +12238,6 @@ msgstr "itään"
 msgid "economics/social advisory"
 msgstr "talous/sosiaalinen neuvonta"
 
-#
-msgid "Edit alternatives"
-msgstr "Vaihtoehtoisten kanavien lisäys ja poisto"
-
 msgid "education/science/factual topics (general)"
 msgstr "koulutus/tiede/tosiasiat (yleinen)"
 
@@ -12061,40 +12252,16 @@ msgstr "Tyhjä"
 msgid "enable"
 msgstr "Päällä"
 
-#
-msgid "Enable bouquet edit"
-msgstr "Kanavalistojen lisäys ja poisto"
-
-#
-msgid "Enable favourites edit"
-msgstr "Suosikkien lisäys ja poisto"
-
 msgid "enable intro screen"
 msgstr ""
-
-#
-msgid "Enable move mode"
-msgstr "Suosikkien järjestely"
 
 #
 msgid "enabled"
 msgstr "Päällä"
 
 #
-msgid "End alternatives edit"
-msgstr "Tallenna muutokset ja poistu"
-
-#
-msgid "End bouquet edit"
-msgstr "Tallenna muutokset ja poistu"
-
-#
 msgid "end cut here"
 msgstr "Lopeta leikkaus tähän"
-
-#
-msgid "End favourites edit"
-msgstr "Tallenna muutokset ja poistu"
 
 msgid "entertainment (10-16 year old)"
 msgstr "viihde (10-16 vuotiaat)"
@@ -12169,9 +12336,6 @@ msgstr "Tiedostonimi"
 
 msgid "film/cinema"
 msgstr "elokuva"
-
-msgid "Find currently playing service"
-msgstr "Etsi käynnissä oleva kanava"
 
 msgid "fine arts"
 msgstr "kuvataide"
@@ -12548,12 +12712,6 @@ msgstr ""
 msgid "performing arts"
 msgstr "esittävä taide"
 
-msgid "Play as Picture in Picture"
-msgstr "Toista kuva-kuvassa (PiP)"
-
-msgid "Play in main window"
-msgstr "Toista pääikkunassa"
-
 #
 msgid "please press OK when ready"
 msgstr "paina OK kun olet valmis"
@@ -12567,9 +12725,6 @@ msgstr "populäärikulttuuri/perinteinen taide"
 
 msgid "pre-school children's program"
 msgstr "esikouluikäisten lastenohjelma"
-
-msgid "Purge deleted user bouquets"
-msgstr ""
 
 msgid "receiver software because updates are available."
 msgstr "vastaanottimen ohjelmisto, koska päivityksiä on saatavilla."
@@ -12597,58 +12752,18 @@ msgid "remove after this position"
 msgstr "Poista tämän kohdan jälkeen"
 
 #
-msgid "Remove all alternatives"
-msgstr "Poista kaikki vaihtoehtoiset kanavat"
-
-#
-msgid "Remove all new found flags"
-msgstr "Poista kaikki uusi kanava-liput"
-
-#
 msgid "remove before this position"
 msgstr "Poista kaikki ennen tätä kohtaa"
-
-msgid "Remove bouquet from parental protection"
-msgstr ""
-
-msgid "Remove cable services"
-msgstr ""
-
-#
-msgid "Remove entry"
-msgstr "Poista valittu"
-
-#
-msgid "Remove from parental protection"
-msgstr "Poista lapsilukosta"
-
-#
-msgid "Remove new found flag"
-msgstr "Poista uusi kanava-lippu"
-
-#
-msgid "Remove selected satellite"
-msgstr "Poista valittu satelliitti"
-
-msgid "Remove terrestrial services"
-msgstr ""
 
 #
 msgid "remove this mark"
 msgstr "Poista tämä merkki"
 
 #
-msgid "Rename entry"
-msgstr "Uudelleennimeä valittu"
-
-#
 msgid "repeated"
 msgstr "Useita kertoja"
 
 msgid "reserved for future use"
-msgstr ""
-
-msgid "Restore deleted user bouquets"
 msgstr ""
 
 msgid "reverse by date"
@@ -12702,16 +12817,10 @@ msgstr "vakava musiikki/klassinen musiikki"
 msgid "serious/classical/religious/historical movie/drama"
 msgstr "vakava/klassinen/uskonnollinen/historiallinen elokuva/draama"
 
-msgid "Service belongs to a parental protected bouquet"
-msgstr ""
-
 #
 #, fuzzy
 msgid "service off-air"
 msgstr "Lisää kanava suosikkeihin"
-
-msgid "Set as startup service"
-msgstr "Aseta käynnistyskanavaksi"
 
 #
 msgid "show DVD main menu"
@@ -12719,10 +12828,6 @@ msgstr "Näytä DVD:n päävalikko"
 
 msgid "show all tags"
 msgstr "Näytä kaikki avainsanat"
-
-#
-msgid "Show alternatives"
-msgstr "Näytä vaihtoehtoiset kanavat"
 
 #
 msgid "show event details"
@@ -12733,10 +12838,6 @@ msgstr "Näytä ohjelmistonhallinta asetusvalikossa"
 
 msgid "show softwaremanager on blue button"
 msgstr "Näytä ohjelmistonhallinta sinisestä napista"
-
-#
-msgid "Show transponder info"
-msgstr "Näytä lähettimen tietoja"
 
 msgid "show/game show (general)"
 msgstr "show/visailu (yleinen)"
@@ -12840,9 +12941,6 @@ msgstr "askelkoko"
 msgid "stereo"
 msgstr "Stereo"
 
-msgid "Stop using as startup service"
-msgstr "Lopeta käyttämästä käynnistyskanavana"
-
 msgid "successful"
 msgstr ""
 
@@ -12873,6 +12971,10 @@ msgstr "Mallitiedosto"
 
 msgid "tennis/squash"
 msgstr "tennis/squash"
+
+#
+msgid "testing"
+msgstr "Työskentelee"
 
 #
 msgid "this bouquet is protected by a parental control pin"
@@ -13011,10 +13113,6 @@ msgstr "virittimen nimellä"
 
 msgid "with_errors"
 msgstr ""
-
-#
-msgid "working"
-msgstr "Työskentelee"
 
 msgid "xp1000"
 msgstr ""

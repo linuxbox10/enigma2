@@ -75,14 +75,14 @@ def InitUsageConfig():
 	config.usage.channelselection_preview = ConfigYesNo(default = False)
 	config.usage.show_spinner = ConfigYesNo(default = True)
 	config.usage.menu_sort_weight = ConfigDictionarySet(default = { "mainmenu" : {"submenu" : {} }})
-	config.usage.menu_sort_mode = ConfigSelection(default = "default", choices = [("a_z", _("alphabetical")), ("default", _("Default")), ("user", _("user defined")), ("user_hidden", _("user defined hidden"))])
+	config.usage.menu_sort_mode = ConfigSelection(default = "user", choices = [("a_z", _("alphabetical")), ("default", _("Default")), ("user", _("user defined")), ("user_hidden", _("user defined hidden"))])
 	config.usage.menu_show_numbers = ConfigSelection(default = "no", choices = [("no", _("no")), ("menu&plugins", _("in menu and plugins")), ("menu", _("in menu only")), ("plugins", _("in plugins only"))])
 	config.usage.menu_path = ConfigSelection(default = "off", choices = [
 		("off", _("Disabled")),
 		("small", _("Small")),
 		("large", _("Large")),])
 	config.usage.enable_tt_caching = ConfigYesNo(default = True)
-	config.usage.sort_settings = ConfigYesNo(default=False)
+	config.usage.sort_settings = ConfigYesNo(default=True)
 	choicelist = []
 	for i in (10, 30):
 		choicelist.append((str(i), ngettext("%d second", "%d seconds", i) % i))
@@ -131,7 +131,7 @@ def InitUsageConfig():
 	config.usage.leave_movieplayer_onExit = ConfigSelection(default = "popup", choices = [
 		("no", _("no")), ("popup", _("With popup")), ("without popup", _("Without popup")), ("movielist", _("Return to movie list")) ])
 
-	config.usage.setup_level = ConfigSelection(default = "simple", choices = [
+	config.usage.setup_level = ConfigSelection(default = "expert", choices = [
 		("simple", _("Normal")),
 		("intermediate", _("Advanced")),
 		("expert", _("Expert")) ])
@@ -747,8 +747,8 @@ def InitUsageConfig():
 	config.autolanguage.audio_autoselect3.addNotifier(autolanguage, initial_call=False)
 	config.autolanguage.audio_autoselect4.addNotifier(autolanguage)
 	config.autolanguage.audio_defaultac3 = ConfigYesNo(default = True)
-	config.autolanguage.audio_defaultddp = ConfigYesNo(default = False)
-	config.autolanguage.audio_usecache = ConfigYesNo(default = True)
+	config.autolanguage.audio_defaultddp = ConfigYesNo(default = True)
+	config.autolanguage.audio_usecache = ConfigYesNo(default = False)
 
 	subtitle_language_choices = audio_language_choices[:1] + audio_language_choices [2:]
 	def getselectedsublanguages(range):
@@ -773,7 +773,7 @@ def InitUsageConfig():
 	config.autolanguage.subtitle_autoselect2.addNotifier(autolanguagesub, initial_call=False)
 	config.autolanguage.subtitle_autoselect3.addNotifier(autolanguagesub, initial_call=False)
 	config.autolanguage.subtitle_autoselect4.addNotifier(autolanguagesub)
-	config.autolanguage.subtitle_hearingimpaired = ConfigYesNo(default = False)
+	config.autolanguage.subtitle_hearingimpaired = ConfigYesNo(default = True)
 	config.autolanguage.subtitle_defaultimpaired = ConfigYesNo(default = False)
 	config.autolanguage.subtitle_defaultdvb = ConfigYesNo(default = False)
 	config.autolanguage.subtitle_usecache = ConfigYesNo(default = True)

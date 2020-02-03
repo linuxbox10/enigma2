@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-28 02:35+0200\n"
+"POT-Creation-Date: 2020-01-31 14:53+0200\n"
 "PO-Revision-Date: 2019-02-13 20:52+0200\n"
 "Last-Translator: jamu\n"
 "Language-Team: BoxFreak/jamu\n"
@@ -1510,7 +1510,7 @@ msgid "Behavior of 'pause and ok' when paused"
 msgstr "Pause- ja OK-näppäimien toiminta"
 
 #
-msgid "Behavior of 0 key in PiP-mode"
+msgid "Behavior of '0' button in PiP mode"
 msgstr "0-näppäimen toiminta PiP-tilassa"
 
 #
@@ -2019,7 +2019,7 @@ msgid "Close"
 msgstr "Sulje"
 
 #
-msgid "Close PiP on exit"
+msgid "Close PiP with 'exit' button"
 msgstr "Sulje PiP-kuva Exit-näppäimellä"
 
 msgid "Close title selection"
@@ -2159,7 +2159,7 @@ msgstr "Määritä tuulettimen toiminta"
 msgid "Configure if and how crypto icons will be shown in the channel selection list."
 msgstr "Määrittää näytetäänkö salauksen kuvakkeet kanavalistassa."
 
-msgid "Configure if and how long the latest service in the PiP will be remembered."
+msgid "Configure if and how long the latest service in Picture in Picture mode will be remembered."
 msgstr "Määritä kuinka pitkään viimeisin käytetty PiP (kuva-kuvassa) kanava muistetaan."
 
 msgid "Configure if and how service type icons will be shown in the channel selection list."
@@ -2269,7 +2269,7 @@ msgstr "Määrittää neljännen äänen kielen."
 msgid "Configure the fourth subtitle language."
 msgstr "Määrittää neljännen tekstityskielen."
 
-msgid "Configure the function of the '0' button do when PIP is active."
+msgid "Configure the function of the '0' button when Picture in Picture is active."
 msgstr "Määrittää '0' näppäimen toiminnan PiP-tilassa."
 
 msgid "Configure the gateway."
@@ -4464,6 +4464,9 @@ msgstr "HD lista"
 msgid "HD2400"
 msgstr "HD2400"
 
+msgid "HD60"
+msgstr ""
+
 msgid "HDMI"
 msgstr "HDMI"
 
@@ -4812,7 +4815,7 @@ msgstr "Liitä ECM http-striimeihin"
 msgid "Include EIT in http streams"
 msgstr "Sisällytä EIT http-striimeihin"
 
-msgid "Incorrect type service for PiP!"
+msgid "Incorrect service type for Picture in Picture!"
 msgstr ""
 
 #
@@ -5469,7 +5472,7 @@ msgstr "Valmistaja"
 
 msgid ""
 "Manufacturer reset in progress\n"
-"Pease wait until enigma2 restarts"
+"Please wait until enigma2 restarts"
 msgstr ""
 
 #
@@ -5648,7 +5651,7 @@ msgstr "Liitä"
 msgid "Move"
 msgstr "Siirrä"
 
-msgid "Move PIP"
+msgid "Move PiP"
 msgstr "Siirrä PiP"
 
 #
@@ -5657,7 +5660,7 @@ msgstr "Siirrä PiP pääkuvaan"
 
 #
 msgid "Move Picture in Picture"
-msgstr "Siirrä PIP-kuvaa"
+msgstr "Siirrä PiP-kuvaa"
 
 #
 msgid "Move east"
@@ -8774,7 +8777,7 @@ msgstr "Show Visailu"
 msgid "Show InfoBar"
 msgstr "Näytä tietopalkki"
 
-msgid "Show PIP"
+msgid "Show PiP"
 msgstr "Näytä PiP"
 
 msgid "Show SNR percentage instead of dB value"
@@ -9680,7 +9683,7 @@ msgstr "Suriname"
 msgid "Svalbard and Jan Mayen"
 msgstr "Svalbard and Jan Mayen"
 
-msgid "Swap PIP"
+msgid "Swap PiP"
 msgstr "Vaihda PiP"
 
 #
@@ -10438,14 +10441,14 @@ msgid "Titleset mode"
 msgstr "Tila"
 
 #, python-format
-msgid "To apply the selected '%s' skin the GUI needs to restart.  Would you like to restart the GUI now?"
+msgid "To apply the selected '%s' skin the GUI needs to restart. Would you like to restart the GUI now?"
 msgstr ""
 
 msgid "To audio selection"
 msgstr "Avaa äänivalinta"
 
 #, python-format
-msgid "To save and apply the selected '%s' skin the GUI needs to restart.  Would you like to save the selection and restart the GUI now?"
+msgid "To save and apply the selected '%s' skin the GUI needs to restart. Would you like to save the selection and restart the GUI now?"
 msgstr ""
 
 msgid "To subtitle selection"
@@ -10461,7 +10464,7 @@ msgstr "HDMI sisään päälle/pois"
 msgid "Toggle LCD LiveTV"
 msgstr "Valitse tv-kuva etupaneeliin"
 
-msgid "Toggle PIPzap"
+msgid "Toggle PiPzap"
 msgstr ""
 
 msgid "Toggle TV/RADIO mode"
@@ -11374,7 +11377,7 @@ msgstr ""
 msgid "When enabled enigma2 will load unlinked userbouquets. This means that userbouquets that are available, but not included in the bouquets.tv or bouquets.radio files, will still be loaded. This allows you for example to keep your own user bouquet while installed settings are updated"
 msgstr "Kun päällä, suosikkilistat jotka ovat saatavilla ladataan vaikka ne eivät olisi bouquets.tv tai bouquets.radio tiedostoissa. Tämä antaa sinun pitää omat suosikkilistasi samalla kun asennettuja päivitetään."
 
-msgid "When enabled the PiP can be closed by the exit button."
+msgid "When enabled the Picture in Picture window can be closed with 'exit' button."
 msgstr "Kun päällä, PiP voidaan sulkea exit-napilla."
 
 msgid "When enabled the arrow buttons around the OK button will follow the 'neutrino' style zap controls instead of the enigma2 style."
@@ -11950,17 +11953,20 @@ msgid "Zap up"
 msgstr "Kanava ylös"
 
 #, python-format
-msgid "Zapped to timer service %s as PiP!"
+msgid "Zapped to timer service %s as Picture in Picture!"
 msgstr "Ajastettu vaihto kanavalle %s (PiP)!"
 
 #, python-format
 msgid "Zapped to timer service %s!"
 msgstr "Ajastettu vaihto kanavalle %s!"
 
-msgid "Zgemma H.S/H.2S/H.2H/H5/H7"
+msgid "Zgemma H.S/H.2S/H.2H/H5/H7(old model)"
 msgstr ""
 
-msgid "Zgemma H9/i55 Plus"
+msgid "Zgemma H7(new model)/H9(new model)/H9COMBO/H9TWIN/H10"
+msgstr ""
+
+msgid "Zgemma H9(old model)/I55Plus"
 msgstr ""
 
 msgid "Zgemma Star S/2S/H1/H2"
@@ -12284,7 +12290,8 @@ msgstr "Virhe haun aikana"
 msgid "et4000"
 msgstr "et4000"
 
-msgid "et5000/6000"
+#, fuzzy
+msgid "et5000/et6000"
 msgstr "et5000/6000"
 
 msgid "et8000/et10000"
@@ -12293,7 +12300,8 @@ msgstr "et8000/et10000"
 msgid "et9000/et9100"
 msgstr "et9000/et9100"
 
-msgid "et9200/9500/6500"
+#, fuzzy
+msgid "et9200/et9500/et6500"
 msgstr "et9200/9500/6500"
 
 msgid "execute cuts (requires MovieCut plugin)"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-28 02:35+0200\n"
+"POT-Creation-Date: 2020-01-31 14:53+0200\n"
 "PO-Revision-Date: 2017-01-18 16:38+0100\n"
 "Last-Translator: lupine <a_ecklon@hotmail.com>\n"
 "Language-Team: \n"
@@ -1544,7 +1544,7 @@ msgid "Behavior of 'pause and ok' when paused"
 msgstr "Opførsel af 'pause og ok' når pauset"
 
 #
-msgid "Behavior of 0 key in PiP-mode"
+msgid "Behavior of '0' button in PiP mode"
 msgstr "Opførsel af 0 tast i BiB tilstand"
 
 #
@@ -2058,7 +2058,7 @@ msgstr "Klon TV skærm til LCD"
 msgid "Close"
 msgstr "Afslut"
 
-msgid "Close PiP on exit"
+msgid "Close PiP with 'exit' button"
 msgstr "Luk BiB ved exit"
 
 #
@@ -2216,7 +2216,7 @@ msgstr "Konfigurer hvordan blæseren skal opføre sig."
 msgid "Configure if and how crypto icons will be shown in the channel selection list."
 msgstr "Konfigurer om og hvordan krypto ikoner skal blive vist i kanal listen."
 
-msgid "Configure if and how long the latest service in the PiP will be remembered."
+msgid "Configure if and how long the latest service in Picture in Picture mode will be remembered."
 msgstr "Konfigurer hvis og hvor længe den seneste kanal i BiB vil blive husket."
 
 msgid "Configure if and how service type icons will be shown in the channel selection list."
@@ -2330,7 +2330,7 @@ msgstr "Konfigurer lydsprog nummer fire."
 msgid "Configure the fourth subtitle language."
 msgstr "Konfigurer undertekstsprog nummer fire."
 
-msgid "Configure the function of the '0' button do when PIP is active."
+msgid "Configure the function of the '0' button when Picture in Picture is active."
 msgstr "Konfigurer '0' knappens funktion når BiB er aktiv."
 
 #
@@ -4588,6 +4588,9 @@ msgstr "HD Liste"
 msgid "HD2400"
 msgstr "HD2400"
 
+msgid "HD60"
+msgstr ""
+
 msgid "HDMI"
 msgstr ""
 
@@ -4942,7 +4945,7 @@ msgstr "Inkluder ECM i http stream"
 msgid "Include EIT in http streams"
 msgstr "Inkluder EIT i http stream"
 
-msgid "Incorrect type service for PiP!"
+msgid "Incorrect service type for Picture in Picture!"
 msgstr "Ukorrekt kanaltype for BiB!"
 
 #
@@ -5611,7 +5614,7 @@ msgstr "Fabrikant"
 
 msgid ""
 "Manufacturer reset in progress\n"
-"Pease wait until enigma2 restarts"
+"Please wait until enigma2 restarts"
 msgstr ""
 
 #
@@ -5799,8 +5802,8 @@ msgstr "Monter"
 msgid "Move"
 msgstr "Flyt"
 
-msgid "Move PIP"
-msgstr "Flyt PIP"
+msgid "Move PiP"
+msgstr "Flyt BiB"
 
 #
 msgid "Move PiP to main picture"
@@ -8946,7 +8949,7 @@ msgstr "Korte filnavne"
 
 #, fuzzy
 msgid "Show"
-msgstr "Vis PIP"
+msgstr "Vis"
 
 msgid "Show Audioselection"
 msgstr "Vis Audioselection"
@@ -8971,8 +8974,8 @@ msgstr "Vis Spil show"
 msgid "Show InfoBar"
 msgstr "Vis InfoBar"
 
-msgid "Show PIP"
-msgstr "Vis PIP"
+msgid "Show PiP"
+msgstr "Vis BiB"
 
 msgid "Show SNR percentage instead of dB value"
 msgstr "Vis SNR procent i stedet for dB værdi"
@@ -9875,7 +9878,7 @@ msgstr "Servicenavn"
 msgid "Svalbard and Jan Mayen"
 msgstr ""
 
-msgid "Swap PIP"
+msgid "Swap PiP"
 msgstr "Byt BiB"
 
 #
@@ -10661,14 +10664,14 @@ msgid "Titleset mode"
 msgstr "Titelopsætning modus"
 
 #, python-format
-msgid "To apply the selected '%s' skin the GUI needs to restart.  Would you like to restart the GUI now?"
+msgid "To apply the selected '%s' skin the GUI needs to restart. Would you like to restart the GUI now?"
 msgstr ""
 
 msgid "To audio selection"
 msgstr "Til lyd valg"
 
 #, python-format
-msgid "To save and apply the selected '%s' skin the GUI needs to restart.  Would you like to save the selection and restart the GUI now?"
+msgid "To save and apply the selected '%s' skin the GUI needs to restart. Would you like to save the selection and restart the GUI now?"
 msgstr ""
 
 msgid "To subtitle selection"
@@ -10684,7 +10687,7 @@ msgstr "Skift HDMI In"
 msgid "Toggle LCD LiveTV"
 msgstr "Skift mellem LCD LiveTV"
 
-msgid "Toggle PIPzap"
+msgid "Toggle PiPzap"
 msgstr "Skift mellem PIPzap"
 
 msgid "Toggle TV/RADIO mode"
@@ -11626,7 +11629,7 @@ msgstr ""
 msgid "When enabled enigma2 will load unlinked userbouquets. This means that userbouquets that are available, but not included in the bouquets.tv or bouquets.radio files, will still be loaded. This allows you for example to keep your own user bouquet while installed settings are updated"
 msgstr "Når aktiveret vil enigma2 indlæse ikke sammenkædet brugerbouquets. Dette betyder at brugerbouquets der er tilgængelig, men ikke inkluderet i bouquets.tv eller bouquets.radio filer, vil stadig blive indlæst. Dette tillader dig f.eks. til at beholde dine egn brugerbouquet imens installerede indstillinger bliver opgraderet"
 
-msgid "When enabled the PiP can be closed by the exit button."
+msgid "When enabled the Picture in Picture window can be closed with 'exit' button."
 msgstr "Ved aktivering kan BiB lukkes med exit knappen."
 
 msgid "When enabled the arrow buttons around the OK button will follow the 'neutrino' style zap controls instead of the enigma2 style."
@@ -12210,7 +12213,7 @@ msgid "Zap up"
 msgstr "Zap op"
 
 #, python-format
-msgid "Zapped to timer service %s as PiP!"
+msgid "Zapped to timer service %s as Picture in Picture!"
 msgstr ""
 
 #, fuzzy, python-format
@@ -12218,10 +12221,13 @@ msgid "Zapped to timer service %s!"
 msgstr "Gå til første kanal"
 
 #, fuzzy
-msgid "Zgemma H.S/H.2S/H.2H/H5/H7"
+msgid "Zgemma H.S/H.2S/H.2H/H5/H7(old model)"
 msgstr "Zgemma H.S/H.2S/H.2H/H5"
 
-msgid "Zgemma H9/i55 Plus"
+msgid "Zgemma H7(new model)/H9(new model)/H9COMBO/H9TWIN/H10"
+msgstr ""
+
+msgid "Zgemma H9(old model)/I55Plus"
 msgstr ""
 
 msgid "Zgemma Star S/2S/H1/H2"
@@ -12548,7 +12554,8 @@ msgstr "fejl under skan"
 msgid "et4000"
 msgstr "et4000"
 
-msgid "et5000/6000"
+#, fuzzy
+msgid "et5000/et6000"
 msgstr "et5000/6000"
 
 msgid "et8000/et10000"
@@ -12557,7 +12564,8 @@ msgstr "et8000/et10000"
 msgid "et9000/et9100"
 msgstr "et9000/et9100"
 
-msgid "et9200/9500/6500"
+#, fuzzy
+msgid "et9200/et9500/et6500"
 msgstr "et9200/9500/6500"
 
 msgid "execute cuts (requires MovieCut plugin)"

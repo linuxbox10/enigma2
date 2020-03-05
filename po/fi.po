@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-31 14:53+0200\n"
+"POT-Creation-Date: 2020-02-28 22:31+0100\n"
 "PO-Revision-Date: 2019-02-13 20:52+0200\n"
 "Last-Translator: jamu\n"
 "Language-Team: BoxFreak/jamu\n"
@@ -1506,12 +1506,12 @@ msgstr "Baski"
 msgid "Begin time"
 msgstr "Aloitusaika"
 
-msgid "Behavior of 'pause and ok' when paused"
-msgstr "Pause- ja OK-näppäimien toiminta"
-
 #
 msgid "Behavior of '0' button in PiP mode"
 msgstr "0-näppäimen toiminta PiP-tilassa"
+
+msgid "Behavior of 'pause and ok' when paused"
+msgstr "Pause- ja OK-näppäimien toiminta"
 
 #
 msgid "Behavior when a movie is started"
@@ -1588,6 +1588,11 @@ msgstr ""
 
 msgid "Boot to Recovery menu"
 msgstr ""
+
+#
+#, fuzzy
+msgid "Bootup time"
+msgstr "Aikajärj."
 
 msgid "Bosnia and Herzegovina"
 msgstr "Bosnia ja Herzegovina"
@@ -2546,6 +2551,10 @@ msgstr "Soveltuvaa tallennustilaa ei löytynyt - Varmista vapaa levytila, tai li
 msgid "Could not load medium! No disc inserted?"
 msgstr "Levyä ei voitu ladata! Levy puuttuu?"
 
+#, fuzzy
+msgid "Could not locate epg file on fallback tuner"
+msgstr "Tuo ajastimet etävastaaottimelta"
+
 msgid "Could not open Picture in Picture"
 msgstr "PiP-kuvaa ei voitu avata"
 
@@ -3390,10 +3399,6 @@ msgstr ""
 msgid "ERROR - failed to scan (%s)!"
 msgstr "VIRHE - haku epäonnistui (%s)!"
 
-#, python-format
-msgid "ERROR downloading file %s"
-msgstr ""
-
 #
 msgid "East"
 msgstr "Itäistä pituutta"
@@ -3714,11 +3719,6 @@ msgstr "Eritrea"
 msgid "Error"
 msgstr "Virhe"
 
-#
-#, python-format
-msgid "Error %s"
-msgstr "Virhe %s"
-
 msgid "Error code"
 msgstr "Virhekoodi"
 
@@ -3744,19 +3744,10 @@ msgstr ""
 msgid "Error stop stream!"
 msgstr ""
 
-msgid "Error when writing epg.dat on server"
-msgstr ""
-
-msgid "Error while retreiving epg.dat from server"
-msgstr ""
-
 #, python-format
 msgid ""
 "Error while retreiving fallback timer information\n"
 "%s"
-msgstr ""
-
-msgid "Error while retreiving location of epg.dat on server"
 msgstr ""
 
 #
@@ -3929,6 +3920,10 @@ msgstr "Ulkoisen tekstityksen dialogin väritys"
 
 msgid "External subtitle switch fonts"
 msgstr "Ulkoisen tekstityksen fontin vaihtelu"
+
+#, fuzzy
+msgid "Externally powered"
+msgstr "Ulkoine tallenusväline %s"
 
 msgid "Extra end time to ignore inactivity sleeptimer"
 msgstr "Lisäaikavälin lopetusaika"
@@ -5780,8 +5775,9 @@ msgid "MultiType"
 msgstr "Multimedia"
 
 #
-msgid "Multiboot"
-msgstr ""
+#, fuzzy
+msgid "Multiboot image selector"
+msgstr "Kaikki satelliitit"
 
 msgid "Multichannel PCM"
 msgstr "PCM-monikanavaääni"
@@ -6022,9 +6018,6 @@ msgstr "Kuvausta ei ole saatavilla."
 msgid "No displayable files on this medium found!"
 msgstr "Tiedostoja ei löytynyt!"
 
-msgid "No epg.dat file found server"
-msgstr ""
-
 #
 msgid "No event info found, recording indefinitely."
 msgstr ""
@@ -6081,6 +6074,9 @@ msgstr "Ei kanavaa"
 #
 msgid "No services/providers selected"
 msgstr "Kanavia/palveluntarjoajia ei valittu"
+
+msgid "No settings files to download on fallback tuner"
+msgstr ""
 
 #
 msgid "No standby"
@@ -8222,14 +8218,6 @@ msgid "Select HDD"
 msgstr "Valitse kiintolevy"
 
 #
-msgid "Select Image"
-msgstr "Valitse ohjelmistokuva"
-
-#
-msgid "Select Multiboot"
-msgstr "Valitse multiboot"
-
-#
 msgid "Select Softcam"
 msgstr "Valitse softcam"
 
@@ -8453,6 +8441,9 @@ msgstr "Valitse video-sisäänmeno ylös/alas-näppäimillä"
 #
 msgid "Select video mode"
 msgstr "Valitse video-tila"
+
+msgid "Select whether your SCR device is externally powered."
+msgstr ""
 
 #
 msgid "Select wireless network"

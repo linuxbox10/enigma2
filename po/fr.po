@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-31 14:53+0200\n"
-"PO-Revision-Date: 2020-02-01 14:31+0100\n"
+"POT-Creation-Date: 2020-02-28 22:31+0100\n"
+"PO-Revision-Date: 2020-03-04 22:12+0100\n"
 "Last-Translator: Pr2\n"
 "Language-Team: french\n"
 "Language: fr\n"
@@ -1362,11 +1362,11 @@ msgstr "Basque"
 msgid "Begin time"
 msgstr "Heure de début"
 
-msgid "Behavior of 'pause and ok' when paused"
-msgstr "Comportement de 'pause et ok’ en étant en pause"
-
 msgid "Behavior of '0' button in PiP mode"
 msgstr "Effet touche 0 en mode PiP"
+
+msgid "Behavior of 'pause and ok' when paused"
+msgstr "Comportement de 'pause et ok’ en étant en pause"
 
 msgid "Behavior when a movie is started"
 msgstr "Action lorsqu'un film est démarré"
@@ -1436,6 +1436,9 @@ msgstr "Démarrer sur l'image Android"
 
 msgid "Boot to Recovery menu"
 msgstr "Démarrer dans le menu de récupération"
+
+msgid "Bootup time"
+msgstr "Temps de démarrage"
 
 msgid "Bosnia and Herzegovina"
 msgstr "Bosnie et Herzegovine"
@@ -2328,6 +2331,9 @@ msgstr "Impossible de trouver un média qui convient - Veuillez effacer certaine
 msgid "Could not load medium! No disc inserted?"
 msgstr "Impossible de charger le support! Aucun disque inséré?"
 
+msgid "Could not locate epg file on fallback tuner"
+msgstr "Impossible de localiser le fichier epg sur le récepteur de repli distant"
+
 msgid "Could not open Picture in Picture"
 msgstr "Impossible d’ouvrir l’incrustation d’image (PiP)"
 
@@ -3058,10 +3064,6 @@ msgstr "EPG:"
 msgid "ERROR - failed to scan (%s)!"
 msgstr "ERREUR - échec lors de la recherche (%s)!"
 
-#, python-format
-msgid "ERROR downloading file %s"
-msgstr "ERREUR téléchargement du fichier %s"
-
 msgid "East"
 msgstr "Est"
 
@@ -3344,10 +3346,6 @@ msgstr "Eritrée"
 msgid "Error"
 msgstr "Erreur"
 
-#, python-format
-msgid "Error %s"
-msgstr "Erreur %s"
-
 msgid "Error code"
 msgstr "Code d'erreur"
 
@@ -3380,12 +3378,6 @@ msgstr ""
 msgid "Error stop stream!"
 msgstr "Erreur arrêt du stream (diffusion)!"
 
-msgid "Error when writing epg.dat on server"
-msgstr "Erreur lors de l’écriture du epg.dat sur le serveur"
-
-msgid "Error while retreiving epg.dat from server"
-msgstr "Erreur lors de la réception du fichier epg.dat du serveur"
-
 #, python-format
 msgid ""
 "Error while retreiving fallback timer information\n"
@@ -3393,9 +3385,6 @@ msgid ""
 msgstr ""
 "Erreur lors de la récupération des informations de programmation de repli\n"
 "%s"
-
-msgid "Error while retreiving location of epg.dat on server"
-msgstr "Erreur pour trouver la localisation du fichier epg.dat sur le serveur"
 
 #, python-format
 msgid ""
@@ -3549,6 +3538,9 @@ msgstr "Couleur des sous-titres externes de dialogue"
 
 msgid "External subtitle switch fonts"
 msgstr "Police de caractère des sous-titres externes"
+
+msgid "Externally powered"
+msgstr "Alimentation externe"
 
 msgid "Extra end time to ignore inactivity sleeptimer"
 msgstr "Heure de fin supplémentaire pour ignorer l'arrêt automatique"
@@ -5193,8 +5185,8 @@ msgstr "Sélection bouquet Multi-EPG"
 msgid "MultiType"
 msgstr "TypeMultiple"
 
-msgid "Multiboot"
-msgstr "Multiboot"
+msgid "Multiboot image selector"
+msgstr "Sélecteur d’image Multiboot"
 
 msgid "Multichannel PCM"
 msgstr "PCM multi-canaux"
@@ -5399,9 +5391,6 @@ msgstr "Description non disponible."
 msgid "No displayable files on this medium found!"
 msgstr "Aucun fichier affichable trouvé sur ce support!"
 
-msgid "No epg.dat file found server"
-msgstr "Pas de fichier epg.dat trouvé sur le serveur"
-
 msgid "No event info found, recording indefinitely."
 msgstr "Aucune information sur l’événement trouvée, enregistrement indéfini."
 
@@ -5443,6 +5432,9 @@ msgstr "Pas de service"
 
 msgid "No services/providers selected"
 msgstr "Aucun services/opérateurs sélectionnés"
+
+msgid "No settings files to download on fallback tuner"
+msgstr "Pas de fichiers de configuration à télécharger sur le récepteur de repli distant"
 
 msgid "No standby"
 msgstr "Pas de veille"
@@ -7300,12 +7292,6 @@ msgstr "Sélectionner Fast DiSEqC si votre système aérien le supporte. Si vous
 msgid "Select HDD"
 msgstr "Sélectionner le disque dur"
 
-msgid "Select Image"
-msgstr "Sélectionner l'image"
-
-msgid "Select Multiboot"
-msgstr "Sélectionner le Multiboot"
-
 msgid "Select Softcam"
 msgstr "Sélectionner un Softcam"
 
@@ -7498,6 +7484,9 @@ msgstr "Sélectionner l’entrée vidéo avec les boutons haut/bas"
 
 msgid "Select video mode"
 msgstr "Sélectionner le mode vidéo"
+
+msgid "Select whether your SCR device is externally powered."
+msgstr "Sélectionnez si votre appareil SCR a une alimentation externe."
 
 msgid "Select wireless network"
 msgstr "Sélectionner l'interface sans fil"
@@ -8704,7 +8693,7 @@ msgstr ""
 "\n"
 "Traducteur: Pr2\n"
 "Support: www.openpli.org\n"
-"Dernière MAJ: 01-02-2020"
+"Dernière MAJ: 04-03-2020"
 
 msgid "TS file is too large for ISO9660 level 1!"
 msgstr "Fichier TS trop grand pour le niveau 1 ISO9660!"

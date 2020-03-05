@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-31 14:53+0200\n"
+"POT-Creation-Date: 2020-02-28 22:31+0100\n"
 "PO-Revision-Date: 2020-02-10 12:49+0100\n"
 "Last-Translator: Andrej Tobola <andrej.tobola@gmail.com>\n"
 "Language-Team: \n"
@@ -1373,11 +1373,11 @@ msgstr "Baskicky"
 msgid "Begin time"
 msgstr "Čas začiatku"
 
-msgid "Behavior of 'pause and ok' when paused"
-msgstr "Funkcia tlačidiel Pauza a OK počas pauzy"
-
 msgid "Behavior of '0' button in PiP mode"
 msgstr "Funkcia tlačidla 0 v režime Obraz v obraze (PiP)"
+
+msgid "Behavior of 'pause and ok' when paused"
+msgstr "Funkcia tlačidiel Pauza a OK počas pauzy"
 
 msgid "Behavior when a movie is started"
 msgstr "Činnosť po spustení filmu"
@@ -1447,6 +1447,10 @@ msgstr "Štart do Android image"
 
 msgid "Boot to Recovery menu"
 msgstr "Štart do Recovery menu"
+
+#, fuzzy
+msgid "Bootup time"
+msgstr "Triediť podľa času"
 
 msgid "Bosnia and Herzegovina"
 msgstr "Bosna a Hercegovina"
@@ -2339,6 +2343,10 @@ msgstr "Nebolo možné nájsť vhodné médium - odstráňte prosím stiahnuté 
 msgid "Could not load medium! No disc inserted?"
 msgstr "Nemôžem použiť médium. Je vložený disk?"
 
+#, fuzzy
+msgid "Could not locate epg file on fallback tuner"
+msgstr "Povoliť import časovača zo záložného tuneru"
+
 msgid "Could not open Picture in Picture"
 msgstr "Nedá sa otvoriť obraz v obraze"
 
@@ -3070,10 +3078,6 @@ msgstr "EPG:"
 msgid "ERROR - failed to scan (%s)!"
 msgstr "CHYBA - zlyhalo vyhľadávanie (%s)!"
 
-#, python-format
-msgid "ERROR downloading file %s"
-msgstr "Chyba sťahovania súboru %s"
-
 msgid "East"
 msgstr "Východne"
 
@@ -3356,10 +3360,6 @@ msgstr "Eritrea"
 msgid "Error"
 msgstr "Chyba"
 
-#, python-format
-msgid "Error %s"
-msgstr "Chyba %s"
-
 msgid "Error code"
 msgstr "Kód chyby"
 
@@ -3392,12 +3392,6 @@ msgstr ""
 msgid "Error stop stream!"
 msgstr "Chyba zastavenia streamu!"
 
-msgid "Error when writing epg.dat on server"
-msgstr "Chyba počas zápisu epg.dat na server"
-
-msgid "Error while retreiving epg.dat from server"
-msgstr "Chyba počas čítania epg.dat zo serveru"
-
 #, python-format
 msgid ""
 "Error while retreiving fallback timer information\n"
@@ -3405,9 +3399,6 @@ msgid ""
 msgstr ""
 "Chyba počas načítania informácie záložného časovača\n"
 "%s"
-
-msgid "Error while retreiving location of epg.dat on server"
-msgstr "Chyba počas získavania umistnenia epg.dat na serveri"
 
 #, python-format
 msgid ""
@@ -3561,6 +3552,10 @@ msgstr "Farba dialógov externých titulkov"
 
 msgid "External subtitle switch fonts"
 msgstr "Prepnúť fonty externých titulkov"
+
+#, fuzzy
+msgid "Externally powered"
+msgstr "Externé dátové úložisko %s"
 
 msgid "Extra end time to ignore inactivity sleeptimer"
 msgstr "Zadajte extra časový rámec ignorovania nečinnosti časovača prechodu do pohotovostného režimu"
@@ -5208,8 +5203,9 @@ msgstr "Výber prehľadu pre Multi-EPG"
 msgid "MultiType"
 msgstr "MultiTyp"
 
-msgid "Multiboot"
-msgstr "Multiboot"
+#, fuzzy
+msgid "Multiboot image selector"
+msgstr "Zvoliť všetky satelity"
 
 msgid "Multichannel PCM"
 msgstr "Multikanál PCM"
@@ -5414,9 +5410,6 @@ msgstr "Opis nie je k dispozícii."
 msgid "No displayable files on this medium found!"
 msgstr "Na tomto médiu sa nenašli žiadne zobraziteľné súbory!"
 
-msgid "No epg.dat file found server"
-msgstr "Na serveri nenájdený epg.dat"
-
 msgid "No event info found, recording indefinitely."
 msgstr "Žiadne informácie z EPG, spúšťam nekonečné nahrávanie."
 
@@ -5458,6 +5451,9 @@ msgstr "Žiadna stanica"
 
 msgid "No services/providers selected"
 msgstr "Žiadne služby/poskytovatelia nie sú zvolené"
+
+msgid "No settings files to download on fallback tuner"
+msgstr ""
 
 msgid "No standby"
 msgstr "Neprechádzať do pohotovostného režimu"
@@ -7316,12 +7312,6 @@ msgstr "Vyberte 'Rýchly DiSEqC' ak to podporuje váš anténny systém. Ak si n
 msgid "Select HDD"
 msgstr "Zvoľte pevný disk"
 
-msgid "Select Image"
-msgstr "Vybrať image"
-
-msgid "Select Multiboot"
-msgstr "Zvoliť Multiboot"
-
 msgid "Select Softcam"
 msgstr "Voľba Softcamu"
 
@@ -7514,6 +7504,9 @@ msgstr "Tlačidlami nahor a nadol zvoľte vstup obrazu"
 
 msgid "Select video mode"
 msgstr "Zvoľte režim obrazu"
+
+msgid "Select whether your SCR device is externally powered."
+msgstr ""
 
 msgid "Select wireless network"
 msgstr "Zvoľte bezdrôtovú sieť"

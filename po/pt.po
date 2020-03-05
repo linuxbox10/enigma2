@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-31 14:53+0200\n"
+"POT-Creation-Date: 2020-02-28 22:31+0100\n"
 "PO-Revision-Date: 2014-12-15 19:38-0000\n"
 "Last-Translator: Phenom <phenomxy@gmail.com>\n"
 "Language-Team: Muaitai <muaitai@gmail.com>\n"
@@ -1557,12 +1557,12 @@ msgstr "Basco"
 msgid "Begin time"
 msgstr "Tempo de início"
 
-msgid "Behavior of 'pause and ok' when paused"
-msgstr "Comportamento da 'PAUSA e OK' quando em paus"
-
 #
 msgid "Behavior of '0' button in PiP mode"
 msgstr "Comportamento do botão 0 no modo PiP"
+
+msgid "Behavior of 'pause and ok' when paused"
+msgstr "Comportamento da 'PAUSA e OK' quando em paus"
 
 #
 msgid "Behavior when a movie is started"
@@ -1642,6 +1642,11 @@ msgstr ""
 
 msgid "Boot to Recovery menu"
 msgstr ""
+
+#
+#, fuzzy
+msgid "Bootup time"
+msgstr "Ordenar por tempo"
 
 msgid "Bosnia and Herzegovina"
 msgstr ""
@@ -2657,6 +2662,9 @@ msgstr ""
 msgid "Could not load medium! No disc inserted?"
 msgstr "Foi impossível carregar a media! Disco não inserido?"
 
+msgid "Could not locate epg file on fallback tuner"
+msgstr ""
+
 #
 msgid "Could not open Picture in Picture"
 msgstr "Não foi possível abrir o Picture in Picture"
@@ -3530,10 +3538,6 @@ msgstr ""
 msgid "ERROR - failed to scan (%s)!"
 msgstr "ERRO - falha na pesquisa (%s)!"
 
-#, python-format
-msgid "ERROR downloading file %s"
-msgstr ""
-
 #
 msgid "East"
 msgstr "Este"
@@ -3863,11 +3867,6 @@ msgstr "Stream"
 msgid "Error"
 msgstr "Erro"
 
-#
-#, fuzzy, python-format
-msgid "Error %s"
-msgstr "Erro"
-
 msgid "Error code"
 msgstr "Código de erro"
 
@@ -3893,19 +3892,10 @@ msgstr ""
 msgid "Error stop stream!"
 msgstr ""
 
-msgid "Error when writing epg.dat on server"
-msgstr ""
-
-msgid "Error while retreiving epg.dat from server"
-msgstr ""
-
 #, python-format
 msgid ""
 "Error while retreiving fallback timer information\n"
 "%s"
-msgstr ""
-
-msgid "Error while retreiving location of epg.dat on server"
 msgstr ""
 
 #
@@ -4096,6 +4086,10 @@ msgstr ""
 
 msgid "External subtitle switch fonts"
 msgstr ""
+
+#, fuzzy
+msgid "Externally powered"
+msgstr "Picture in Picture externo"
 
 msgid "Extra end time to ignore inactivity sleeptimer"
 msgstr ""
@@ -6008,10 +6002,9 @@ msgstr "Guia de Programação Múltiplo na selecção de favoritos"
 msgid "MultiType"
 msgstr "Multimédia"
 
-#
 #, fuzzy
-msgid "Multiboot"
-msgstr "Satelites Múltiplos"
+msgid "Multiboot image selector"
+msgstr "Seleccionar todos MultiSat"
 
 msgid "Multichannel PCM"
 msgstr ""
@@ -6255,9 +6248,6 @@ msgstr "Descrição não disponível."
 msgid "No displayable files on this medium found!"
 msgstr "Não foram encontrados ficheiros reproduzíveis!"
 
-msgid "No epg.dat file found server"
-msgstr ""
-
 #
 msgid "No event info found, recording indefinitely."
 msgstr "Não foi encontrada informação do programa, a gravar indefinidamente."
@@ -6309,6 +6299,9 @@ msgstr "Nenhum canal."
 #, fuzzy
 msgid "No services/providers selected"
 msgstr "Nenhum Serviço/Operador seleccionado"
+
+msgid "No settings files to download on fallback tuner"
+msgstr ""
 
 #
 #, fuzzy
@@ -8551,15 +8544,6 @@ msgstr ""
 msgid "Select HDD"
 msgstr "Seleccionar disco rígido"
 
-#
-#, fuzzy
-msgid "Select Image"
-msgstr "Seleccione um filme"
-
-#, fuzzy
-msgid "Select Multiboot"
-msgstr "Seleccionar acção"
-
 #, fuzzy
 msgid "Select Softcam"
 msgstr "Seleccionar tudo"
@@ -8794,6 +8778,9 @@ msgstr "Seleccionar entrada de vídeo com os botões de cima/baixo"
 #
 msgid "Select video mode"
 msgstr "Seleccione modo de vídeo"
+
+msgid "Select whether your SCR device is externally powered."
+msgstr ""
 
 #
 msgid "Select wireless network"

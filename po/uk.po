@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-31 14:53+0200\n"
+"POT-Creation-Date: 2020-02-28 22:31+0100\n"
 "PO-Revision-Date: 2016-11-17 12:51+0200\n"
 "Last-Translator: vovan43<vovan43@ex.ua>, sety <tim1065@mail.ru>, Irkoff <irkoff@gmail.com>\n"
 "Language-Team: gisclub.tv <http://gisclub.tv/>\n"
@@ -1394,11 +1394,11 @@ msgstr "Баскський"
 msgid "Begin time"
 msgstr "Час початку"
 
-msgid "Behavior of 'pause and ok' when paused"
-msgstr "Поведінка \" паузи і OK ' під час паузи"
-
 msgid "Behavior of '0' button in PiP mode"
 msgstr "Поведінка кнопки 0 в режимі PiP"
+
+msgid "Behavior of 'pause and ok' when paused"
+msgstr "Поведінка \" паузи і OK ' під час паузи"
 
 msgid "Behavior when a movie is started"
 msgstr "Поведінка при початку відтв. відео"
@@ -1470,6 +1470,10 @@ msgstr ""
 
 msgid "Boot to Recovery menu"
 msgstr ""
+
+#, fuzzy
+msgid "Bootup time"
+msgstr "Час сортування"
 
 #, fuzzy
 msgid "Bosnia and Herzegovina"
@@ -2373,6 +2377,9 @@ msgstr ""
 msgid "Could not load medium! No disc inserted?"
 msgstr "Не вдалося завантажити носій! Перевірте, чи вставлений диск?"
 
+msgid "Could not locate epg file on fallback tuner"
+msgstr ""
+
 msgid "Could not open Picture in Picture"
 msgstr "Неможливо відкрити картинку в картинці"
 
@@ -3130,10 +3137,6 @@ msgstr ""
 msgid "ERROR - failed to scan (%s)!"
 msgstr "Помилка - неможливе сканування (%s)!"
 
-#, python-format
-msgid "ERROR downloading file %s"
-msgstr ""
-
 msgid "East"
 msgstr "Схід"
 
@@ -3426,10 +3429,6 @@ msgstr "Порт стрімінгу"
 msgid "Error"
 msgstr "Помилка"
 
-#, fuzzy, python-format
-msgid "Error %s"
-msgstr "Помилка"
-
 msgid "Error code"
 msgstr "Код помилки"
 
@@ -3455,19 +3454,10 @@ msgstr ""
 msgid "Error stop stream!"
 msgstr ""
 
-msgid "Error when writing epg.dat on server"
-msgstr ""
-
-msgid "Error while retreiving epg.dat from server"
-msgstr ""
-
 #, python-format
 msgid ""
 "Error while retreiving fallback timer information\n"
 "%s"
-msgstr ""
-
-msgid "Error while retreiving location of epg.dat on server"
 msgstr ""
 
 #, python-format
@@ -3625,6 +3615,10 @@ msgstr "Кольори з/субтитрів в діалогах "
 
 msgid "External subtitle switch fonts"
 msgstr "Перемикання шрифтів зовнішніх субтитрів"
+
+#, fuzzy
+msgid "Externally powered"
+msgstr "Зовнішній пристрій  %s"
 
 msgid "Extra end time to ignore inactivity sleeptimer"
 msgstr "Додатковий час закінчення, ігнорувати таймер сну "
@@ -5322,8 +5316,8 @@ msgid "MultiType"
 msgstr "Мультимедіа"
 
 #, fuzzy
-msgid "Multiboot"
-msgstr "Декілька супутників"
+msgid "Multiboot image selector"
+msgstr "Всі відразу супутники"
 
 msgid "Multichannel PCM"
 msgstr "Багатоканальне PCM"
@@ -5530,9 +5524,6 @@ msgstr "Немає описів."
 msgid "No displayable files on this medium found!"
 msgstr "Немає відображуваних файлів на цьому носії!"
 
-msgid "No epg.dat file found server"
-msgstr ""
-
 msgid "No event info found, recording indefinitely."
 msgstr "Інформація про подію не знайдена, запис на невизначений час."
 
@@ -5575,6 +5566,9 @@ msgstr "Немає сервісу"
 
 msgid "No services/providers selected"
 msgstr "Не вибрані канали/провайдери"
+
+msgid "No settings files to download on fallback tuner"
+msgstr ""
 
 msgid "No standby"
 msgstr "Не переходить в Режим очікування"
@@ -7490,14 +7484,6 @@ msgid "Select HDD"
 msgstr "Вибрати HDD"
 
 #, fuzzy
-msgid "Select Image"
-msgstr "Вибір відео"
-
-#, fuzzy
-msgid "Select Multiboot"
-msgstr "Виберіть слот"
-
-#, fuzzy
 msgid "Select Softcam"
 msgstr "Виберіть слот"
 
@@ -7695,6 +7681,9 @@ msgstr "Виберіть відеовхід кнопками вгору/вниз
 
 msgid "Select video mode"
 msgstr "Виберіть відеорежим"
+
+msgid "Select whether your SCR device is externally powered."
+msgstr ""
 
 msgid "Select wireless network"
 msgstr "Виберіть бездротову мережу"

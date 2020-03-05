@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1-En-Th\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-31 14:53+0200\n"
+"POT-Creation-Date: 2020-02-28 22:31+0100\n"
 "PO-Revision-Date: 2010-04-08 18:13+0700\n"
 "Last-Translator: Tony - Thaidreambox\n"
 "Language-Team: Tony @ Thai Dreambox <tonyboyth@gmail.com>\n"
@@ -1392,11 +1392,11 @@ msgstr ""
 msgid "Begin time"
 msgstr "เวลาเริ่ม"
 
-msgid "Behavior of 'pause and ok' when paused"
-msgstr ""
-
 msgid "Behavior of '0' button in PiP mode"
 msgstr "เมื่อกด 0 ใน PiP ให้"
+
+msgid "Behavior of 'pause and ok' when paused"
+msgstr ""
 
 msgid "Behavior when a movie is started"
 msgstr "เมื่อภาพยนต์เริ่มเล่นให้"
@@ -1468,6 +1468,10 @@ msgstr ""
 
 msgid "Boot to Recovery menu"
 msgstr ""
+
+#, fuzzy
+msgid "Bootup time"
+msgstr "จัดเรียงเวลา"
 
 msgid "Bosnia and Herzegovina"
 msgstr ""
@@ -2389,6 +2393,9 @@ msgstr ""
 msgid "Could not load medium! No disc inserted?"
 msgstr "โหลดไม่ได้ ยังไม่ได้ใส่แผ่นหรือเปล่า?"
 
+msgid "Could not locate epg file on fallback tuner"
+msgstr ""
+
 msgid "Could not open Picture in Picture"
 msgstr ""
 
@@ -3156,10 +3163,6 @@ msgstr ""
 msgid "ERROR - failed to scan (%s)!"
 msgstr "ผิดพลาด - การค้นหา (%s) ล้มเหลว"
 
-#, python-format
-msgid "ERROR downloading file %s"
-msgstr ""
-
 msgid "East"
 msgstr "ตะวันออก"
 
@@ -3450,10 +3453,6 @@ msgstr ""
 msgid "Error"
 msgstr "ผิดพลาด"
 
-#, fuzzy, python-format
-msgid "Error %s"
-msgstr "ผิดพลาด"
-
 msgid "Error code"
 msgstr ""
 
@@ -3479,19 +3478,10 @@ msgstr ""
 msgid "Error stop stream!"
 msgstr ""
 
-msgid "Error when writing epg.dat on server"
-msgstr ""
-
-msgid "Error while retreiving epg.dat from server"
-msgstr ""
-
 #, python-format
 msgid ""
 "Error while retreiving fallback timer information\n"
 "%s"
-msgstr ""
-
-msgid "Error while retreiving location of epg.dat on server"
 msgstr ""
 
 #, python-format
@@ -3657,6 +3647,9 @@ msgid "External subtitle dialog colorisation"
 msgstr ""
 
 msgid "External subtitle switch fonts"
+msgstr ""
+
+msgid "Externally powered"
 msgstr ""
 
 msgid "Extra end time to ignore inactivity sleeptimer"
@@ -5379,8 +5372,8 @@ msgid "MultiType"
 msgstr "มัลติมีเดีย"
 
 #, fuzzy
-msgid "Multiboot"
-msgstr "Multisat"
+msgid "Multiboot image selector"
+msgstr "เลือกซับไตเติ้ล"
 
 msgid "Multichannel PCM"
 msgstr ""
@@ -5591,9 +5584,6 @@ msgstr "ไม่มีรายละเอียดเพิ่มเติม
 msgid "No displayable files on this medium found!"
 msgstr "ไม่พบชนิดไฟล์ที่สามารถเล่นได้ในสื่อบันทีกนี้!"
 
-msgid "No epg.dat file found server"
-msgstr ""
-
 msgid "No event info found, recording indefinitely."
 msgstr "ไม่พบข้อมูลเวลากำกับ บันทึกรายโดยไม่มีข้อกำหนด"
 
@@ -5637,6 +5627,9 @@ msgstr ""
 #, fuzzy
 msgid "No services/providers selected"
 msgstr "ยังไม่ได้เลือกบริการหรือผู้ให้บริการ"
+
+msgid "No settings files to download on fallback tuner"
+msgstr ""
 
 #, fuzzy
 msgid "No standby"
@@ -7581,14 +7574,6 @@ msgid "Select HDD"
 msgstr "เลือกฮาร์ดดิสก์ (HDD)"
 
 #, fuzzy
-msgid "Select Image"
-msgstr "เลือกภาพยนต์"
-
-#, fuzzy
-msgid "Select Multiboot"
-msgstr "เลือกช่องเสียง"
-
-#, fuzzy
 msgid "Select Softcam"
 msgstr "เลือกภาพยนต์"
 
@@ -7796,6 +7781,9 @@ msgstr "เลือกช่องต่อสัญญาณวิดีโอ
 
 msgid "Select video mode"
 msgstr "เลือกโหมดวีดีโอ"
+
+msgid "Select whether your SCR device is externally powered."
+msgstr ""
 
 msgid "Select wireless network"
 msgstr "เลือกเครือข่ายไร้สาย"

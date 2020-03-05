@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma 2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-31 14:53+0200\n"
+"POT-Creation-Date: 2020-02-28 22:31+0100\n"
 "PO-Revision-Date: 2019-11-19 08:58+0700\n"
 "Last-Translator: krong\n"
 "Language-Team: none\n"
@@ -1363,11 +1363,11 @@ msgstr "Basque"
 msgid "Begin time"
 msgstr "Thời gian bắt đầu"
 
-msgid "Behavior of 'pause and ok' when paused"
-msgstr "Hành vi của 'tạm dừng và ok' khi tạm dừng"
-
 msgid "Behavior of '0' button in PiP mode"
 msgstr "Hành vi của phím 0 trong chế độ PiP"
+
+msgid "Behavior of 'pause and ok' when paused"
+msgstr "Hành vi của 'tạm dừng và ok' khi tạm dừng"
 
 msgid "Behavior when a movie is started"
 msgstr "Hành vi khi một bộ phim được bắt đầu"
@@ -1437,6 +1437,10 @@ msgstr "Khởi động hình ảnh Android"
 
 msgid "Boot to Recovery menu"
 msgstr "Menu khởi động vào Recovery"
+
+#, fuzzy
+msgid "Bootup time"
+msgstr "Sắp xếp thời gian"
 
 msgid "Bosnia and Herzegovina"
 msgstr "Bosnia và Herzegovina"
@@ -2331,6 +2335,10 @@ msgstr "Không thể tìm thấy phương tiện phù hợp - Vui lòng xóa m�
 msgid "Could not load medium! No disc inserted?"
 msgstr "Không thể tải trung bình! Không có đĩa được đưa vào?"
 
+#, fuzzy
+msgid "Could not locate epg file on fallback tuner"
+msgstr "Kích hoạt tính năng hẹn giờ nhập từ bộ điều chỉnh dự phòng"
+
 msgid "Could not open Picture in Picture"
 msgstr "Không thể mở Ảnh trong Ảnh"
 
@@ -3063,10 +3071,6 @@ msgstr ""
 msgid "ERROR - failed to scan (%s)!"
 msgstr "ERROR - failed to scan (%s)!"
 
-#, python-format
-msgid "ERROR downloading file %s"
-msgstr "Tải xuống tệp LRI%s"
-
 msgid "East"
 msgstr "Đông"
 
@@ -3349,10 +3353,6 @@ msgstr "Eritrea"
 msgid "Error"
 msgstr "Lỗi"
 
-#, python-format
-msgid "Error %s"
-msgstr "Lỗi%s"
-
 msgid "Error code"
 msgstr "Mã lỗi"
 
@@ -3385,12 +3385,6 @@ msgstr ""
 msgid "Error stop stream!"
 msgstr "Lỗi dừng luồng!"
 
-msgid "Error when writing epg.dat on server"
-msgstr "Lỗi khi viết epg.dat trên máy chủ"
-
-msgid "Error while retreiving epg.dat from server"
-msgstr "Lỗi khi truy xuất epg.data từ máy chủ"
-
 #, python-format
 msgid ""
 "Error while retreiving fallback timer information\n"
@@ -3398,9 +3392,6 @@ msgid ""
 msgstr ""
 "Lỗi trong khi truy xuất thông tin hẹn giờ dự phòng\n"
 "%s"
-
-msgid "Error while retreiving location of epg.dat on server"
-msgstr "Lỗi trong khi truy xuất vị trí của epg.data trên máy chủ"
 
 #, python-format
 msgid ""
@@ -3554,6 +3545,10 @@ msgstr "Màu sắc hộp thoại phụ đề bên ngoài"
 
 msgid "External subtitle switch fonts"
 msgstr "Phông chữ chuyển đổi phụ đề bên ngoài"
+
+#, fuzzy
+msgid "Externally powered"
+msgstr "Bộ nhớ ngoài%s"
 
 msgid "Extra end time to ignore inactivity sleeptimer"
 msgstr "Thêm thời gian kết thúc để bỏ qua sleeptimer không hoạt động"
@@ -5203,8 +5198,9 @@ msgstr "Lựa chọn bó hoa đa EPG"
 msgid "MultiType"
 msgstr "Đa loại"
 
-msgid "Multiboot"
-msgstr "Đa khởi động"
+#, fuzzy
+msgid "Multiboot image selector"
+msgstr "Nhiều lựa chọn tất cả"
 
 msgid "Multichannel PCM"
 msgstr "PCM đa kênh"
@@ -5409,9 +5405,6 @@ msgstr "Không có mô tả."
 msgid "No displayable files on this medium found!"
 msgstr "Không tìm thấy tập tin nào trên phương tiện này!"
 
-msgid "No epg.dat file found server"
-msgstr "Không tìm thấy tập tin epg.dat"
-
 msgid "No event info found, recording indefinitely."
 msgstr "Không tìm thấy thông tin sự kiện, ghi lại vô thời hạn."
 
@@ -5453,6 +5446,9 @@ msgstr "Không dịch vụ"
 
 msgid "No services/providers selected"
 msgstr "Không có dịch vụ / nhà cung cấp nào được chọn"
+
+msgid "No settings files to download on fallback tuner"
+msgstr ""
 
 msgid "No standby"
 msgstr "Không có chế độ chờ"
@@ -7313,12 +7309,6 @@ msgstr "Chọn Fast DiSEqC nếu hệ thống trên không của bạn hỗ tr�
 msgid "Select HDD"
 msgstr "Chọn ổ cứng"
 
-msgid "Select Image"
-msgstr "Chọn ảnh"
-
-msgid "Select Multiboot"
-msgstr "Chọn đa khởi động"
-
 msgid "Select Softcam"
 msgstr "Chọn Softcam"
 
@@ -7511,6 +7501,9 @@ msgstr "Chọn đầu vào video với các nút lên / xuống"
 
 msgid "Select video mode"
 msgstr "Chọn chế độ video"
+
+msgid "Select whether your SCR device is externally powered."
+msgstr ""
 
 msgid "Select wireless network"
 msgstr "Chọn mạng không dây"

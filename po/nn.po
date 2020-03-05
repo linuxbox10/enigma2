@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-31 14:53+0200\n"
+"POT-Creation-Date: 2020-02-28 22:31+0100\n"
 "PO-Revision-Date: 2013-10-23 19:15+0100\n"
 "Last-Translator: andy1 <dmmm8000pvr@gmail.com>\n"
 "Language-Team: none\n"
@@ -1486,12 +1486,12 @@ msgstr "Baskisk"
 msgid "Begin time"
 msgstr "Starttid"
 
-msgid "Behavior of 'pause and ok' when paused"
-msgstr ""
-
 #
 msgid "Behavior of '0' button in PiP mode"
 msgstr "Innstilling for 0 knapp i PiP (bilde i bilde modus)"
+
+msgid "Behavior of 'pause and ok' when paused"
+msgstr ""
 
 msgid "Behavior when a movie is started"
 msgstr "Innstilling når en film startes"
@@ -1568,6 +1568,11 @@ msgstr ""
 
 msgid "Boot to Recovery menu"
 msgstr ""
+
+#
+#, fuzzy
+msgid "Bootup time"
+msgstr "Sortere tid"
 
 msgid "Bosnia and Herzegovina"
 msgstr ""
@@ -2541,6 +2546,9 @@ msgstr ""
 msgid "Could not load medium! No disc inserted?"
 msgstr "Kunne ikke laste medium! Ingen plate er satt inn?"
 
+msgid "Could not locate epg file on fallback tuner"
+msgstr ""
+
 msgid "Could not open Picture in Picture"
 msgstr "Kunne ikke åpne bilde i bilde"
 
@@ -3373,10 +3381,6 @@ msgstr ""
 msgid "ERROR - failed to scan (%s)!"
 msgstr "FEIL - kunne ikke søke (%s)!"
 
-#, python-format
-msgid "ERROR downloading file %s"
-msgstr ""
-
 #
 msgid "East"
 msgstr "Øst"
@@ -3696,11 +3700,6 @@ msgstr "Datastrøm"
 msgid "Error"
 msgstr "Feil"
 
-#
-#, fuzzy, python-format
-msgid "Error %s"
-msgstr "Feil"
-
 msgid "Error code"
 msgstr "Feil kode"
 
@@ -3726,19 +3725,10 @@ msgstr ""
 msgid "Error stop stream!"
 msgstr ""
 
-msgid "Error when writing epg.dat on server"
-msgstr ""
-
-msgid "Error while retreiving epg.dat from server"
-msgstr ""
-
 #, python-format
 msgid ""
 "Error while retreiving fallback timer information\n"
 "%s"
-msgstr ""
-
-msgid "Error while retreiving location of epg.dat on server"
 msgstr ""
 
 #
@@ -3918,6 +3908,9 @@ msgid "External subtitle dialog colorisation"
 msgstr ""
 
 msgid "External subtitle switch fonts"
+msgstr ""
+
+msgid "Externally powered"
 msgstr ""
 
 msgid "Extra end time to ignore inactivity sleeptimer"
@@ -5744,10 +5737,9 @@ msgstr "Fullstendig EPG kanallisteutvalg"
 msgid "MultiType"
 msgstr "Type"
 
-#
 #, fuzzy
-msgid "Multiboot"
-msgstr "Multisat"
+msgid "Multiboot image selector"
+msgstr "Språkvalg innstilling"
 
 msgid "Multichannel PCM"
 msgstr ""
@@ -5986,9 +5978,6 @@ msgstr "Ingen forklaring er tilgjengelig."
 msgid "No displayable files on this medium found!"
 msgstr "Ingen visbare filer på dette mediet funnet!"
 
-msgid "No epg.dat file found server"
-msgstr ""
-
 #
 msgid "No event info found, recording indefinitely."
 msgstr "Ingen kanalinfo er funnet, innspiller på ubestemt tid."
@@ -6039,6 +6028,9 @@ msgstr "Ingen service"
 
 msgid "No services/providers selected"
 msgstr "Ingen kanaler/leverandører er valgt"
+
+msgid "No settings files to download on fallback tuner"
+msgstr ""
 
 #
 msgid "No standby"
@@ -8103,15 +8095,6 @@ msgid "Select HDD"
 msgstr "Velg hdd/ssd"
 
 #, fuzzy
-msgid "Select Image"
-msgstr "Velg opptak"
-
-#
-#, fuzzy
-msgid "Select Multiboot"
-msgstr "Velg lydspor"
-
-#, fuzzy
 msgid "Select Softcam"
 msgstr "Velg en film"
 
@@ -8322,6 +8305,9 @@ msgstr "Velg videoinngang med opp/ned tastene"
 #
 msgid "Select video mode"
 msgstr "Velg video modus"
+
+msgid "Select whether your SCR device is externally powered."
+msgstr ""
 
 #
 msgid "Select wireless network"

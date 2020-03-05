@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-31 14:53+0200\n"
+"POT-Creation-Date: 2020-02-28 22:31+0100\n"
 "PO-Revision-Date: 2016-06-17 12:13+0800\n"
 "Last-Translator: nx111 <gdzdz@163.com>\n"
 "Language-Team: NEWBOLT\n"
@@ -1351,11 +1351,11 @@ msgstr ""
 msgid "Begin time"
 msgstr "开始时间"
 
-msgid "Behavior of 'pause and ok' when paused"
-msgstr ""
-
 msgid "Behavior of '0' button in PiP mode"
 msgstr "按 0 键启用画中画模式"
+
+msgid "Behavior of 'pause and ok' when paused"
+msgstr ""
 
 msgid "Behavior when a movie is started"
 msgstr "当电影开始时"
@@ -1426,6 +1426,9 @@ msgid "Boot to Android image"
 msgstr ""
 
 msgid "Boot to Recovery menu"
+msgstr ""
+
+msgid "Bootup time"
 msgstr ""
 
 msgid "Bosnia and Herzegovina"
@@ -2320,6 +2323,9 @@ msgstr ""
 msgid "Could not load medium! No disc inserted?"
 msgstr ""
 
+msgid "Could not locate epg file on fallback tuner"
+msgstr ""
+
 msgid "Could not open Picture in Picture"
 msgstr "不能打开画中画"
 
@@ -3060,10 +3066,6 @@ msgstr ""
 msgid "ERROR - failed to scan (%s)!"
 msgstr "错误 - 扫描 (%s)失败!"
 
-#, fuzzy, python-format
-msgid "ERROR downloading file %s"
-msgstr "正在下载歌词"
-
 msgid "East"
 msgstr "东"
 
@@ -3352,10 +3354,6 @@ msgstr ""
 msgid "Error"
 msgstr "错误"
 
-#, fuzzy, python-format
-msgid "Error %s"
-msgstr "错误"
-
 msgid "Error code"
 msgstr "错误码"
 
@@ -3382,19 +3380,10 @@ msgstr ""
 msgid "Error stop stream!"
 msgstr "固定流"
 
-msgid "Error when writing epg.dat on server"
-msgstr ""
-
-msgid "Error while retreiving epg.dat from server"
-msgstr ""
-
 #, python-format
 msgid ""
 "Error while retreiving fallback timer information\n"
 "%s"
-msgstr ""
-
-msgid "Error while retreiving location of epg.dat on server"
 msgstr ""
 
 #, python-format
@@ -3549,6 +3538,9 @@ msgid "External subtitle dialog colorisation"
 msgstr ""
 
 msgid "External subtitle switch fonts"
+msgstr ""
+
+msgid "Externally powered"
 msgstr ""
 
 msgid "Extra end time to ignore inactivity sleeptimer"
@@ -5213,8 +5205,8 @@ msgid "MultiType"
 msgstr "多媒体"
 
 #, fuzzy
-msgid "Multiboot"
-msgstr "多星"
+msgid "Multiboot image selector"
+msgstr "自动语言选择"
 
 msgid "Multichannel PCM"
 msgstr ""
@@ -5421,9 +5413,6 @@ msgstr "无可用信息"
 msgid "No displayable files on this medium found!"
 msgstr "当前位置未找到文件"
 
-msgid "No epg.dat file found server"
-msgstr ""
-
 msgid "No event info found, recording indefinitely."
 msgstr "EPG数据没有发现,无限制录制."
 
@@ -5465,6 +5454,9 @@ msgid "No service"
 msgstr ""
 
 msgid "No services/providers selected"
+msgstr ""
+
+msgid "No settings files to download on fallback tuner"
 msgstr ""
 
 msgid "No standby"
@@ -7359,14 +7351,6 @@ msgstr ""
 msgid "Select HDD"
 msgstr "选择硬盘"
 
-#, fuzzy
-msgid "Select Image"
-msgstr "选择包"
-
-#, fuzzy
-msgid "Select Multiboot"
-msgstr "选择音频模式"
-
 msgid "Select Softcam"
 msgstr "选择Softcam"
 
@@ -7563,6 +7547,9 @@ msgstr "用上下键选择视频"
 
 msgid "Select video mode"
 msgstr "设置视频模式"
+
+msgid "Select whether your SCR device is externally powered."
+msgstr ""
 
 msgid "Select wireless network"
 msgstr "选择无线网络"

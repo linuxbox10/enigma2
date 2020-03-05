@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-31 14:53+0200\n"
+"POT-Creation-Date: 2020-02-28 22:31+0100\n"
 "PO-Revision-Date: 2018-02-14 16:51+0330\n"
 "Last-Translator: Persian Prince <persianprince@pe4k.com>\n"
 "Language-Team: Persian Professionals <persianpros@yahoo.com>\n"
@@ -1385,11 +1385,11 @@ msgstr ""
 msgid "Begin time"
 msgstr "زمان شروع"
 
-msgid "Behavior of 'pause and ok' when paused"
-msgstr ""
-
 msgid "Behavior of '0' button in PiP mode"
 msgstr "عملکرد دکمه 0 در حالت تصویر در تصویر"
+
+msgid "Behavior of 'pause and ok' when paused"
+msgstr ""
 
 msgid "Behavior when a movie is started"
 msgstr "عملکرد هنگامی که یک فیلم شروع میشود"
@@ -1461,6 +1461,10 @@ msgstr ""
 
 msgid "Boot to Recovery menu"
 msgstr ""
+
+#, fuzzy
+msgid "Bootup time"
+msgstr "چیدمان بر اساس زمان"
 
 msgid "Bosnia and Herzegovina"
 msgstr ""
@@ -2378,6 +2382,9 @@ msgstr ""
 msgid "Could not load medium! No disc inserted?"
 msgstr "رسانه قابل لود شدن نیست ، دیسک داخل گذاشته نشده است ؟"
 
+msgid "Could not locate epg file on fallback tuner"
+msgstr ""
+
 msgid "Could not open Picture in Picture"
 msgstr "تصویر در تصویر باز نمیشود"
 
@@ -3138,10 +3145,6 @@ msgstr ""
 msgid "ERROR - failed to scan (%s)!"
 msgstr "خطا ، اسکن انجام نشد (%s)"
 
-#, python-format
-msgid "ERROR downloading file %s"
-msgstr ""
-
 msgid "East"
 msgstr "شرق"
 
@@ -3432,10 +3435,6 @@ msgstr ""
 msgid "Error"
 msgstr "خطا"
 
-#, fuzzy, python-format
-msgid "Error %s"
-msgstr "خطا"
-
 msgid "Error code"
 msgstr "کد خطا"
 
@@ -3461,19 +3460,10 @@ msgstr ""
 msgid "Error stop stream!"
 msgstr ""
 
-msgid "Error when writing epg.dat on server"
-msgstr ""
-
-msgid "Error while retreiving epg.dat from server"
-msgstr ""
-
 #, python-format
 msgid ""
 "Error while retreiving fallback timer information\n"
 "%s"
-msgstr ""
-
-msgid "Error while retreiving location of epg.dat on server"
 msgstr ""
 
 #, python-format
@@ -3638,6 +3628,9 @@ msgid "External subtitle dialog colorisation"
 msgstr ""
 
 msgid "External subtitle switch fonts"
+msgstr ""
+
+msgid "Externally powered"
 msgstr ""
 
 msgid "Extra end time to ignore inactivity sleeptimer"
@@ -5344,8 +5337,9 @@ msgstr "انتخاب لیست EPG چندگانه"
 msgid "MultiType"
 msgstr "چند رسانه ای"
 
-msgid "Multiboot"
-msgstr "مولتی بوت"
+#, fuzzy
+msgid "Multiboot image selector"
+msgstr "انتخاب زبان خودکار"
 
 msgid "Multichannel PCM"
 msgstr ""
@@ -5557,9 +5551,6 @@ msgstr "هیچ توضیحی در دسترس نیست"
 msgid "No displayable files on this medium found!"
 msgstr "هیچ فایل قابل نمایشی روی این رسانه یافت نشد"
 
-msgid "No epg.dat file found server"
-msgstr ""
-
 msgid "No event info found, recording indefinitely."
 msgstr "هیچ اطلاعات رخدادی یافت نشد ، ضبط کردن به صورت نامحدود"
 
@@ -5603,6 +5594,9 @@ msgid "No service"
 msgstr ""
 
 msgid "No services/providers selected"
+msgstr ""
+
+msgid "No settings files to download on fallback tuner"
 msgstr ""
 
 #, fuzzy
@@ -7534,12 +7528,6 @@ msgstr ""
 msgid "Select HDD"
 msgstr "انتخاب هارد"
 
-msgid "Select Image"
-msgstr "انتخاب ایمیج"
-
-msgid "Select Multiboot"
-msgstr "انتخاب مولتی بوت"
-
 msgid "Select Softcam"
 msgstr "انتخاب سافتکم"
 
@@ -7744,6 +7732,9 @@ msgstr "انتخاب ورودی تصویر توسط کلید های بالا/پ�
 
 msgid "Select video mode"
 msgstr "انتخاب حالت تصویر"
+
+msgid "Select whether your SCR device is externally powered."
+msgstr ""
 
 msgid "Select wireless network"
 msgstr "انتخاب شبکه بدون سیم"

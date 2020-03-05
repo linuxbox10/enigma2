@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-31 14:53+0200\n"
+"POT-Creation-Date: 2020-02-28 22:31+0100\n"
 "PO-Revision-Date: 2019-11-28 17:53+0100\n"
 "Last-Translator: Pike_Bishop <alfredzngr023@gmail.com>\n"
 "Language-Team: Sfteam  angelo2807@hotmail.com\n"
@@ -1367,11 +1367,11 @@ msgstr "Baskisch"
 msgid "Begin time"
 msgstr "Startzeit"
 
-msgid "Behavior of 'pause and ok' when paused"
-msgstr "Verhalten von 'Pause und OK' wenn pausiert"
-
 msgid "Behavior of '0' button in PiP mode"
 msgstr "Verhalten der '0'-Taste bei Bild im Bild"
+
+msgid "Behavior of 'pause and ok' when paused"
+msgstr "Verhalten von 'Pause und OK' wenn pausiert"
 
 msgid "Behavior when a movie is started"
 msgstr "Verhalten beim Start eines Films"
@@ -1441,6 +1441,10 @@ msgstr "Android Booten (Hochfahren)"
 
 msgid "Boot to Recovery menu"
 msgstr "Recovery-Menü Booten (Hochfahren)"
+
+#, fuzzy
+msgid "Bootup time"
+msgstr "Sortiere nach Zeit"
 
 msgid "Bosnia and Herzegovina"
 msgstr "Bosnien und Herzegowina"
@@ -2339,6 +2343,10 @@ msgstr "Es konnte kein geeignetes Medium gefunden werden. Bitte entfernen Sie ei
 msgid "Could not load medium! No disc inserted?"
 msgstr "Konnte das Medium nicht laden! Keine DVD eingelegt?"
 
+#, fuzzy
+msgid "Could not locate epg file on fallback tuner"
+msgstr "Aktivieren Sie den Import-Timer vom Reserve-Tuner"
+
 msgid "Could not open Picture in Picture"
 msgstr "Bild im Bild konnte nicht geladen werden."
 
@@ -3067,10 +3075,6 @@ msgstr ""
 msgid "ERROR - failed to scan (%s)!"
 msgstr "FEHLER - Suche fehlgeschlagen (%s)!"
 
-#, python-format
-msgid "ERROR downloading file %s"
-msgstr "Fehler beim Herunterladen der Datei% s"
-
 msgid "East"
 msgstr "Ost"
 
@@ -3356,10 +3360,6 @@ msgstr "Eritrea"
 msgid "Error"
 msgstr "Fehler"
 
-#, python-format
-msgid "Error %s"
-msgstr "Fehler% s"
-
 msgid "Error code"
 msgstr "Fehler-Code"
 
@@ -3392,12 +3392,6 @@ msgstr ""
 msgid "Error stop stream!"
 msgstr "Fehler beim Stoppen des Streams!"
 
-msgid "Error when writing epg.dat on server"
-msgstr "Fehler beim Schreiben von epg.dat auf Server"
-
-msgid "Error while retreiving epg.dat from server"
-msgstr "Fehler beim Abrufen von epg.data vom Server"
-
 #, python-format
 msgid ""
 "Error while retreiving fallback timer information\n"
@@ -3405,9 +3399,6 @@ msgid ""
 msgstr ""
 "Fehler beim Wiederherstellen der Reserve-Timer-Informationen\n"
 "% s"
-
-msgid "Error while retreiving location of epg.dat on server"
-msgstr "Fehler beim Wiederherstellen des Standorts von epg.dat auf dem Server"
 
 #, python-format
 msgid ""
@@ -3561,6 +3552,10 @@ msgstr "Externe Untertitel Dialogeinfärbung"
 
 msgid "External subtitle switch fonts"
 msgstr "Externe Untertitel Schriftart Wechsel"
+
+#, fuzzy
+msgid "Externally powered"
+msgstr "Externer Speicher %s"
 
 msgid "Extra end time to ignore inactivity sleeptimer"
 msgstr "Zusätzliche Endzeit, um den Inaktivitäts-Ausschalt-Timer zu ignorieren"
@@ -5211,8 +5206,9 @@ msgstr "Multi-EPG Bouquet Auswahl"
 msgid "MultiType"
 msgstr "Multifunktion"
 
-msgid "Multiboot"
-msgstr "Multi-Boot-System"
+#, fuzzy
+msgid "Multiboot image selector"
+msgstr "Multisat alle auswählen"
 
 msgid "Multichannel PCM"
 msgstr "Multikanal PCM"
@@ -5419,9 +5415,6 @@ msgstr "Keine Beschreibung verfügbar."
 msgid "No displayable files on this medium found!"
 msgstr "Keine anzeigbaren Dateien auf diesem Medium gefunden!"
 
-msgid "No epg.dat file found server"
-msgstr "Keine epg.dat Datei gefunden Server"
-
 msgid "No event info found, recording indefinitely."
 msgstr "Keine EPG-Daten gefunden. Starte unbegrenzte Aufnahme."
 
@@ -5463,6 +5456,9 @@ msgstr "Kein Sender"
 
 msgid "No services/providers selected"
 msgstr "Keine Sender/Anbieter ausgewählt"
+
+msgid "No settings files to download on fallback tuner"
+msgstr ""
 
 msgid "No standby"
 msgstr "Kein Standby"
@@ -7327,12 +7323,6 @@ msgstr "Wählen Sie Fast DiSEqC, wenn Ihr Antennensystem dies unterstützt. Wenn
 msgid "Select HDD"
 msgstr "Festplattenauswahl"
 
-msgid "Select Image"
-msgstr "Image auswählen"
-
-msgid "Select Multiboot"
-msgstr "Wählen Sie Multiboot"
-
 msgid "Select Softcam"
 msgstr "Wählen Sie Softcam"
 
@@ -7525,6 +7515,9 @@ msgstr "Wählen Sie den Video-Eingang mit den Hoch/Runter-Tasten"
 
 msgid "Select video mode"
 msgstr "Wählen Sie den Video-Modus"
+
+msgid "Select whether your SCR device is externally powered."
+msgstr ""
 
 msgid "Select wireless network"
 msgstr "Funk-Netzwerk auswählen"

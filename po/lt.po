@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PLi enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-01 14:29+0100\n"
-"PO-Revision-Date: 2020-02-02 22:39+0200\n"
+"POT-Creation-Date: 2020-03-02 20:03+0100\n"
+"PO-Revision-Date: 2020-02-29 08:52+0200\n"
 "Last-Translator: Audronis Grincevicius <adga45@gmail.com>\n"
 "Language-Team: Adga (C) <adga45@gmail.com>\n"
 "Language: lt_LT\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 2.2.4\n"
+"X-Generator: Poedit 2.3\n"
 
 msgid ""
 "\n"
@@ -1374,11 +1374,11 @@ msgstr "Baskų"
 msgid "Begin time"
 msgstr "Pradžios laikas"
 
-msgid "Behavior of 'pause and ok' when paused"
-msgstr "'Pause' ir 'Ok' mygtukų elgsena pauzės metu"
-
 msgid "Behavior of '0' button in PiP mode"
 msgstr "'0' mygtuko elgsena PiP režime"
+
+msgid "Behavior of 'pause and ok' when paused"
+msgstr "'Pause' ir 'Ok' mygtukų elgsena pauzės metu"
 
 msgid "Behavior when a movie is started"
 msgstr "Elgsena, kai filmas prasidėjęs"
@@ -1448,6 +1448,9 @@ msgstr "Įdiegti Android atvaizdą"
 
 msgid "Boot to Recovery menu"
 msgstr "Paleisti atkūrimo meniu"
+
+msgid "Bootup time"
+msgstr "Įkrovimo laikas"
 
 msgid "Bosnia and Herzegovina"
 msgstr "Bosnija ir Hercogovina"
@@ -2340,6 +2343,9 @@ msgstr "Nepavyko rasti tinkamos laikmenos - Pašalinkite kai kuriuos atsisiųstu
 msgid "Could not load medium! No disc inserted?"
 msgstr "Nepavyko atverti laikmenos! Neįdėtas diskas?"
 
+msgid "Could not locate epg file on fallback tuner"
+msgstr "Nepavyko rasti epg failo atsarginiame imtuve"
+
 msgid "Could not open Picture in Picture"
 msgstr "Vaizdo vaizde atverti nepavyko"
 
@@ -3073,10 +3079,6 @@ msgstr "Elektroninis programų vadovas:"
 msgid "ERROR - failed to scan (%s)!"
 msgstr "KLAIDA - paieška nepavyko (%s)!"
 
-#, python-format
-msgid "ERROR downloading file %s"
-msgstr "KLAIDA, parsiunčiant failą %s"
-
 msgid "East"
 msgstr "Rytai"
 
@@ -3359,10 +3361,6 @@ msgstr "Eritrėja"
 msgid "Error"
 msgstr "Klaida"
 
-#, python-format
-msgid "Error %s"
-msgstr "Klaida %s"
-
 msgid "Error code"
 msgstr "Klaidos kodas"
 
@@ -3395,12 +3393,6 @@ msgstr ""
 msgid "Error stop stream!"
 msgstr "Srauto stabdymo klaida!"
 
-msgid "Error when writing epg.dat on server"
-msgstr "Klaida, įrašant epg.dat serveryje"
-
-msgid "Error while retreiving epg.dat from server"
-msgstr "Klaida, ieškant epg.data iš serverio"
-
 #, python-format
 msgid ""
 "Error while retreiving fallback timer information\n"
@@ -3408,9 +3400,6 @@ msgid ""
 msgstr ""
 "Klaida atsisiunčiant atsarginio imtuvo laikmačio informaciją\n"
 "%s"
-
-msgid "Error while retreiving location of epg.dat on server"
-msgstr "Klaida atkūrus epg.dat vietą serveryje"
 
 #, python-format
 msgid ""
@@ -3564,6 +3553,9 @@ msgstr "Išorinių subtitrų dialogų spalvinimas"
 
 msgid "External subtitle switch fonts"
 msgstr "Išorinių subtitrų perjungiami šriftai"
+
+msgid "Externally powered"
+msgstr "Išoriškai maitinama"
 
 msgid "Extra end time to ignore inactivity sleeptimer"
 msgstr "Papildomo laiko miego laikmačio neaktyvumo ignoravimui pabaiga"
@@ -5206,10 +5198,10 @@ msgid "Multi-EPG bouquet selection"
 msgstr "Daugiakanalio EPG paketo pasirinkimas"
 
 msgid "MultiType"
-msgstr "Multi tipas"
+msgstr "Daugiafunkcinis tipas"
 
-msgid "Multiboot"
-msgstr "Daugiafunkcinė įkrova"
+msgid "Multiboot image selector"
+msgstr "Daugiafunkcinės įkrovos atvaizdo pasirinkimas"
 
 msgid "Multichannel PCM"
 msgstr "Daugiakanalis PCM"
@@ -5414,9 +5406,6 @@ msgstr "Joks aprašymas nepasiekiamas."
 msgid "No displayable files on this medium found!"
 msgstr "Jokių failų čia nerasta!"
 
-msgid "No epg.dat file found server"
-msgstr "Failo epg.dat serveryje nerasta"
-
 msgid "No event info found, recording indefinitely."
 msgstr "Informacija apie įvykius nerasta, tęsiamas įrašymas."
 
@@ -5458,6 +5447,9 @@ msgstr "Nėra kanalų"
 
 msgid "No services/providers selected"
 msgstr "Nepasirinkti kanalai/teikėjai"
+
+msgid "No settings files to download on fallback tuner"
+msgstr "Negalima atsisiųsti nustatymų failų naudojant atsarginį imtuvą"
 
 msgid "No standby"
 msgstr "Nebudėti"
@@ -7318,12 +7310,6 @@ msgstr "Pasirinkite greitą DiSEqC, jei jūsų sistema palaiko tai. Jei jūs ne�
 msgid "Select HDD"
 msgstr "Pasirinkite HDD"
 
-msgid "Select Image"
-msgstr "Pasirinkite atvaizdą"
-
-msgid "Select Multiboot"
-msgstr "Pasirinktinis atvaizdų įkėlimas"
-
 msgid "Select Softcam"
 msgstr "Pasirinkite emuliatorių"
 
@@ -7516,6 +7502,9 @@ msgstr "Pasirinkite vaizdo įvestį su mygtukais aukštyn/žemyn"
 
 msgid "Select video mode"
 msgstr "Pasirinkite vaizdo režimą"
+
+msgid "Select whether your SCR device is externally powered."
+msgstr "Pasirinkite, ar jūsų SCR įrenginys yra išoriškai maitinamas."
 
 msgid "Select wireless network"
 msgstr "Pasirinkite belaidį tinklą"
@@ -8717,7 +8706,7 @@ msgstr "T2MI RAW režimas"
 msgid "TRANSLATOR_INFO"
 msgstr ""
 "P&C Adga, adga45@gmail.com\n"
-"Pasvalys, 2020-02-02 versija"
+"Pasvalys, 2020-02-29 versija"
 
 msgid "TS file is too large for ISO9660 level 1!"
 msgstr "TS failas per didelis 1 lygio ISO9660!"
@@ -11728,67 +11717,3 @@ msgstr "perjungta"
 
 msgid "®"
 msgstr "®"
-
-#~ msgid "About..."
-#~ msgstr "Apie..."
-
-#~ msgid "Enigma2 skin selector"
-#~ msgstr "Enigma2 temos parinkėjas"
-
-#~ msgid "Error executing plugin"
-#~ msgstr "Priedo paleisti nepavyko"
-
-#~ msgid ""
-#~ "GUI needs a restart to apply a new skin\n"
-#~ "Do you want to restart the GUI now?"
-#~ msgstr ""
-#~ "Naujos temos aktyvavimui, grafinę aplinką reikia paleisti iš naujo\n"
-#~ "Ar paleisti iš naujo grafinę aplinką dabar?"
-
-#~ msgid "Ipkg"
-#~ msgstr "Ipkg"
-
-#~ msgid "Select your Skin"
-#~ msgstr "Pasirinkite norimą temą"
-
-#~ msgid "Set default settings?"
-#~ msgstr "Nustatyti numatytus parametrus?"
-
-#~ msgid "Skin"
-#~ msgstr "Vartotojo aplinkos tema"
-
-#~ msgid "working"
-#~ msgstr "dirba"
-
-#~ msgid "[a]"
-#~ msgstr "[a]"
-
-#~ msgid "Exit/OK"
-#~ msgstr "Užverti/OK"
-
-#~ msgid "add bouquet"
-#~ msgstr "pridėti paketą"
-
-#~ msgid "service is in bouquet parental protection"
-#~ msgstr "kanalas yra tėvų kontrolės pakete"
-
-#~ msgid "Greek (Modern)"
-#~ msgstr "Graikų (modernus)"
-
-#~ msgid "Install extensions."
-#~ msgstr "Įdiekite išplėtimus."
-
-#~ msgid "Ok"
-#~ msgstr "Gerai"
-
-#~ msgid "add bookmark"
-#~ msgstr "pridėti žymą"
-
-#~ msgid "remove bookmark"
-#~ msgstr "pašalinti žymę"
-
-#~ msgid "select"
-#~ msgstr "pasirinkti"
-
-#~ msgid "used"
-#~ msgstr "naudotas"

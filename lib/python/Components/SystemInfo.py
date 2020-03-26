@@ -1,9 +1,9 @@
 import re
 
-from enigma import eDVBResourceManager, Misc_Options, eDVBCIInterfaces, eGetEnigmaDebugLvl
+from enigma import Misc_Options, eDVBCIInterfaces, eDVBResourceManager, eGetEnigmaDebugLvl
 
 from Components.Console import Console
-from Tools.Directories import fileExists, fileCheck, pathExists, fileHas, resolveFilename, SCOPE_PLUGINS
+from Tools.Directories import SCOPE_PLUGINS, fileCheck, fileExists, fileHas, pathExists, resolveFilename
 from Tools.HardwareInfo import HardwareInfo
 
 SystemInfo = {}
@@ -13,7 +13,7 @@ from Tools.Multiboot import getMultibootStartupDevice, getMultibootslots  # This
 # Parse the boot commandline.
 #
 with open("/proc/cmdline", "r") as fd:
-    cmdline = fd.read()
+	cmdline = fd.read()
 cmdline = {k: v.strip('"') for k, v in re.findall(r'(\S+)=(".*?"|\S+)', cmdline)}
 
 def getNumVideoDecoders():
@@ -66,6 +66,12 @@ SystemInfo["PowerLED"] = fileCheck("/proc/stb/power/powerled")
 SystemInfo["StandbyLED"] = fileCheck("/proc/stb/power/standbyled")
 SystemInfo["SuspendLED"] = fileCheck("/proc/stb/power/suspendled")
 SystemInfo["Display"] = SystemInfo["FrontpanelDisplay"] or SystemInfo["StandbyLED"]
+SystemInfo["LedPowerColor"] = fileCheck("/proc/stb/fp/ledpowercolor")
+SystemInfo["LedStandbyColor"] = fileCheck("/proc/stb/fp/ledstandbycolor")
+SystemInfo["LedSuspendColor"] = fileCheck("/proc/stb/fp/ledsuspendledcolor")
+SystemInfo["Power4x7On"] = fileCheck("/proc/stb/fp/power4x7on")
+SystemInfo["Power4x7Standby"] = fileCheck("/proc/stb/fp/power4x7standby")
+SystemInfo["Power4x7Suspend"] = fileCheck("/proc/stb/fp/power4x7suspend")
 SystemInfo["PowerOffDisplay"] = model not in "formuler1" and fileCheck("/proc/stb/power/vfd") or fileCheck("/proc/stb/lcd/vfd")
 SystemInfo["WakeOnLAN"] = not model.startswith("et8000") and fileCheck("/proc/stb/power/wol") or fileCheck("/proc/stb/fp/wol")
 SystemInfo["HasExternalPIP"] = not (model.startswith("et9") or model in ("e4hd",)) and fileCheck("/proc/stb/vmpeg/1/external")

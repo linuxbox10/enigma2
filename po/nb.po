@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-22 22:37+0100\n"
-"PO-Revision-Date: 2020-03-22 16:39+0100\n"
+"POT-Creation-Date: 2020-05-02 18:15+0200\n"
+"PO-Revision-Date: 2020-04-26 13:56+0200\n"
 "Last-Translator: GeirJ <dummy@dummy.com>\n"
 "Language-Team: GeirJ\n"
 "Language: nb\n"
@@ -333,7 +333,7 @@ msgid ""
 "%s?"
 msgstr ""
 "%s\n"
-"Vil du fortsatt installere systemet\n"
+"Vil du fortsatt installere operativsystemet\n"
 "%s?"
 
 #, python-format
@@ -1245,6 +1245,11 @@ msgstr "Spør bruker"
 
 #
 msgid "Aspect ratio"
+msgstr "Bildeforhold"
+
+#
+#, fuzzy, python-format
+msgid "Aspect ratio changed to %s"
 msgstr "Bildeforhold"
 
 msgid "Assigned CAIds:"
@@ -2930,10 +2935,15 @@ msgstr "Slett oppføring i opptaksliste"
 msgid "Delete saved playlist"
 msgstr "Slett lagret opptaksliste"
 
-msgid "Delete the character to the left of text buffer cursor"
+msgid "Delete the all the text"
+msgstr ""
+
+#, fuzzy
+msgid "Delete the character to the left of text cursor"
 msgstr "Slett tegnet til venstre for tekst buffer markøren"
 
-msgid "Delete the character under the text buffer cursor"
+#, fuzzy
+msgid "Delete the character under the text cursor"
 msgstr "Slett tegnet under tekst buffer markøren"
 
 #
@@ -3229,7 +3239,7 @@ msgid ""
 "Do you want to flash image\n"
 "%s"
 msgstr ""
-"Vil du å installere systemet\n"
+"Vil du å installere operativsystemet\n"
 "%s"
 
 #
@@ -4193,7 +4203,7 @@ msgstr ""
 "%s"
 
 msgid "Following tasks will be done after you press OK!"
-msgstr "Følgende oppgaver vil bli gjort etter at du trykker OK!"
+msgstr "Følgende oppgaver vil bli utført etter at du trykker OK!"
 
 msgid "Force legacy signal stats"
 msgstr "Bruk eldre type signalstatistikk"
@@ -5684,29 +5694,37 @@ msgstr "Flytt bilde i bilde"
 msgid "Move east"
 msgstr "Kjør østover"
 
-msgid "Move the text buffer cursor left"
-msgstr "Flytt tekst markør til venstre"
-
-msgid "Move the text buffer cursor right"
-msgstr "Flytt tekst markør til høyre"
-
-msgid "Move the text buffer cursor to the first character"
-msgstr "Flytt tekst markør til det første tegnet"
-
-msgid "Move the text buffer cursor to the last character"
-msgstr "Flytt tekst markør til det siste tegnet"
-
-msgid "Move the virtual keyboard cursor down"
+#, fuzzy
+msgid "Move the keyboard cursor down"
 msgstr "Flytt virtuell tastatur markør ned"
 
-msgid "Move the virtual keyboard cursor left"
+#, fuzzy
+msgid "Move the keyboard cursor left"
 msgstr "Flytt virtuell tastatur markør til venstre"
 
-msgid "Move the virtual keyboard cursor right"
+#, fuzzy
+msgid "Move the keyboard cursor right"
 msgstr "Flytt virtuell tastatur markør til høyre"
 
-msgid "Move the virtual keyboard cursor up"
+#, fuzzy
+msgid "Move the keyboard cursor up"
 msgstr "Flytt virtuell tastatur markør opp"
+
+#, fuzzy
+msgid "Move the text cursor left"
+msgstr "Flytt tekst markør til venstre"
+
+#, fuzzy
+msgid "Move the text cursor right"
+msgstr "Flytt tekst markør til høyre"
+
+#, fuzzy
+msgid "Move the text cursor to the first character"
+msgstr "Flytt tekst markør til det første tegnet"
+
+#, fuzzy
+msgid "Move the text cursor to the last character"
+msgstr "Flytt tekst markør til det siste tegnet"
 
 msgid "Move to position X"
 msgstr "Flytt til posisjon X"
@@ -6966,6 +6984,10 @@ msgid "Power threshold. Consult your receiver's manual for more information."
 msgstr "Strømstyring. Se i din mottakers bruksanvisning for mer informasjon."
 
 msgid "PowerMenu"
+msgstr "Av/på meny"
+
+#, fuzzy
+msgid "Powerless"
 msgstr "Av/på meny"
 
 #
@@ -8310,8 +8332,13 @@ msgstr "Velg bruker bånd frekvensen som skal tilordnes til denne mottakeren. De
 msgid "Select the User Band to be assigned to this tuner. This is an index into the table of frequencies the SCR switch or SCR LNB uses to pass the requested transponder to the tuner."
 msgstr "Velg bruker båndet som skal tilordnes til denne mottakeren. Dette er en indeks i frekvenstabellen som SCR-bryteren eller SCR LNB bruker for å sende den forespurte transponder til tuneren."
 
-msgid "Select the character or action under the virtual keyboard cursor"
+#, fuzzy
+msgid "Select the character or action under the keyboard cursor"
 msgstr "Velg tegn eller handling med virtuell tastatur markør"
+
+#, fuzzy
+msgid "Select the locale from a menu"
+msgstr "Velg nasjonale innstillinger for virtuelt tastatur fra en meny"
 
 msgid "Select the manufacturer of your SCR device. If the manufacturer is not listed, set 'SCR' to 'user defined' and enter the device parameters manually according to its spec sheet."
 msgstr "Velg produsenten for din SCR enhet. Hvis produsenten ikke er oppført, still \"SCR\" til \"brukerdefinert\" og angi enhetsparameterne manuelt etter bruksanvisningen."
@@ -8344,8 +8371,15 @@ msgid "Select the satellite your dish receives from. If you are unsure select 'a
 msgstr "Velg satellitten din parabol mottar fra. Hvis du er usikker velg 'automatisk' og mottakeren vil forsøke å finne denne for deg."
 
 #, fuzzy
+msgid "Select the shifted character set"
+msgstr "Velg virtuell tastaturs shift tegnsett"
+
+#, fuzzy
+msgid "Select the shifted character set for the next character only"
+msgstr "Velg det virtuelle tastaturs tegnoppsett bare for neste tegn"
+
 msgid "Select the time zone within the area or region."
-msgstr "Velg tidssone i området eller region."
+msgstr "Velg tidssonen i området eller region."
 
 msgid "Select the tuner that controls the motorised dish."
 msgstr "Velg mottakeren som styrer motorisert parabol."
@@ -8361,15 +8395,6 @@ msgstr "Velg LNB type/enhet som blir brukt (normalt 'Universal'). Hvis din LNB t
 
 msgid "Select the type of Single Cable Reception device you are using."
 msgstr "Velg typen av enkeltkablet mottaksenhet du bruker."
-
-msgid "Select the virtual keyboard locale from a menu"
-msgstr "Velg nasjonale innstillinger for virtuelt tastatur fra en meny"
-
-msgid "Select the virtual keyboard shifted character set"
-msgstr "Velg virtuell tastaturs shift tegnsett"
-
-msgid "Select the virtual keyboard shifted character set for the next character only"
-msgstr "Velg det virtuelle tastaturs tegnoppsett bare for neste tegn"
 
 msgid "Select update source"
 msgstr "Velg oppdaterings kilde"
@@ -8415,9 +8440,8 @@ msgid "Select your region. If not available change 'Country' to 'all' and select
 msgstr "Velg din region. Hvis ikke tilgjengelig kan du endre 'Land' til 'alle' og velg ett standard alternativ."
 
 #
-#, fuzzy
 msgid "Select your time zone area or region."
-msgstr "Velg tidssone eller region."
+msgstr "Velg din tidssone."
 
 msgid "Selecting satellites 1 (USALS)"
 msgstr "Velger satellitene 1 (USALS)"
@@ -9639,7 +9663,7 @@ msgid "Switch off the display during Standby Mode"
 msgstr "Slå av skjermen under standby-modus"
 
 msgid "Switch off the display during Suspend Mode"
-msgstr "Slå av skjermen under hvilemodus"
+msgstr "Slå av skjerm i hvilemodus"
 
 msgid "Switch off the display during operation."
 msgstr "Slå av skjermen under drift."
@@ -9733,9 +9757,12 @@ msgstr "T2MI PLP-ID"
 msgid "T2MI RAW Mode"
 msgstr "T2MI RAW-modus"
 
+msgid "TEXT"
+msgstr ""
+
 #. TRANSLATORS: Add here whatever should be shown in the "translator" about screen, up to 6 lines (use \n for newline)
 msgid "TRANSLATOR_INFO"
-msgstr "Oversettelse oppdatert: 22.03.2020"
+msgstr "Oversettelse oppdatert: 26.04.2020"
 
 #
 msgid "TS file is too large for ISO9660 level 1!"
@@ -10274,14 +10301,12 @@ msgid "Time scale"
 msgstr "Tids måler"
 
 #
-#, fuzzy
 msgid "Time zone"
 msgstr "Tidssone"
 
 #
-#, fuzzy
 msgid "Time zone area"
-msgstr "Tidssone"
+msgstr "Tidssoneområde"
 
 #
 msgid "Timer"
@@ -10409,6 +10434,11 @@ msgstr "Veksle mellom TV/RADIO"
 #
 msgid "Toggle a cut mark at the current position"
 msgstr "Bytte mellom klipp på den aktuelle posisjonen"
+
+#
+#, fuzzy
+msgid "Toggle aspect ratio..."
+msgstr "Bildeforhold"
 
 msgid "Toggle dashed flickering line for this service"
 msgstr "Skift mellom stiplede flimmer linjer for denne kanalen"
@@ -11746,6 +11776,9 @@ msgstr "Vent litt %s!"
 #, python-format
 msgid "You must switch to the service %s (%s - '%s')!\n"
 msgstr "Gå til kanalen %s (%s - '%s')!\n"
+
+msgid "You seem to be in timeshift!"
+msgstr "Du ser ut til å være i timeshift!"
 
 msgid "Your collection exceeds the size of a single layer medium, you will need a blank dual layer DVD!"
 msgstr "Samlingen overstiger ledig plass på enkeltlagsplaten, en tolags DVD må brukes!"

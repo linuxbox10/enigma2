@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-02 18:15+0200\n"
+"POT-Creation-Date: 2020-05-10 20:18+0200\n"
 "PO-Revision-Date: 2019-02-13 20:52+0200\n"
 "Last-Translator: jamu\n"
 "Language-Team: BoxFreak/jamu\n"
@@ -1155,6 +1155,10 @@ msgstr "Mikä tahansa toiminta"
 msgid "Arabic"
 msgstr "Arabia"
 
+#, fuzzy
+msgid "Are you sure to delete image:"
+msgstr "Haluatko poistaa tämän kohteen?"
+
 msgid "Are you sure to purge all deleted user bouquets?"
 msgstr ""
 
@@ -1174,6 +1178,10 @@ msgstr ""
 
 msgid "Are you sure to remove this entry?"
 msgstr "Haluatko poistaa tämän kohteen?"
+
+#, fuzzy
+msgid "Are you sure to restore all deleted images"
+msgstr "Poista poistetut pysyvästi"
 
 #
 msgid ""
@@ -1244,10 +1252,6 @@ msgid "Ask user"
 msgstr "Kysy käyttäjältä"
 
 msgid "Aspect ratio"
-msgstr "Kuvasuhde"
-
-#, fuzzy, python-format
-msgid "Aspect ratio changed to %s"
 msgstr "Kuvasuhde"
 
 msgid "Assigned CAIds:"
@@ -2055,6 +2059,10 @@ msgid "Collection settings"
 msgstr "Kokoelman asetukset"
 
 msgid "Colombia"
+msgstr "Kolumbia"
+
+#, fuzzy
+msgid "Color"
 msgstr "Kolumbia"
 
 msgid "Color format"
@@ -2898,6 +2906,11 @@ msgid "Delete"
 msgstr "Poista"
 
 #
+#, fuzzy
+msgid "Delete Image"
+msgstr "Poista ohjelmistokuva"
+
+#
 msgid "Delete entry"
 msgstr "Poista valinta"
 
@@ -2936,6 +2949,11 @@ msgstr "Poista ajastus"
 
 msgid "Deleted"
 msgstr "Poistettu"
+
+#
+#, fuzzy
+msgid "Deleted image"
+msgstr "Poista ohjelmistokuva"
 
 msgid "Deleted items"
 msgstr "Poistetut kohteet"
@@ -7014,10 +7032,6 @@ msgstr ""
 msgid "PowerMenu"
 msgstr "Sammutusvalikko"
 
-#, fuzzy
-msgid "Powerless"
-msgstr "Sammutusvalikko"
-
 #
 msgid "Predefined transponder"
 msgstr "Ennalta määritelty lähetin"
@@ -7733,6 +7747,10 @@ msgstr "Palauta varmuuskopiot"
 msgid "Restore defaults"
 msgstr "Oletus"
 
+#, fuzzy
+msgid "Restore deleted images"
+msgstr "Oletus"
+
 msgid "Restore deleted user bouquets"
 msgstr ""
 
@@ -7772,10 +7790,6 @@ msgstr "Toisto jatkuu viimeksi katsotusta kohdasta"
 #
 msgid "Retrieving image list - Please wait..."
 msgstr "Haetaan ohjelmistokuvien listausta - Odota..."
-
-#
-msgid "Retrieving image slots - Please wait..."
-msgstr "Haetaan ohjelmistokuvien paikkoja - Odota..."
 
 #
 msgid "Return to movie list"
@@ -10535,10 +10549,6 @@ msgstr "Vaihda TV/RADIO tilojen välillä"
 msgid "Toggle a cut mark at the current position"
 msgstr "Vaihda leikkausmerkki nykyiseen kohtaan"
 
-#, fuzzy
-msgid "Toggle aspect ratio..."
-msgstr "Kuvasuhde"
-
 msgid "Toggle dashed flickering line for this service"
 msgstr "Kanavan vilkkuvan rivin peitto päälle/pois"
 
@@ -10553,6 +10563,11 @@ msgstr ""
 
 msgid "Toggle the tv and the radio player..."
 msgstr ""
+
+#
+#, fuzzy
+msgid "Toggle videomode"
+msgstr "Valitse video-tila"
 
 msgid "Togo"
 msgstr "Togo"

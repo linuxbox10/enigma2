@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2 Kurdish translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-02 18:15+0200\n"
+"POT-Creation-Date: 2020-05-10 20:18+0200\n"
 "PO-Revision-Date: 2013-04-22 04:29+0330\n"
 "Last-Translator: dimili21\n"
 "Language-Team: \n"
@@ -1055,6 +1055,12 @@ msgstr "Any activity"
 msgid "Arabic"
 msgstr "Arabi"
 
+#, fuzzy
+msgid "Are you sure to delete image:"
+msgstr ""
+"Are you sure you want to delete\n"
+"the following backup:\n"
+
 msgid "Are you sure to purge all deleted user bouquets?"
 msgstr ""
 
@@ -1073,6 +1079,10 @@ msgstr ""
 
 msgid "Are you sure to remove this entry?"
 msgstr ""
+
+#, fuzzy
+msgid "Are you sure to restore all deleted images"
+msgstr "Permanently remove all deleted items"
 
 msgid ""
 "Are you sure you want to activate this network configuration?\n"
@@ -1139,10 +1149,6 @@ msgid "Ask user"
 msgstr "Xebatkar Pirski"
 
 msgid "Aspect ratio"
-msgstr "Aspect ratio"
-
-#, fuzzy, python-format
-msgid "Aspect ratio changed to %s"
 msgstr "Aspect ratio"
 
 msgid "Assigned CAIds:"
@@ -1872,6 +1878,10 @@ msgstr "Eyara Kolleksiyon"
 
 #, fuzzy
 msgid "Colombia"
+msgstr "Formata Renga"
+
+#, fuzzy
+msgid "Color"
 msgstr "Formata Renga"
 
 msgid "Color format"
@@ -2669,6 +2679,10 @@ msgstr ""
 msgid "Delete"
 msgstr "Paqiş"
 
+#, fuzzy
+msgid "Delete Image"
+msgstr "Delete file"
+
 msgid "Delete entry"
 msgstr "Delete entry"
 
@@ -2702,6 +2716,10 @@ msgstr ""
 
 msgid "Deleted"
 msgstr "Paqişi"
+
+#, fuzzy
+msgid "Deleted image"
+msgstr "Delete file"
 
 msgid "Deleted items"
 msgstr "Deleted items"
@@ -6332,9 +6350,6 @@ msgstr ""
 msgid "PowerMenu"
 msgstr ""
 
-msgid "Powerless"
-msgstr ""
-
 msgid "Predefined transponder"
 msgstr "Predefined transponder"
 
@@ -6957,6 +6972,10 @@ msgstr "Restore backups"
 msgid "Restore defaults"
 msgstr "Restore backups"
 
+#, fuzzy
+msgid "Restore deleted images"
+msgstr "Restore backups"
+
 msgid "Restore deleted user bouquets"
 msgstr ""
 
@@ -6992,10 +7011,6 @@ msgstr "Resuming playback"
 #, fuzzy
 msgid "Retrieving image list - Please wait..."
 msgstr "Getting plugin information. Please wait..."
-
-#, fuzzy
-msgid "Retrieving image slots - Please wait..."
-msgstr "Searching for available updates. Please wait..."
 
 msgid "Return to movie list"
 msgstr "Return to movie list"
@@ -9479,10 +9494,6 @@ msgstr ""
 msgid "Toggle a cut mark at the current position"
 msgstr "Toggle a cut mark at the current position"
 
-#, fuzzy
-msgid "Toggle aspect ratio..."
-msgstr "Aspect ratio"
-
 msgid "Toggle dashed flickering line for this service"
 msgstr ""
 
@@ -9497,6 +9508,10 @@ msgstr ""
 
 msgid "Toggle the tv and the radio player..."
 msgstr ""
+
+#, fuzzy
+msgid "Toggle videomode"
+msgstr "Select video mode"
 
 msgid "Togo"
 msgstr ""

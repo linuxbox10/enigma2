@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-02 18:15+0200\n"
+"POT-Creation-Date: 2020-05-10 20:18+0200\n"
 "PO-Revision-Date: 2017-01-18 16:38+0100\n"
 "Last-Translator: lupine <a_ecklon@hotmail.com>\n"
 "Language-Team: \n"
@@ -1173,6 +1173,10 @@ msgstr "Enhver aktivitet"
 msgid "Arabic"
 msgstr "Arabisk"
 
+#, fuzzy
+msgid "Are you sure to delete image:"
+msgstr "Er du sikker på at dette punkt skal slettes?"
+
 msgid "Are you sure to purge all deleted user bouquets?"
 msgstr "Er du sikker på du vil fjerne alle slettede userbouquets?"
 
@@ -1192,6 +1196,10 @@ msgstr "Er du sikker på du vil fjerne alle terrestrial services?"
 
 msgid "Are you sure to remove this entry?"
 msgstr "Er du sikker på at dette punkt skal slettes?"
+
+#, fuzzy
+msgid "Are you sure to restore all deleted images"
+msgstr "Er du sikker på du vil fjerne alle kabel services?"
 
 #
 msgid ""
@@ -1267,11 +1275,6 @@ msgstr "Spørg bruger"
 
 #
 msgid "Aspect ratio"
-msgstr "Billed format"
-
-#
-#, fuzzy, python-format
-msgid "Aspect ratio changed to %s"
 msgstr "Billed format"
 
 #
@@ -2098,6 +2101,11 @@ msgstr "Kollektions indstillinger"
 #
 #, fuzzy
 msgid "Colombia"
+msgstr "Farve format"
+
+#
+#, fuzzy
+msgid "Color"
 msgstr "Farve format"
 
 #
@@ -2986,6 +2994,10 @@ msgstr "Forsinkelse i millisekunder mellem rulnings karaktere på display."
 msgid "Delete"
 msgstr "Slet"
 
+#, fuzzy
+msgid "Delete Image"
+msgstr "Slet timer"
+
 #
 msgid "Delete entry"
 msgstr "Slet punkt"
@@ -3024,6 +3036,10 @@ msgstr "Slet timer"
 
 msgid "Deleted"
 msgstr "Slettet"
+
+#, fuzzy
+msgid "Deleted image"
+msgstr "Slet timer"
 
 msgid "Deleted items"
 msgstr "Slettede elementer"
@@ -7178,10 +7194,6 @@ msgstr ""
 msgid "PowerMenu"
 msgstr "PowerMenu"
 
-#, fuzzy
-msgid "Powerless"
-msgstr "PowerMenu"
-
 #
 msgid "Predefined transponder"
 msgstr "Predefineret transponder"
@@ -7900,6 +7912,10 @@ msgstr "Gendan backup"
 msgid "Restore defaults"
 msgstr "Sæt standard"
 
+#, fuzzy
+msgid "Restore deleted images"
+msgstr "Gendan slettede brugerbouquets"
+
 msgid "Restore deleted user bouquets"
 msgstr "Gendan slettede brugerbouquets"
 
@@ -7942,11 +7958,6 @@ msgstr "Genoptag afspilning"
 #, fuzzy
 msgid "Retrieving image list - Please wait..."
 msgstr "Henter plugin information. Vent venligst..."
-
-#
-#, fuzzy
-msgid "Retrieving image slots - Please wait..."
-msgstr "Søger efter tilgængelige opdateringer. Vent venligst..."
 
 #
 msgid "Return to movie list"
@@ -10760,11 +10771,6 @@ msgstr "Skift mellem TV/RADIO mode"
 msgid "Toggle a cut mark at the current position"
 msgstr "Ændre en skæringsmarkør på den nuværende position"
 
-#
-#, fuzzy
-msgid "Toggle aspect ratio..."
-msgstr "Billed format"
-
 msgid "Toggle dashed flickering line for this service"
 msgstr "Skift stiplet flimrende linje for denne serive"
 
@@ -10779,6 +10785,11 @@ msgstr "Skift mellem vis/skjul"
 
 msgid "Toggle the tv and the radio player..."
 msgstr "Skift mellem tv'et og radioafspilleren..."
+
+#
+#, fuzzy
+msgid "Toggle videomode"
+msgstr "Vælg video type"
 
 msgid "Togo"
 msgstr ""

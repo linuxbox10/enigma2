@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-02 18:15+0200\n"
+"POT-Creation-Date: 2020-05-10 20:18+0200\n"
 "PO-Revision-Date: 2020-04-26 13:56+0200\n"
 "Last-Translator: GeirJ <dummy@dummy.com>\n"
 "Language-Team: GeirJ\n"
@@ -1151,6 +1151,11 @@ msgstr "Enhver aktivitet"
 msgid "Arabic"
 msgstr "Arabisk"
 
+#
+#, fuzzy
+msgid "Are you sure to delete image:"
+msgstr "Er du sikker på at du vil starte på nytt for å"
+
 msgid "Are you sure to purge all deleted user bouquets?"
 msgstr "Er du sikker på at du vil fjerne alle slettede kanallister?"
 
@@ -1174,6 +1179,11 @@ msgstr "Er du sikker på at du vil fjerne alle bakkenett kanaler?"
 #
 msgid "Are you sure to remove this entry?"
 msgstr "Er du sikker på at du vil fjerne denne oppføringen?"
+
+#
+#, fuzzy
+msgid "Are you sure to restore all deleted images"
+msgstr "Er du sikker på at du vil fjerne alle kabel TV kanaler?"
 
 msgid ""
 "Are you sure you want to activate this network configuration?\n"
@@ -1245,11 +1255,6 @@ msgstr "Spør bruker"
 
 #
 msgid "Aspect ratio"
-msgstr "Bildeforhold"
-
-#
-#, fuzzy, python-format
-msgid "Aspect ratio changed to %s"
 msgstr "Bildeforhold"
 
 msgid "Assigned CAIds:"
@@ -2066,6 +2071,11 @@ msgstr "Samlinger"
 
 #
 msgid "Colombia"
+msgstr "Colombia"
+
+#
+#, fuzzy
+msgid "Color"
 msgstr "Colombia"
 
 #
@@ -2912,6 +2922,11 @@ msgid "Delete"
 msgstr "Slett"
 
 #
+#, fuzzy
+msgid "Delete Image"
+msgstr "Slett programvare"
+
+#
 msgid "Delete entry"
 msgstr "Slett oppføring"
 
@@ -2952,6 +2967,11 @@ msgstr "Slett timer"
 
 msgid "Deleted"
 msgstr "Slettet"
+
+#
+#, fuzzy
+msgid "Deleted image"
+msgstr "Slett programvare"
 
 msgid "Deleted items"
 msgstr "Slettede elementer"
@@ -6986,10 +7006,6 @@ msgstr "Strømstyring. Se i din mottakers bruksanvisning for mer informasjon."
 msgid "PowerMenu"
 msgstr "Av/på meny"
 
-#, fuzzy
-msgid "Powerless"
-msgstr "Av/på meny"
-
 #
 msgid "Predefined transponder"
 msgstr "Forhåndsbestemt transponder"
@@ -7670,6 +7686,10 @@ msgstr "Gjenopprett sikkerhetskopier"
 msgid "Restore defaults"
 msgstr "Bruk standardinnstillinger"
 
+#, fuzzy
+msgid "Restore deleted images"
+msgstr "Gjenopprett slettede kanallister"
+
 msgid "Restore deleted user bouquets"
 msgstr "Gjenopprett slettede kanallister"
 
@@ -7710,10 +7730,6 @@ msgstr "Fortsetter avspilling"
 #
 msgid "Retrieving image list - Please wait..."
 msgstr "Henter programvare liste. Vennligst vent litt..."
-
-#
-msgid "Retrieving image slots - Please wait..."
-msgstr "Henter programvare liste - Vennligst vent litt..."
 
 msgid "Return to movie list"
 msgstr "Gå tilbake til opptaksliste"
@@ -10435,11 +10451,6 @@ msgstr "Veksle mellom TV/RADIO"
 msgid "Toggle a cut mark at the current position"
 msgstr "Bytte mellom klipp på den aktuelle posisjonen"
 
-#
-#, fuzzy
-msgid "Toggle aspect ratio..."
-msgstr "Bildeforhold"
-
 msgid "Toggle dashed flickering line for this service"
 msgstr "Skift mellom stiplede flimmer linjer for denne kanalen"
 
@@ -10455,6 +10466,10 @@ msgstr "Bytt mellom vis/skjul"
 #
 msgid "Toggle the tv and the radio player..."
 msgstr "Skift mellom TV og Radio spiller..."
+
+#, fuzzy
+msgid "Toggle videomode"
+msgstr "Velg videomodus"
 
 msgid "Togo"
 msgstr "Togo"

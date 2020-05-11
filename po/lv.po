@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-02 18:15+0200\n"
+"POT-Creation-Date: 2020-05-10 20:18+0200\n"
 "PO-Revision-Date: 2014-11-12 00:49+0200\n"
 "Last-Translator: Taapat <taapat@gmail.com>\n"
 "Language-Team: Taapat <taapat@gmail.com>\n"
@@ -1067,6 +1067,10 @@ msgstr "Jebkura aktivitāte"
 msgid "Arabic"
 msgstr "Arābu"
 
+#, fuzzy
+msgid "Are you sure to delete image:"
+msgstr "Vai tiešām vēlaties dzēst šo ierakstu?"
+
 msgid "Are you sure to purge all deleted user bouquets?"
 msgstr "Vai tiešām vēlaties iztīrīt visas dzēstās buķetes?"
 
@@ -1086,6 +1090,10 @@ msgstr "Vai tiešām vēlaties nodzēst visus televīzijas kanālus?"
 
 msgid "Are you sure to remove this entry?"
 msgstr "Vai tiešām vēlaties dzēst šo ierakstu?"
+
+#, fuzzy
+msgid "Are you sure to restore all deleted images"
+msgstr "Vai tiešām vēlaties nodzēst visus kabeļu kanālus?"
 
 msgid ""
 "Are you sure you want to activate this network configuration?\n"
@@ -1152,10 +1160,6 @@ msgid "Ask user"
 msgstr "Jautāt"
 
 msgid "Aspect ratio"
-msgstr "Attēla samērs"
-
-#, fuzzy, python-format
-msgid "Aspect ratio changed to %s"
 msgstr "Attēla samērs"
 
 msgid "Assigned CAIds:"
@@ -1873,6 +1877,10 @@ msgid "Collection settings"
 msgstr "Kolekcijas iestatījumi"
 
 msgid "Colombia"
+msgstr "Kolumbija"
+
+#, fuzzy
+msgid "Color"
 msgstr "Kolumbija"
 
 msgid "Color format"
@@ -2655,6 +2663,10 @@ msgstr "Aizture milisekundēs simbolu ritināšanas ātrumam displejā."
 msgid "Delete"
 msgstr "Dzēst"
 
+#, fuzzy
+msgid "Delete Image"
+msgstr "Izdzēst imidžu"
+
 msgid "Delete entry"
 msgstr "Dzēst ierakstu "
 
@@ -2689,6 +2701,10 @@ msgstr "Dzēst taimeri"
 
 msgid "Deleted"
 msgstr "Izdzēsts"
+
+#, fuzzy
+msgid "Deleted image"
+msgstr "Izdzēst imidžu"
 
 msgid "Deleted items"
 msgstr "Dzēsts"
@@ -6301,10 +6317,6 @@ msgstr "Barošanas robežvērtība. Lai iegūtu papildinformāciju, skatiet uztv
 msgid "PowerMenu"
 msgstr "Izslēgšana"
 
-#, fuzzy
-msgid "Powerless"
-msgstr "Izslēgšana"
-
 msgid "Predefined transponder"
 msgstr "Definēts transponderis"
 
@@ -6919,6 +6931,10 @@ msgstr "Atjaunot dublējumkopiju"
 msgid "Restore defaults"
 msgstr "Pēc noklusējuma"
 
+#, fuzzy
+msgid "Restore deleted images"
+msgstr "Atjaunot dzēstās buķetes"
+
 msgid "Restore deleted user bouquets"
 msgstr "Atjaunot dzēstās buķetes"
 
@@ -6953,9 +6969,6 @@ msgstr "Turpina atskaņošanu"
 
 msgid "Retrieving image list - Please wait..."
 msgstr "Iegūst imidžu sarakstu - Lūdzu gaidiet..."
-
-msgid "Retrieving image slots - Please wait..."
-msgstr "Iegūst pieejamos slotus - Lūdzu uzgaidiet..."
 
 msgid "Return to movie list"
 msgstr "Atgriezties uz mediju sarakstu"
@@ -9425,10 +9438,6 @@ msgstr "Pārslēgt TV/RADIO režīmu"
 msgid "Toggle a cut mark at the current position"
 msgstr "Iestatīt griešanas iezīmi pašreizējā pozīcijā"
 
-#, fuzzy
-msgid "Toggle aspect ratio..."
-msgstr "Attēla samērs"
-
 msgid "Toggle dashed flickering line for this service"
 msgstr "Mainīt mirgojošo līniju kanālam"
 
@@ -9443,6 +9452,10 @@ msgstr "Pārslēdz parādīt/slēpt"
 
 msgid "Toggle the tv and the radio player..."
 msgstr "Pārslēgt tv vai radio atskaņošanu..."
+
+#, fuzzy
+msgid "Toggle videomode"
+msgstr "Izvēlieties video režīmu"
 
 msgid "Togo"
 msgstr "Togo"

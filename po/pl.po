@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-02 18:15+0200\n"
+"POT-Creation-Date: 2020-05-10 20:18+0200\n"
 "PO-Revision-Date: 2019-12-03 20:02+0100\n"
 "Last-Translator: blzr <blzr@o2.pl>\n"
 "Language-Team: \n"
@@ -1061,6 +1061,10 @@ msgstr "Każda aktywność"
 msgid "Arabic"
 msgstr "Arabski"
 
+#, fuzzy
+msgid "Are you sure to delete image:"
+msgstr "Jesteś pewien, że chcesz zrestartować do"
+
 msgid "Are you sure to purge all deleted user bouquets?"
 msgstr "Jesteś pewien, że chcesz całkowicie skasować wszystkie usunięte bukiety?"
 
@@ -1079,6 +1083,10 @@ msgstr "Jesteś pewien, że chcesz usunąć wszystkie kanały tv naziemnej?"
 
 msgid "Are you sure to remove this entry?"
 msgstr "Jesteś pewien, że chcesz usunąć?"
+
+#, fuzzy
+msgid "Are you sure to restore all deleted images"
+msgstr "Jesteś pewien, że chcesz usunąć wszystkie kanały tv kablowej?"
 
 msgid ""
 "Are you sure you want to activate this network configuration?\n"
@@ -1145,10 +1153,6 @@ msgid "Ask user"
 msgstr "Zapytaj użytkownika"
 
 msgid "Aspect ratio"
-msgstr ""
-
-#, python-format
-msgid "Aspect ratio changed to %s"
 msgstr ""
 
 msgid "Assigned CAIds:"
@@ -1879,6 +1883,10 @@ msgid "Collection settings"
 msgstr "Ustawienia kolekcji"
 
 msgid "Colombia"
+msgstr "Kolumbia"
+
+#, fuzzy
+msgid "Color"
 msgstr "Kolumbia"
 
 msgid "Color format"
@@ -2660,6 +2668,10 @@ msgstr "Opóźnienie w milisekundach pomiędzy przewijanymi literami na wyświet
 msgid "Delete"
 msgstr "Usuń"
 
+#, fuzzy
+msgid "Delete Image"
+msgstr "Usuń image"
+
 msgid "Delete entry"
 msgstr "Skasuj wpis"
 
@@ -2694,6 +2706,10 @@ msgstr "Usuń timer"
 
 msgid "Deleted"
 msgstr "Usunięto"
+
+#, fuzzy
+msgid "Deleted image"
+msgstr "Usuń image"
 
 msgid "Deleted items"
 msgstr "Usunięte pliki"
@@ -6290,10 +6306,6 @@ msgstr "Próg mocy. Więcej informacji znajdziesz w instrukcji obsługi odbiorni
 msgid "PowerMenu"
 msgstr "Menu zasilania"
 
-#, fuzzy
-msgid "Powerless"
-msgstr "Menu zasilania"
-
 msgid "Predefined transponder"
 msgstr "Pre-definiowany transponder"
 
@@ -6908,6 +6920,10 @@ msgstr "Przywróć backup"
 msgid "Restore defaults"
 msgstr "Ustaw domyślny"
 
+#, fuzzy
+msgid "Restore deleted images"
+msgstr "Przywróć usunięte bukiety"
+
 msgid "Restore deleted user bouquets"
 msgstr "Przywróć usunięte bukiety"
 
@@ -6942,9 +6958,6 @@ msgstr "Wznawianie odtwarzania"
 
 msgid "Retrieving image list - Please wait..."
 msgstr "Pobieranie listy image - proszę czekać..."
-
-msgid "Retrieving image slots - Please wait..."
-msgstr "Pobieranie slotów image - proszę czekać..."
 
 msgid "Return to movie list"
 msgstr "Powrót do listy filmów"
@@ -9414,9 +9427,6 @@ msgstr "Przełączaj między trybami TV/Radio"
 msgid "Toggle a cut mark at the current position"
 msgstr "Wstaw znacznik cięcia w aktualnej pozycji"
 
-msgid "Toggle aspect ratio..."
-msgstr ""
-
 msgid "Toggle dashed flickering line for this service"
 msgstr "Ukryj/pokaż przerywaną linie dla tego kanału"
 
@@ -9431,6 +9441,10 @@ msgstr "Pokaż / ukryj"
 
 msgid "Toggle the tv and the radio player..."
 msgstr "Przełączaj pomiędzy trybem TV i radio..."
+
+#, fuzzy
+msgid "Toggle videomode"
+msgstr "Wybierz tryb video"
 
 msgid "Togo"
 msgstr ""

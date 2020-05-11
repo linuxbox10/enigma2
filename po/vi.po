@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma 2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-02 18:15+0200\n"
+"POT-Creation-Date: 2020-05-10 20:18+0200\n"
 "PO-Revision-Date: 2019-11-19 08:58+0700\n"
 "Last-Translator: krong\n"
 "Language-Team: none\n"
@@ -1050,6 +1050,10 @@ msgstr "Bất kỳ hoạt động"
 msgid "Arabic"
 msgstr "Tiếng Ả Rập"
 
+#, fuzzy
+msgid "Are you sure to delete image:"
+msgstr "Bạn có chắc để khởi động lại"
+
 msgid "Are you sure to purge all deleted user bouquets?"
 msgstr "Bạn có chắc chắn để xóa tất cả các userbouquets đã xóa?"
 
@@ -1068,6 +1072,10 @@ msgstr "Bạn có chắc chắn loại bỏ tất cả các dịch vụ trên m�
 
 msgid "Are you sure to remove this entry?"
 msgstr "Bạn có chắc chắn để loại bỏ mục này?"
+
+#, fuzzy
+msgid "Are you sure to restore all deleted images"
+msgstr "Bạn có chắc chắn để loại bỏ tất cả các dịch vụ cáp?"
 
 msgid ""
 "Are you sure you want to activate this network configuration?\n"
@@ -1130,10 +1138,6 @@ msgid "Ask user"
 msgstr "Hỏi người dùng"
 
 msgid "Aspect ratio"
-msgstr "Tỷ lệ khung hình"
-
-#, fuzzy, python-format
-msgid "Aspect ratio changed to %s"
 msgstr "Tỷ lệ khung hình"
 
 msgid "Assigned CAIds:"
@@ -1864,6 +1868,10 @@ msgid "Collection settings"
 msgstr "Cài đặt bộ sưu tập"
 
 msgid "Colombia"
+msgstr "Colombia"
+
+#, fuzzy
+msgid "Color"
 msgstr "Colombia"
 
 msgid "Color format"
@@ -2645,6 +2653,10 @@ msgstr "Độ trễ tính bằng mili giây giữa các ký tự cuộn trên m�
 msgid "Delete"
 msgstr "Xóa bỏ"
 
+#, fuzzy
+msgid "Delete Image"
+msgstr "Xóa hình ảnh"
+
 msgid "Delete entry"
 msgstr "Xóa mục nhập"
 
@@ -2679,6 +2691,10 @@ msgstr "Xóa bộ đếm thời gian"
 
 msgid "Deleted"
 msgstr "Đã xóa"
+
+#, fuzzy
+msgid "Deleted image"
+msgstr "Xóa hình ảnh"
 
 msgid "Deleted items"
 msgstr "Các mục đã xóa"
@@ -6272,10 +6288,6 @@ msgstr "Ngưỡng công suất. Tham khảo hướng dẫn sử dụng của ng�
 msgid "PowerMenu"
 msgstr "Danh sách nguồn"
 
-#, fuzzy
-msgid "Powerless"
-msgstr "Danh sách nguồn"
-
 msgid "Predefined transponder"
 msgstr "Transponder được xác định trước"
 
@@ -6890,6 +6902,10 @@ msgstr "Khôi phục bản sao lưu"
 msgid "Restore defaults"
 msgstr "Đặt mặc định"
 
+#, fuzzy
+msgid "Restore deleted images"
+msgstr "Khôi phục lại những người dùng đã xóa"
+
 msgid "Restore deleted user bouquets"
 msgstr "Khôi phục lại những người dùng đã xóa"
 
@@ -6924,9 +6940,6 @@ msgstr "Tiếp tục phát lại"
 
 msgid "Retrieving image list - Please wait..."
 msgstr "Lấy danh sách hình ảnh - Vui lòng đợi ..."
-
-msgid "Retrieving image slots - Please wait..."
-msgstr "Lấy các khe hình ảnh - Vui lòng đợi .."
 
 msgid "Return to movie list"
 msgstr "Quay trở lại danh sách phim"
@@ -9390,10 +9403,6 @@ msgstr "Chuyển đổi chế độ TV / RADIO"
 msgid "Toggle a cut mark at the current position"
 msgstr "Chuyển đổi dấu cắt ở vị trí hiện tại"
 
-#, fuzzy
-msgid "Toggle aspect ratio..."
-msgstr "Tỷ lệ khung hình"
-
 msgid "Toggle dashed flickering line for this service"
 msgstr "Chuyển đổi dòng nhấp nháy cho dịch vụ này"
 
@@ -9408,6 +9417,10 @@ msgstr "Chuyển đổi hiển thị / ẩn"
 
 msgid "Toggle the tv and the radio player..."
 msgstr "Chuyển đổi tv và trình phát radio ..."
+
+#, fuzzy
+msgid "Toggle videomode"
+msgstr "Chọn chế độ video"
 
 msgid "Togo"
 msgstr "Togo"

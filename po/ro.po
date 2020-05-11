@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-02 18:15+0200\n"
+"POT-Creation-Date: 2020-05-10 20:18+0200\n"
 "PO-Revision-Date: 2010-03-09 21:03+0100\n"
 "Last-Translator: \n"
 "Language-Team: HDTV ROMANIA(superonic,costel_mbc,neutrin,otheitis,cipy_1982,neutrin,runcanion)\n"
@@ -1056,6 +1056,12 @@ msgstr ""
 msgid "Arabic"
 msgstr "Arabic"
 
+#, fuzzy
+msgid "Are you sure to delete image:"
+msgstr ""
+"Esti sigur ca vrei sa stergi\n"
+"urmarire backup:\n"
+
 msgid "Are you sure to purge all deleted user bouquets?"
 msgstr ""
 
@@ -1073,6 +1079,9 @@ msgid "Are you sure to remove all terrestrial services?"
 msgstr ""
 
 msgid "Are you sure to remove this entry?"
+msgstr ""
+
+msgid "Are you sure to restore all deleted images"
 msgstr ""
 
 msgid ""
@@ -1141,10 +1150,6 @@ msgstr "Intreaba pe user"
 
 #, fuzzy
 msgid "Aspect ratio"
-msgstr "Aspect Ratio"
-
-#, fuzzy, python-format
-msgid "Aspect ratio changed to %s"
 msgstr "Aspect Ratio"
 
 msgid "Assigned CAIds:"
@@ -1883,6 +1888,10 @@ msgstr "Setari colectie"
 
 #, fuzzy
 msgid "Colombia"
+msgstr "Format color"
+
+#, fuzzy
+msgid "Color"
 msgstr "Format color"
 
 #, fuzzy
@@ -2703,6 +2712,10 @@ msgstr ""
 msgid "Delete"
 msgstr "Sterge"
 
+#, fuzzy
+msgid "Delete Image"
+msgstr "sterge file"
+
 msgid "Delete entry"
 msgstr "Sterge articol"
 
@@ -2739,6 +2752,10 @@ msgstr ""
 
 msgid "Deleted"
 msgstr ""
+
+#, fuzzy
+msgid "Deleted image"
+msgstr "sterge file"
 
 msgid "Deleted items"
 msgstr ""
@@ -6450,9 +6467,6 @@ msgstr ""
 msgid "PowerMenu"
 msgstr ""
 
-msgid "Powerless"
-msgstr ""
-
 msgid "Predefined transponder"
 msgstr "Transponder predefinit"
 
@@ -7082,6 +7096,10 @@ msgstr ""
 msgid "Restore defaults"
 msgstr "listeaza stilul default"
 
+#, fuzzy
+msgid "Restore deleted images"
+msgstr "listeaza stilul default"
+
 msgid "Restore deleted user bouquets"
 msgstr ""
 
@@ -7117,10 +7135,6 @@ msgstr "Reluare redare"
 
 #, fuzzy
 msgid "Retrieving image list - Please wait..."
-msgstr "Se descarca informatiile despre plugin. Va rog sa asteptati..."
-
-#, fuzzy
-msgid "Retrieving image slots - Please wait..."
 msgstr "Se descarca informatiile despre plugin. Va rog sa asteptati..."
 
 msgid "Return to movie list"
@@ -9669,10 +9683,6 @@ msgstr ""
 msgid "Toggle a cut mark at the current position"
 msgstr "schimba o marcare la pozitia curenta"
 
-#, fuzzy
-msgid "Toggle aspect ratio..."
-msgstr "Aspect Ratio"
-
 msgid "Toggle dashed flickering line for this service"
 msgstr ""
 
@@ -9687,6 +9697,10 @@ msgstr ""
 
 msgid "Toggle the tv and the radio player..."
 msgstr ""
+
+#, fuzzy
+msgid "Toggle videomode"
+msgstr "Selectati modul vieo"
 
 msgid "Togo"
 msgstr ""

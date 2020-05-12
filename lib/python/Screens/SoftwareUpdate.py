@@ -121,15 +121,15 @@ class UpdatePlugin(Screen, ProtectedScreen):
 					elif 'en_EN' in message:
 						message = message['en_EN']
 					else:
-						message =  _("The current image might not be stable.\nFor more information see %s.") % ("openpli.org")
+						message =  _("The current image might not be stable.\nFor more information see %s.") % ("vuplus-images.co.uk")
 
 			except Exception, e:
 				print "[SoftwareUpdate] status error: ", str(e)
-				message =  _("The current image might not be stable.\nFor more information see %s.") % ("openpli.org")
+				message =  _("The current image might not be stable.\nFor more information see %s.") % ("vuplus-images.co.uk")
 
 		# or display a generic warning if fetching failed
 		else:
-			message = _("The status of the current image could not be checked because %s can not be reached.") % ("openpli.org")
+			message = _("It is recommended to make a settings bacup before updating")
 
 		# show the user the message first
 		if message is not None:

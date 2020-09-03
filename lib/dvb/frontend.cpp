@@ -759,6 +759,15 @@ int eDVBFrontend::closeFrontend(bool force, bool no_delayed)
 	if (m_fd >= 0)
 	{
 		eDebugNoSimulate("[eDVBFrontend%d] close frontend", m_dvbid);
+
+		long link = m_data[ADVANCED_SATPOSDEPENDS_LINK];
+		if (link != -1)
+		{
+			m_data[ADVANCED_SATPOSDEPENDS_LINK] = -1;
+			if (m_sec && !m_simulate)
+				m_sec->resetAdvancedsatposdependsRoot(link);
+		}
+
 		if (m_data[SATCR] != -1)
 		{
 			if (!no_delayed)
@@ -1089,7 +1098,13 @@ void eDVBFrontend::calculateSignalQuality(int snr, int &signalquality, int &sign
 	{
 		ret = (snr * 240) >> 8;
 	}
-	else if (strstr(m_description, "BCM4506") || strstr(m_description, "BCM4505") || strstr(m_description, "BCM45208") || strstr(m_description, "BCM45308") || strstr(m_description, "BCM4506 (internal)") || strstr(m_description, "BCM73625 (G3)"))
+	else if (strstr(m_description, "BCM4506") ||
+		strstr(m_description, "BCM4505") ||
+		strstr(m_description, "BCM45208") ||
+		strstr(m_description, "BCM45308") ||
+		strstr(m_description, "BCM4506 (internal)") ||
+		strstr(m_description, "BCM73625 (G3)") ||
+		strstr(m_description, "BCM3158"))
 	{
 		ret = (snr * 100) >> 8;
 	}
@@ -1106,7 +1121,9 @@ void eDVBFrontend::calculateSignalQuality(int snr, int &signalquality, int &sign
 	{
 		ret = (int)((((double(snr) / (65535.0 / 100.0)) * 0.1600) + 0.2100) * 100);
 	}
-	else if (!strcmp(m_description, "Vuplus DVB-S NIM(AVL6222)") || !strcmp(m_description, "Vuplus DVB-S NIM(AVL6211)") || !strcmp(m_description, "BCM7335 DVB-S2 NIM (internal)")) // VU+ DVB-S2 Dual NIM and VU+DUO DVB-S2 NIM
+	else if (!strcmp(m_description, "Vuplus DVB-S NIM(AVL6222)") ||
+		!strcmp(m_description, "Vuplus DVB-S NIM(AVL6211)") ||
+		!strcmp(m_description, "BCM7335 DVB-S2 NIM (internal)")) // VU+ DVB-S2 Dual NIM and VU+DUO DVB-S2 NIM
 	{
 		ret = (int)((((double(snr) / (65535.0 / 100.0)) * 0.1244) + 2.5079) * 100);
 		if (!strcmp(m_description, "Vuplus DVB-S NIM(AVL6222)"))
@@ -1128,9 +1145,11 @@ void eDVBFrontend::calculateSignalQuality(int snr, int &signalquality, int &sign
 	{
 		ret = (int)((((double(snr) / (65535.0 / 100.0)) * 0.28) - 10.0) * 100);
 	}
-	else if (!strcmp(m_description, "DVB-S2 NIM(45208 FBC)") || !strcmp(m_description, "DVB-S2 NIM(45308 FBC)"))
+	else if (strstr(m_description, "NIM(45208 FBC)") ||
+		strstr(m_description, "NIM(45308 FBC)") ||
+		strstr(m_description, "NIM(45308X FBC)"))
 	{
-		ret = (int)((((double(snr) / (65535.0 / 100.0)) * 0.1950) - 1.0000) * 100);
+		ret = (int)(snr < 57500 ? (snr < 52500 ? (snr < 32200 ? 0.02640 * snr + 0.0 :  0.02604 * snr + 11.55125) : 0.01310 * snr + 661.55172) : 0.02826 * snr - 210.);
 	}
 	else if (!strcmp(m_description, "DVB-C NIM(3128 FBC)"))
 	{
@@ -1188,6 +1207,11 @@ void eDVBFrontend::calculateSignalQuality(int snr, int &signalquality, int &sign
 		ret = (int)(snr / 40.5);
 		sat_max = 1900;
 	}
+	else if (strstr(m_description, "BCM3148"))
+	{
+		ret = (int)(snr / 15.61);
+		sat_max = 4200;
+	}
 	else if(!strcmp(m_description, "TBS-5925") || !strcmp(m_description, "DVBS2BOX") || !strcmp(m_description, "TechniSat USB device"))
 	{
 		ret = (snr * 2000) / 0xFFFF;
@@ -1223,7 +1247,23 @@ void eDVBFrontend::calculateSignalQuality(int snr, int &signalquality, int &sign
 				break;
 		}
 	}
-	else if (!strncmp(m_description, "Si2166D", 7))
+	else if (!strcmp(m_description, "Si21682") || !strcmp(m_description, "Si2168")) // SF4008 T/T2/C and Zgemma TC Models
+	{
+		int type = -1;
+		oparm.getSystem(type);
+		switch (type)
+		{
+			case feCable:
+				ret = (int)(snr / 17);
+				cab_max = 3800;
+				break;
+			case feTerrestrial:
+				ret = (int)(snr / 22.3);
+				ter_max = 2900;
+				break;
+		}
+	}
+	else if (!strncmp(m_description, "Si2166D", 7)) // SF8008 S2
 	{
 		ret = snr;
 		sat_max = 1620;
@@ -1231,6 +1271,8 @@ void eDVBFrontend::calculateSignalQuality(int snr, int &signalquality, int &sign
 	else if (!strncmp(m_description, "Si216", 5)) // New models with SI tuners
 	{
 		ret = snr;
+		if (!strcmp(m_description, "Si2169")) // DVB-T/C Xtrend
+			ret = snr / 10;
 	}
 
 	signalqualitydb = ret;
@@ -2719,7 +2761,7 @@ RESULT eDVBFrontend::setData(int num, long val)
 	return -EINVAL;
 }
 
-int eDVBFrontend::isCompatibleWith(ePtr<iDVBFrontendParameters> &feparm)
+int eDVBFrontend::isCompatibleWith(ePtr<iDVBFrontendParameters> &feparm, bool is_configured_sat)
 {
 	int type;
 	int score = 0;
@@ -2752,7 +2794,13 @@ int eDVBFrontend::isCompatibleWith(ePtr<iDVBFrontendParameters> &feparm)
 		{
 			return 0;
 		}
+
 		score = m_sec ? m_sec->canTune(parm, this, 1 << m_slotid) : 0;
+
+		/* additional check is orbital position configured for busy tuner use type SATPOS_DEPENDS_PTR/ADVANCED_SATPOSDEPENDS_ROOT(LINK) */
+		if (is_configured_sat && !score && m_sec && m_sec->isOrbitalPositionConfigured(parm.orbital_position))
+			score = 1;
+
 		if (score > 1 && parm.system == eDVBFrontendParametersSatellite::System_DVB_S && can_handle_dvbs2)
 		{
 			/* prefer to use an S tuner, try to keep S2 free for S2 transponders */

@@ -41,8 +41,12 @@ class MenuUpdater:
 
 menuupdater = MenuUpdater()
 
+
 class MenuSummary(Screen):
-	pass
+	def __init__(self, session, parent):
+		Screen.__init__(self, session, parent=parent)
+		self["Title"] = StaticText(parent.getTitle())
+
 
 class Menu(Screen, ProtectedScreen):
 	ALLOW_SUSPEND = True
@@ -198,7 +202,6 @@ class Menu(Screen, ProtectedScreen):
 		title = title and _(title) or _(parent.get("text", "").encode("UTF-8"))
 		title = self.__class__.__name__ == "MenuSort" and _("Menusort (%s)") % title or title
 		self["title"] = StaticText(title)
-		self.setScreenPathMode(True)
 		self.setTitle(title)
 
 		self.number = 0

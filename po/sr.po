@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-10 20:18+0200\n"
+"POT-Creation-Date: 2020-07-12 12:17+0200\n"
 "PO-Revision-Date: 2011-04-14 00:02+0200\n"
 "Last-Translator: majevica <jovanovic@gmx.ch>\n"
 "Language-Team: veselin & majevica CRNABERZA <jovanovic@gmx.ch>\n"
@@ -212,6 +212,13 @@ msgstr[2] "%d kanala pronađeno!"
 #, python-format
 msgid "%d core"
 msgid_plural "%d cores"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#, python-format
+msgid "%d day"
+msgid_plural "%d days"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
@@ -612,27 +619,6 @@ msgid "9"
 msgstr "9"
 
 msgid ": 0000 - default (disabled)"
-msgstr ""
-
-#
-#, fuzzy
-msgid "< Current >"
-msgstr "Trenutna vrednost:"
-
-#
-#, fuzzy
-msgid "< Default + Picon >"
-msgstr "Standardne postavke"
-
-#
-#, fuzzy
-msgid "< Default >"
-msgstr "Standardne postavke"
-
-msgid "< Emergency >"
-msgstr ""
-
-msgid "< Pending restart >"
 msgstr ""
 
 #
@@ -2766,6 +2752,11 @@ msgstr ""
 msgid "Curacao"
 msgstr ""
 
+#
+#, fuzzy
+msgid "Current"
+msgstr "Trenutna vrednost:"
+
 msgid "Current CEC address"
 msgstr ""
 
@@ -2998,6 +2989,11 @@ msgstr "Standardne postavke"
 msgid "Default timer type"
 msgstr "Tip tajmera"
 
+#
+#, fuzzy
+msgid "Default+Picon"
+msgstr "Standardne postavke"
+
 msgid "Define the location of the EPG Cache file."
 msgstr ""
 
@@ -3074,6 +3070,11 @@ msgid "Delete Image"
 msgstr "Obriši datoteku"
 
 #
+#, fuzzy
+msgid "Delete all the text"
+msgstr "obriši unos plejliste"
+
+#
 msgid "Delete entry"
 msgstr "Obriši unos"
 
@@ -3100,9 +3101,6 @@ msgstr "obriši unos plejliste"
 #, fuzzy
 msgid "Delete saved playlist"
 msgstr "obriši sačuvanu plejlistu"
-
-msgid "Delete the all the text"
-msgstr ""
 
 msgid "Delete the character to the left of text cursor"
 msgstr ""
@@ -3681,6 +3679,9 @@ msgid "Electronic Program Guide"
 msgstr "Elektronski Programski Vodič"
 
 msgid "Embedded"
+msgstr ""
+
+msgid "Emergency"
 msgstr ""
 
 msgid "Empty slot"
@@ -4627,6 +4628,11 @@ msgstr "Pođi do 0"
 msgid "Goto X"
 msgstr ""
 
+#
+#, fuzzy
+msgid "Goto down service"
+msgstr "Zaštiti kanale"
+
 msgid "Goto index position"
 msgstr ""
 
@@ -4651,6 +4657,11 @@ msgstr ""
 
 msgid "Goto specific date/time"
 msgstr ""
+
+#
+#, fuzzy
+msgid "Goto up service"
+msgstr "Zaštiti kanale"
 
 msgid "Goto:"
 msgstr ""
@@ -6862,6 +6873,11 @@ msgstr "Nastavite reprodukciju"
 msgid "Pause/Continue playback"
 msgstr "Nastaviti reprodukciju"
 
+#
+#, fuzzy
+msgid "Pending restart"
+msgstr "Spreman / restart"
+
 msgid "Percentage left"
 msgstr ""
 
@@ -7450,7 +7466,7 @@ msgstr "Pritisnite OK na daljinskom upravljaču da nastavite."
 
 #
 #, fuzzy, python-format
-msgid "Press OK to activate the selected%s skin."
+msgid "Press OK to activate the selected %s skin."
 msgstr "Pritisnite OK za aktiviranje izabrane maske."
 
 #
@@ -7468,7 +7484,7 @@ msgstr "Pritisnite OK da dobijete dodatne detalje za %s"
 
 #
 #, fuzzy, python-format
-msgid "Press OK to keep the currently selected%s skin."
+msgid "Press OK to keep the currently selected %s skin."
 msgstr "Pritisnite OK za aktiviranje izabrane maske."
 
 #
@@ -8663,11 +8679,6 @@ msgstr "Odaberi mrežni adapter"
 
 #
 #, fuzzy
-msgid "Select a skin"
-msgstr "Odaberi film"
-
-#
-#, fuzzy
 msgid "Select a tuner"
 msgstr "Odaberi film"
 
@@ -9429,6 +9440,9 @@ msgstr ""
 msgid "Show service list"
 msgstr ""
 
+msgid "Show service name and event description among each other instead of side by side."
+msgstr ""
+
 msgid "Show service type icons"
 msgstr ""
 
@@ -9467,6 +9481,9 @@ msgstr "Prikaži tv plejer..."
 #
 msgid "Show transponder info"
 msgstr "Prikaži info transpondera"
+
+msgid "Show two lines per entry"
+msgstr ""
 
 #
 #, fuzzy
@@ -10155,11 +10172,26 @@ msgid "Subtitle settings"
 msgstr ""
 
 #
+#, fuzzy
+msgid "Subtitle show/hide..."
+msgstr "Subtitlovi"
+
+#
 msgid "Subtitles"
 msgstr "Subtitlovi"
 
 msgid "Subtitles Settings"
 msgstr ""
+
+#
+#, fuzzy
+msgid "Subtitles disabled"
+msgstr "Subtitlovi"
+
+#
+#, fuzzy
+msgid "Subtitles enabled"
+msgstr "Subtitlovi"
 
 msgid "Succeeded:"
 msgstr ""
@@ -10226,15 +10258,19 @@ msgstr ""
 msgid "Switch channel up"
 msgstr ""
 
-msgid "Switch off the display during Standby Mode"
-msgstr ""
-
-msgid "Switch off the display during Suspend Mode"
-msgstr ""
+#
+#, fuzzy
+msgid "Switch on the display during Standby Mode"
+msgstr "Vidi listu mogućih proširenja za displej i korisnički interfejs"
 
 #
 #, fuzzy
-msgid "Switch off the display during operation."
+msgid "Switch on the display during Suspend Mode"
+msgstr "Vidi listu mogućih proširenja za displej i korisnički interfejs"
+
+#
+#, fuzzy
+msgid "Switch on the display during operation."
 msgstr "Vidi listu mogućih proširenja za displej i korisnički interfejs"
 
 msgid "Switch to TV mode"
@@ -11029,6 +11065,9 @@ msgstr ""
 msgid "Toggle show/hide"
 msgstr ""
 
+msgid "Toggle subtitles show/hide"
+msgstr ""
+
 msgid "Toggle the tv and the radio player..."
 msgstr ""
 
@@ -11417,6 +11456,9 @@ msgid "Updating software catalog"
 msgstr "Ažuriranje kataloga softvera"
 
 msgid "Upper case"
+msgstr ""
+
+msgid "Uptime"
 msgstr ""
 
 msgid "Uruguay"
@@ -12203,13 +12245,15 @@ msgstr ""
 msgid "With popup"
 msgstr ""
 
-msgid "With this option you can switch off the display during operation."
+#
+#, fuzzy
+msgid "With this option you can switch on the display during operation."
+msgstr "Vidi listu mogućih proširenja za displej i korisnički interfejs"
+
+msgid "With this option you can switch on the display in Deep Standby Mode."
 msgstr ""
 
-msgid "With this option you can switch off the display in Deep Standby Mode."
-msgstr ""
-
-msgid "With this option you can switch off the display in Standby Mode."
+msgid "With this option you can switch on the display in Standby Mode."
 msgstr ""
 
 msgid "With this option you can switch the LED color or deactivate the LED."

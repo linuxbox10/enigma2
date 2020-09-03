@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenPLi-enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-10 20:18+0200\n"
-"PO-Revision-Date: 2018-05-22 13:54+0200\n"
+"POT-Creation-Date: 2020-07-12 12:17+0200\n"
+"PO-Revision-Date: 2020-05-16 18:46+0200\n"
 "Last-Translator: Gringo <openpli@tiscali.it>\n"
 "Language-Team: www.linsat.net <spaeleus@croci.org>\n"
 "Language: it\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Previous-Translator: ngc1927 <ngc1927@gmail.com> 2016-06-12\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.7\n"
+"X-Generator: Poedit 2.2.4\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 msgid ""
@@ -212,6 +212,12 @@ msgstr[0] "%d core"
 msgstr[1] "%d core"
 
 #, python-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#, python-format
 msgid "%d file"
 msgid_plural "%d files"
 msgstr[0] "%d file"
@@ -245,7 +251,7 @@ msgstr "%d kB/s"
 msgid "%d min"
 msgstr "%d min"
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%d minuto"
@@ -563,24 +569,6 @@ msgstr "9"
 
 msgid ": 0000 - default (disabled)"
 msgstr ": 0000 - predefinito (disabilitato)"
-
-#, fuzzy
-msgid "< Current >"
-msgstr "Valore attuale: "
-
-#, fuzzy
-msgid "< Default + Picon >"
-msgstr "<Skin Default>"
-
-#, fuzzy
-msgid "< Default >"
-msgstr "<Skin Default>"
-
-msgid "< Emergency >"
-msgstr ""
-
-msgid "< Pending restart >"
-msgstr ""
 
 msgid "<Current movielist location>"
 msgstr "<Percorso attuale dei video>"
@@ -2394,6 +2382,10 @@ msgstr "Cuba"
 msgid "Curacao"
 msgstr "Curacao"
 
+#, fuzzy
+msgid "Current"
+msgstr "Valore attuale: "
+
 msgid "Current CEC address"
 msgstr "Indirizzo CEC attuale"
 
@@ -2580,6 +2572,10 @@ msgstr "Impostazioni predefinite"
 msgid "Default timer type"
 msgstr "Eliminare il timer"
 
+#, fuzzy
+msgid "Default+Picon"
+msgstr "<Skin Default>"
+
 msgid "Define the location of the EPG Cache file."
 msgstr "Definire il percorso del file Cache EPG."
 
@@ -2653,6 +2649,10 @@ msgstr "Eliminare"
 msgid "Delete Image"
 msgstr "Eliminare l'immagine"
 
+#, fuzzy
+msgid "Delete all the text"
+msgstr "Eliminare la voce della playlist"
+
 msgid "Delete entry"
 msgstr "Eliminare la voce"
 
@@ -2670,9 +2670,6 @@ msgstr "Eliminare la voce della playlist"
 
 msgid "Delete saved playlist"
 msgstr "Eliminare la playlist salvata"
-
-msgid "Delete the all the text"
-msgstr ""
 
 msgid "Delete the character to the left of text cursor"
 msgstr ""
@@ -3152,6 +3149,9 @@ msgstr "Guida Programmi Elettronica"
 
 msgid "Embedded"
 msgstr "Incorporato"
+
+msgid "Emergency"
+msgstr ""
 
 msgid "Empty slot"
 msgstr "Slot vuoto"
@@ -3990,6 +3990,10 @@ msgstr "Andare a 0"
 msgid "Goto X"
 msgstr "Andare a X"
 
+#, fuzzy
+msgid "Goto down service"
+msgstr "Andare all'ultimo canale"
+
 msgid "Goto index position"
 msgstr "Andare alla posizione indice"
 
@@ -4013,6 +4017,10 @@ msgstr "Andare alla Prima serata / Ora"
 
 msgid "Goto specific date/time"
 msgstr "Andare alla data/ora specificata"
+
+#, fuzzy
+msgid "Goto up service"
+msgstr "Andare all'ultimo canale"
 
 msgid "Goto:"
 msgstr "A:"
@@ -5881,6 +5889,10 @@ msgstr "Pausa riproduzione"
 msgid "Pause/Continue playback"
 msgstr "Pausa/Continua la riproduzione"
 
+#, fuzzy
+msgid "Pending restart"
+msgstr "Gestione stato"
+
 msgid "Percentage left"
 msgstr "Percentuale a sinistra"
 
@@ -6362,7 +6374,7 @@ msgid "Press OK on your remote control to continue."
 msgstr "Premere OK sul telecomando per continuare."
 
 #, fuzzy, python-format
-msgid "Press OK to activate the selected%s skin."
+msgid "Press OK to activate the selected %s skin."
 msgstr "Premere OK sul telecomando per attivare la skin selezionata."
 
 msgid "Press OK to activate the settings."
@@ -6376,7 +6388,7 @@ msgid "Press OK to get further details for %s"
 msgstr "Premere OK per maggiori dettagli su %s."
 
 #, fuzzy, python-format
-msgid "Press OK to keep the currently selected%s skin."
+msgid "Press OK to keep the currently selected %s skin."
 msgstr "Premere OK sul telecomando per attivare la skin selezionata."
 
 msgid "Press OK to scan"
@@ -7378,9 +7390,6 @@ msgstr "Selezionare un video"
 msgid "Select a network adapter"
 msgstr "Selezionare una scheda di rete"
 
-msgid "Select a skin"
-msgstr "Selezionare una skin"
-
 msgid "Select a tuner"
 msgstr "Selezionare un sintonizzatore"
 
@@ -8030,6 +8039,9 @@ msgstr "Mostrare la seconda infobar"
 msgid "Show service list"
 msgstr "Mostrare la lista canali"
 
+msgid "Show service name and event description among each other instead of side by side."
+msgstr ""
+
 msgid "Show service type icons"
 msgstr "Mostrare l'indicatore del tipo di canale"
 
@@ -8065,6 +8077,9 @@ msgstr "Mostrare il lettore TV..."
 
 msgid "Show transponder info"
 msgstr "Mostrare le informazioni sul transponder"
+
+msgid "Show two lines per entry"
+msgstr ""
 
 msgid "Show underline characters in filenames"
 msgstr "Mostrare i caratteri di sottolineatura nei nomi dei file"
@@ -8633,11 +8648,23 @@ msgstr "Selezione dei sottotitoli..."
 msgid "Subtitle settings"
 msgstr "Sottotitoli"
 
+#, fuzzy
+msgid "Subtitle show/hide..."
+msgstr "Selezione dei sottotitoli..."
+
 msgid "Subtitles"
 msgstr "Sottotitoli"
 
 msgid "Subtitles Settings"
 msgstr "Impostazioni dei sottotitoli"
+
+#, fuzzy
+msgid "Subtitles disabled"
+msgstr "Impostazioni dei sottotitoli"
+
+#, fuzzy
+msgid "Subtitles enabled"
+msgstr "Limiti abilitati"
 
 msgid "Succeeded:"
 msgstr "Riuscito:"
@@ -8693,14 +8720,16 @@ msgstr "Passare al canale precedente"
 msgid "Switch channel up"
 msgstr "Passare al canale successivo"
 
-msgid "Switch off the display during Standby Mode"
-msgstr ""
-
-msgid "Switch off the display during Suspend Mode"
-msgstr ""
+#, fuzzy
+msgid "Switch on the display during Standby Mode"
+msgstr "Mostrare l'elenco delle estensioni disponibili per lo schermo e l'interfaccia utente."
 
 #, fuzzy
-msgid "Switch off the display during operation."
+msgid "Switch on the display during Suspend Mode"
+msgstr "Mostrare l'elenco delle estensioni disponibili per lo schermo e l'interfaccia utente."
+
+#, fuzzy
+msgid "Switch on the display during operation."
 msgstr "Mostrare l'elenco delle estensioni disponibili per lo schermo e l'interfaccia utente."
 
 msgid "Switch to TV mode"
@@ -8785,20 +8814,7 @@ msgstr ""
 msgid "TRANSLATOR_INFO"
 msgstr ""
 "Traduzione italiana\n"
-"OpenPLi Enigma2\n"
-"a cura di Dario Croci\n"
-"\n"
-"Aggiornata da ngc1927 (ngc1927@gmail.com) il 12/06/2016\n"
-"\n"
-"Aggiornata da Eragon (openpli@outlook.it) il 20/09/2016\n"
-"Aggiornata da Eragon (openpli@outlook.it) il 21/01/2018\n"
-"Aggiornata da Eragon (openpli@outlook.it) il 21/02/2018\n"
-"\n"
-"Aggiornata da Gringo (openpli@tiscali.it) il 06/03/2018\n"
-"\n"
-"Aggiornata da gigabite il 19/11/2019\n"
-"\n"
-"Ultimo aggiornamento: 19 novembre 2019"
+"OpenPLi Enigma2"
 
 msgid "TS file is too large for ISO9660 level 1!"
 msgstr "File TS troppo grande per ISO9660 livello 1!"
@@ -9424,6 +9440,10 @@ msgstr ""
 msgid "Toggle show/hide"
 msgstr "Attivare/disattivare mostrare/nascondere"
 
+#, fuzzy
+msgid "Toggle subtitles show/hide"
+msgstr "Attivare/disattivare mostrare/nascondere"
+
 msgid "Toggle the tv and the radio player..."
 msgstr "Attivare/disattivare il lettore TV e radio..."
 
@@ -9759,6 +9779,10 @@ msgstr "Aggiornamento del catalogo software in corso..."
 
 msgid "Upper case"
 msgstr ""
+
+#, fuzzy
+msgid "Uptime"
+msgstr "Timer di spegnimento"
 
 msgid "Uruguay"
 msgstr "Uruguay"
@@ -10453,14 +10477,15 @@ msgid "With popup"
 msgstr "Con un popup"
 
 #, fuzzy
-msgid "With this option you can switch off the display during operation."
+msgid "With this option you can switch on the display during operation."
 msgstr "Questa opzione consente di spegnere il display."
 
-msgid "With this option you can switch off the display in Deep Standby Mode."
-msgstr ""
+#, fuzzy
+msgid "With this option you can switch on the display in Deep Standby Mode."
+msgstr "Questa opzione consente di spegnere il display."
 
 #, fuzzy
-msgid "With this option you can switch off the display in Standby Mode."
+msgid "With this option you can switch on the display in Standby Mode."
 msgstr "Questa opzione consente di spegnere il display."
 
 msgid "With this option you can switch the LED color or deactivate the LED."

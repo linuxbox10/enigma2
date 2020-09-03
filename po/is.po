@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-10 20:18+0200\n"
-"PO-Revision-Date: 2011-05-07 12:23+0200\n"
+"POT-Creation-Date: 2020-07-12 12:17+0200\n"
+"PO-Revision-Date: 2020-05-16 18:44+0200\n"
 "Last-Translator: Baldur <bsveinsson@gmail.com>\n"
 "Language-Team: Polar Team/LT Team <baddi@oreind.is>\n"
 "Language: is\n"
@@ -13,10 +13,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.0.3\n"
-"X-Poedit-Language: Icelandic\n"
+"X-Generator: Poedit 2.2.4\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-Country: ICELAND\n"
 
 msgid ""
 "\n"
@@ -209,6 +207,12 @@ msgstr[1] "%d rásir fundnar!"
 #, python-format
 msgid "%d core"
 msgid_plural "%d cores"
+msgstr[0] ""
+msgstr[1] ""
+
+#, python-format
+msgid "%d day"
+msgid_plural "%d days"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -601,26 +605,6 @@ msgid "9"
 msgstr "9"
 
 msgid ": 0000 - default (disabled)"
-msgstr ""
-
-#, fuzzy
-msgid "< Current >"
-msgstr "Núverandi val:"
-
-#
-#, fuzzy
-msgid "< Default + Picon >"
-msgstr "Upphafs stillingar"
-
-#
-#, fuzzy
-msgid "< Default >"
-msgstr "Upphafs stillingar"
-
-msgid "< Emergency >"
-msgstr ""
-
-msgid "< Pending restart >"
 msgstr ""
 
 msgid "<Current movielist location>"
@@ -2588,6 +2572,10 @@ msgstr ""
 msgid "Curacao"
 msgstr ""
 
+#, fuzzy
+msgid "Current"
+msgstr "Núverandi val:"
+
 msgid "Current CEC address"
 msgstr ""
 
@@ -2804,6 +2792,11 @@ msgstr "Upphafs stillingar"
 msgid "Default timer type"
 msgstr "Gerð Tímastillngar"
 
+#
+#, fuzzy
+msgid "Default+Picon"
+msgstr "Upphafs stillingar"
+
 msgid "Define the location of the EPG Cache file."
 msgstr ""
 
@@ -2880,6 +2873,11 @@ msgid "Delete Image"
 msgstr "eyða skrá"
 
 #
+#, fuzzy
+msgid "Delete all the text"
+msgstr "eyða atriði úr spilunarlista"
+
+#
 msgid "Delete entry"
 msgstr "Eyða innslætti"
 
@@ -2906,9 +2904,6 @@ msgstr "eyða atriði úr spilunarlista"
 #, fuzzy
 msgid "Delete saved playlist"
 msgstr "eyða vistuðum spilunarlista"
-
-msgid "Delete the all the text"
-msgstr ""
 
 msgid "Delete the character to the left of text cursor"
 msgstr ""
@@ -3472,6 +3467,9 @@ msgid "Electronic Program Guide"
 msgstr "Rafrænn dagskrárstjóri (EPG)"
 
 msgid "Embedded"
+msgstr ""
+
+msgid "Emergency"
 msgstr ""
 
 msgid "Empty slot"
@@ -4394,6 +4392,11 @@ msgstr "Fara á 0"
 msgid "Goto X"
 msgstr ""
 
+#
+#, fuzzy
+msgid "Goto down service"
+msgstr "Læsa rásum"
+
 msgid "Goto index position"
 msgstr ""
 
@@ -4418,6 +4421,11 @@ msgstr ""
 
 msgid "Goto specific date/time"
 msgstr ""
+
+#
+#, fuzzy
+msgid "Goto up service"
+msgstr "Læsa rásum"
 
 msgid "Goto:"
 msgstr ""
@@ -6603,6 +6611,11 @@ msgstr "Held áfram spilun"
 msgid "Pause/Continue playback"
 msgstr "Halda áfram að spila"
 
+#
+#, fuzzy
+msgid "Pending restart"
+msgstr "Biðstaða / Endurræsing"
+
 msgid "Percentage left"
 msgstr ""
 
@@ -7176,7 +7189,7 @@ msgstr "Ýttu á OK á fjarstýringunni til að halda áfram."
 
 #
 #, fuzzy, python-format
-msgid "Press OK to activate the selected%s skin."
+msgid "Press OK to activate the selected %s skin."
 msgstr "Ýttu á OK til að velja valið skinn."
 
 #
@@ -7194,7 +7207,7 @@ msgstr "Ýttu á OK til að fá nánari upplýsingar um %s"
 
 #
 #, fuzzy, python-format
-msgid "Press OK to keep the currently selected%s skin."
+msgid "Press OK to keep the currently selected %s skin."
 msgstr "Ýttu á OK til að velja valið skinn."
 
 #
@@ -8375,11 +8388,6 @@ msgstr "Veldu Netkort"
 
 #
 #, fuzzy
-msgid "Select a skin"
-msgstr "Veldu mynd"
-
-#
-#, fuzzy
 msgid "Select a tuner"
 msgstr "Veldu mynd"
 
@@ -9126,6 +9134,9 @@ msgstr ""
 msgid "Show service list"
 msgstr ""
 
+msgid "Show service name and event description among each other instead of side by side."
+msgstr ""
+
 msgid "Show service type icons"
 msgstr ""
 
@@ -9163,6 +9174,9 @@ msgstr "Sýna sjónvarpsspilara..."
 #
 msgid "Show transponder info"
 msgstr "Sýna upplýsingar um sendi"
+
+msgid "Show two lines per entry"
+msgstr ""
 
 #
 #, fuzzy
@@ -9845,11 +9859,26 @@ msgid "Subtitle settings"
 msgstr ""
 
 #
+#, fuzzy
+msgid "Subtitle show/hide..."
+msgstr "Undirtextar"
+
+#
 msgid "Subtitles"
 msgstr "Undirtextar"
 
 msgid "Subtitles Settings"
 msgstr ""
+
+#
+#, fuzzy
+msgid "Subtitles disabled"
+msgstr "Undirtextar"
+
+#
+#, fuzzy
+msgid "Subtitles enabled"
+msgstr "Undirtextar"
 
 msgid "Succeeded:"
 msgstr ""
@@ -9916,15 +9945,19 @@ msgstr ""
 msgid "Switch channel up"
 msgstr ""
 
-msgid "Switch off the display during Standby Mode"
-msgstr ""
-
-msgid "Switch off the display during Suspend Mode"
-msgstr ""
+#
+#, fuzzy
+msgid "Switch on the display during Standby Mode"
+msgstr "Skoða lista af tiltækum Skjá og viðmóts viðbótum."
 
 #
 #, fuzzy
-msgid "Switch off the display during operation."
+msgid "Switch on the display during Suspend Mode"
+msgstr "Skoða lista af tiltækum Skjá og viðmóts viðbótum."
+
+#
+#, fuzzy
+msgid "Switch on the display during operation."
 msgstr "Skoða lista af tiltækum Skjá og viðmóts viðbótum."
 
 msgid "Switch to TV mode"
@@ -10026,12 +10059,6 @@ msgstr ""
 #. TRANSLATORS: Add here whatever should be shown in the "translator" about screen, up to 6 lines (use \n for newline)
 msgid "TRANSLATOR_INFO"
 msgstr ""
-"Dreifingaraðili á Íslandi:\n"
-" Öreind sf. Auðbrekka 3\n"
-"200 Kópavogur\n"
-"\n"
-"Email: oreind@oreind.is\n"
-"Vefur: http://www.oreind.is"
 
 #
 msgid "TS file is too large for ISO9660 level 1!"
@@ -10712,6 +10739,9 @@ msgstr ""
 msgid "Toggle show/hide"
 msgstr ""
 
+msgid "Toggle subtitles show/hide"
+msgstr ""
+
 msgid "Toggle the tv and the radio player..."
 msgstr ""
 
@@ -11089,6 +11119,9 @@ msgid "Updating software catalog"
 msgstr "Uppfæri efnisyfirlit hugbúnaðar"
 
 msgid "Upper case"
+msgstr ""
+
+msgid "Uptime"
 msgstr ""
 
 msgid "Uruguay"
@@ -11870,13 +11903,15 @@ msgstr ""
 msgid "With popup"
 msgstr ""
 
-msgid "With this option you can switch off the display during operation."
+#
+#, fuzzy
+msgid "With this option you can switch on the display during operation."
+msgstr "Skoða lista af tiltækum Skjá og viðmóts viðbótum."
+
+msgid "With this option you can switch on the display in Deep Standby Mode."
 msgstr ""
 
-msgid "With this option you can switch off the display in Deep Standby Mode."
-msgstr ""
-
-msgid "With this option you can switch off the display in Standby Mode."
+msgid "With this option you can switch on the display in Standby Mode."
 msgstr ""
 
 msgid "With this option you can switch the LED color or deactivate the LED."

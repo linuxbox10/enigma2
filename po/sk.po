@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-10 20:18+0200\n"
+"POT-Creation-Date: 2020-07-12 12:17+0200\n"
 "PO-Revision-Date: 2020-05-12 14:02+0200\n"
 "Last-Translator: Andrej Tobola <andrej.tobola@gmail.com>\n"
 "Language-Team: \n"
@@ -208,6 +208,13 @@ msgstr[1] "%d jadrá"
 msgstr[2] "%d jadier"
 
 #, python-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#, python-format
 msgid "%d file"
 msgid_plural "%d files"
 msgstr[0] "%d súbor"
@@ -244,7 +251,7 @@ msgstr "%d kB/s"
 msgid "%d min"
 msgstr "%d min"
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%d minúta"
@@ -566,21 +573,6 @@ msgstr "9"
 
 msgid ": 0000 - default (disabled)"
 msgstr ": 0000 - predvolené (vypnuté)"
-
-msgid "< Current >"
-msgstr "< Aktuálne >"
-
-msgid "< Default + Picon >"
-msgstr "< Predvolené + Picon >"
-
-msgid "< Default >"
-msgstr "< Predvolené >"
-
-msgid "< Emergency >"
-msgstr "< Núdzový >"
-
-msgid "< Pending restart >"
-msgstr "< Čakajúci reštart >"
 
 msgid "<Current movielist location>"
 msgstr "<Aktuálne umiestnenie zoznamu filmov>"
@@ -2402,6 +2394,10 @@ msgstr "Kuba"
 msgid "Curacao"
 msgstr "Curacao"
 
+#, fuzzy
+msgid "Current"
+msgstr "< Aktuálne >"
+
 msgid "Current CEC address"
 msgstr "Súčasná CEC adresa"
 
@@ -2587,6 +2583,10 @@ msgstr "Predvolené nastavenia"
 msgid "Default timer type"
 msgstr "Predvolený typ časovača"
 
+#, fuzzy
+msgid "Default+Picon"
+msgstr "< Predvolené + Picon >"
+
 msgid "Define the location of the EPG Cache file."
 msgstr "Definícia umiestnenia dočasného súboru EPG."
 
@@ -2659,6 +2659,10 @@ msgstr "Vymazať"
 msgid "Delete Image"
 msgstr "Vymazať image"
 
+#, fuzzy
+msgid "Delete all the text"
+msgstr "Vymazať všetok text"
+
 msgid "Delete entry"
 msgstr "Vymazať zadanie"
 
@@ -2676,9 +2680,6 @@ msgstr "Zmazať položku v zozname prehrávok"
 
 msgid "Delete saved playlist"
 msgstr "Zmazať uložený zoznam prehrávok"
-
-msgid "Delete the all the text"
-msgstr "Vymazať všetok text"
 
 msgid "Delete the character to the left of text cursor"
 msgstr "Vymazať znak vľavo od kurzora"
@@ -3157,6 +3158,10 @@ msgstr "Elektronický programový sprievodca"
 
 msgid "Embedded"
 msgstr "Vložené"
+
+#, fuzzy
+msgid "Emergency"
+msgstr "< Núdzový >"
 
 msgid "Empty slot"
 msgstr "Prázdny slot"
@@ -3988,6 +3993,10 @@ msgstr "Otočiť na 0"
 msgid "Goto X"
 msgstr "Otočiť na X"
 
+#, fuzzy
+msgid "Goto down service"
+msgstr "Prejsť na poslednú stanicu"
+
 msgid "Goto index position"
 msgstr "Prejsť na východziu pozíciu"
 
@@ -4011,6 +4020,10 @@ msgstr "Prejsť na hlavný vysielací čas"
 
 msgid "Goto specific date/time"
 msgstr "Prejsť na konkrétny dátum/čas"
+
+#, fuzzy
+msgid "Goto up service"
+msgstr "Prejsť na poslednú stanicu"
 
 msgid "Goto:"
 msgstr "Prejsť na:"
@@ -5867,6 +5880,10 @@ msgstr "Pauza/prehrávanie"
 msgid "Pause/Continue playback"
 msgstr "Pozastaviť/Pokračovať prehrávanie"
 
+#, fuzzy
+msgid "Pending restart"
+msgstr "< Čakajúci reštart >"
+
 msgid "Percentage left"
 msgstr "Percentá vľavo"
 
@@ -6347,8 +6364,8 @@ msgstr "Stlačením MENU na DO si zobrazíte ďalšie možnosti."
 msgid "Press OK on your remote control to continue."
 msgstr "Ak chcete pokračovať, stlačte tlačidlo OK na diaľkovom ovládači."
 
-#, python-format
-msgid "Press OK to activate the selected%s skin."
+#, fuzzy, python-format
+msgid "Press OK to activate the selected %s skin."
 msgstr "Stlačením OK aktivujete zvolený vzhľad %s."
 
 msgid "Press OK to activate the settings."
@@ -6361,8 +6378,8 @@ msgstr "Stlačte OK pre zmenu nastavení."
 msgid "Press OK to get further details for %s"
 msgstr "Pre ďalšie informácie o %s stlačte tlačidlo OK"
 
-#, python-format
-msgid "Press OK to keep the currently selected%s skin."
+#, fuzzy, python-format
+msgid "Press OK to keep the currently selected %s skin."
 msgstr "Stlačením OK ponecháte aktuálne zvolený vzhľad %s."
 
 msgid "Press OK to scan"
@@ -7361,9 +7378,6 @@ msgstr "Zvoľte film"
 msgid "Select a network adapter"
 msgstr "Vyberte sieťový adaptér"
 
-msgid "Select a skin"
-msgstr "Zvoľte vzhľad"
-
 msgid "Select a tuner"
 msgstr "Zvoľte tuner"
 
@@ -8008,6 +8022,9 @@ msgstr "Zobraziť druhú informačnú lištu"
 msgid "Show service list"
 msgstr "Zobraziť zoznam služieb"
 
+msgid "Show service name and event description among each other instead of side by side."
+msgstr ""
+
 msgid "Show service type icons"
 msgstr "Zobrazovať ikony typu služby"
 
@@ -8043,6 +8060,9 @@ msgstr "Prehrávanie TV..."
 
 msgid "Show transponder info"
 msgstr "Zobraziť infor. o transpondéri"
+
+msgid "Show two lines per entry"
+msgstr ""
 
 msgid "Show underline characters in filenames"
 msgstr "Zobraziť podčiarknuté znaky v názvoch súborov"
@@ -8610,11 +8630,23 @@ msgstr "Výber titulkov..."
 msgid "Subtitle settings"
 msgstr "Nastavenie titulkov"
 
+#, fuzzy
+msgid "Subtitle show/hide..."
+msgstr "Výber titulkov..."
+
 msgid "Subtitles"
 msgstr "Titulky"
 
 msgid "Subtitles Settings"
 msgstr "Nastavenie titulkov"
+
+#, fuzzy
+msgid "Subtitles disabled"
+msgstr "Nastavenie titulkov"
+
+#, fuzzy
+msgid "Subtitles enabled"
+msgstr "Limity povolené"
 
 msgid "Succeeded:"
 msgstr "Uspelo:"
@@ -8670,13 +8702,16 @@ msgstr "Prepnúť kanál dozadu"
 msgid "Switch channel up"
 msgstr "Prepnúť kanál dopredu"
 
-msgid "Switch off the display during Standby Mode"
+#, fuzzy
+msgid "Switch on the display during Standby Mode"
 msgstr "Vypnúť displej v pohotovostnom režime."
 
-msgid "Switch off the display during Suspend Mode"
+#, fuzzy
+msgid "Switch on the display during Suspend Mode"
 msgstr "Vypnúť displej v pozastavenom režime."
 
-msgid "Switch off the display during operation."
+#, fuzzy
+msgid "Switch on the display during operation."
 msgstr "Vypnúť displej počas prevádzky."
 
 msgid "Switch to TV mode"
@@ -9385,6 +9420,10 @@ msgstr "Prepnúť vkladanie nového vloženého textu alebo prepísať existujú
 msgid "Toggle show/hide"
 msgstr "Prepnúť zobraziť/skryť"
 
+#, fuzzy
+msgid "Toggle subtitles show/hide"
+msgstr "Prepnúť zobraziť/skryť"
+
 msgid "Toggle the tv and the radio player..."
 msgstr "Prepnúť TV a Rádio prehrávač..."
 
@@ -9716,6 +9755,10 @@ msgstr "Aktualizácia katalógu softvéru"
 
 msgid "Upper case"
 msgstr "Veľké písmená"
+
+#, fuzzy
+msgid "Uptime"
+msgstr "Časovač vypnutia"
 
 msgid "Uruguay"
 msgstr "Uruguay"
@@ -10407,13 +10450,16 @@ msgstr "S chybami:"
 msgid "With popup"
 msgstr "S vyskakovacím oknom"
 
-msgid "With this option you can switch off the display during operation."
+#, fuzzy
+msgid "With this option you can switch on the display during operation."
 msgstr "Táto voľba umožňuje vypnutie displeja počas prevádzky."
 
-msgid "With this option you can switch off the display in Deep Standby Mode."
+#, fuzzy
+msgid "With this option you can switch on the display in Deep Standby Mode."
 msgstr "Táto voľba umožňuje vypnúť displej v režime hlbokého spánku."
 
-msgid "With this option you can switch off the display in Standby Mode."
+#, fuzzy
+msgid "With this option you can switch on the display in Standby Mode."
 msgstr "Táto voľba umožňuje vypnúť displej v pohotovostnom režime."
 
 msgid "With this option you can switch the LED color or deactivate the LED."

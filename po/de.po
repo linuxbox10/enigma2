@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-10 20:18+0200\n"
+"POT-Creation-Date: 2020-07-12 12:17+0200\n"
 "PO-Revision-Date: 2019-11-28 17:53+0100\n"
 "Last-Translator: Pike_Bishop <alfredzngr023@gmail.com>\n"
 "Language-Team: Sfteam  angelo2807@hotmail.com\n"
@@ -206,6 +206,12 @@ msgstr[0] "%d Prozessor-Kern"
 msgstr[1] "%d Prozessor-Kerne"
 
 #, python-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#, python-format
 msgid "%d file"
 msgid_plural "%d files"
 msgstr[0] "%d Datei"
@@ -239,7 +245,7 @@ msgstr "%d kB/s"
 msgid "%d min"
 msgstr "%d min"
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%d Minute"
@@ -557,24 +563,6 @@ msgstr "9"
 
 msgid ": 0000 - default (disabled)"
 msgstr ": 0000 - Standard (deaktiviert)"
-
-#, fuzzy
-msgid "< Current >"
-msgstr "Aktueller Wert: "
-
-#, fuzzy
-msgid "< Default + Picon >"
-msgstr "Voreinstellungen"
-
-#, fuzzy
-msgid "< Default >"
-msgstr "Voreinstellungen"
-
-msgid "< Emergency >"
-msgstr ""
-
-msgid "< Pending restart >"
-msgstr ""
 
 msgid "<Current movielist location>"
 msgstr "<Aktuelles Filmlisten-Verzeichnis>"
@@ -2406,6 +2394,10 @@ msgstr "Kuba"
 msgid "Curacao"
 msgstr "Curacao"
 
+#, fuzzy
+msgid "Current"
+msgstr "Aktueller Wert: "
+
 msgid "Current CEC address"
 msgstr "Aktuelle CEC-Adresse"
 
@@ -2592,6 +2584,10 @@ msgstr "Voreinstellungen"
 msgid "Default timer type"
 msgstr "Timer löschen"
 
+#, fuzzy
+msgid "Default+Picon"
+msgstr "Voreinstellungen"
+
 msgid "Define the location of the EPG Cache file."
 msgstr "Definieren Sie den Speicherort der EPG-Cache-Datei."
 
@@ -2665,6 +2661,10 @@ msgstr "Löschen"
 msgid "Delete Image"
 msgstr "Lösche Image"
 
+#, fuzzy
+msgid "Delete all the text"
+msgstr "Wiedergabelisteneintrag löschen"
+
 msgid "Delete entry"
 msgstr "Eintrag löschen"
 
@@ -2682,9 +2682,6 @@ msgstr "Wiedergabelisteneintrag löschen"
 
 msgid "Delete saved playlist"
 msgstr "Gespeicherte Wiedergabeliste löschen"
-
-msgid "Delete the all the text"
-msgstr ""
 
 #, fuzzy
 msgid "Delete the character to the left of text cursor"
@@ -3162,6 +3159,9 @@ msgstr "Elektronischer Programmführer"
 
 msgid "Embedded"
 msgstr "Integriert"
+
+msgid "Emergency"
+msgstr ""
 
 msgid "Empty slot"
 msgstr "Leerer Slot"
@@ -4004,6 +4004,10 @@ msgstr "Gehe zu 0"
 msgid "Goto X"
 msgstr "Gehe zu X"
 
+#, fuzzy
+msgid "Goto down service"
+msgstr "Springe zum letzten Kanal"
+
 msgid "Goto index position"
 msgstr "Gehe zur Index Position"
 
@@ -4027,6 +4031,10 @@ msgstr "Springe zur Primetime / Jetzt"
 
 msgid "Goto specific date/time"
 msgstr "Springe zum angegebenen Datum/Uhrzeit"
+
+#, fuzzy
+msgid "Goto up service"
+msgstr "Springe zum letzten Kanal"
 
 msgid "Goto:"
 msgstr "Gehe zu:"
@@ -5896,6 +5904,10 @@ msgstr "Wiedergabe pausieren"
 msgid "Pause/Continue playback"
 msgstr "Pause / Wiedergabe fortsetzen"
 
+#, fuzzy
+msgid "Pending restart"
+msgstr "Standby / Neustart"
+
 msgid "Percentage left"
 msgstr "Prozentangabe links"
 
@@ -6378,7 +6390,7 @@ msgid "Press OK on your remote control to continue."
 msgstr "OK drücken zum Fortfahren."
 
 #, fuzzy, python-format
-msgid "Press OK to activate the selected%s skin."
+msgid "Press OK to activate the selected %s skin."
 msgstr "OK drücken, um den markierten Skin zu aktivieren."
 
 msgid "Press OK to activate the settings."
@@ -6392,7 +6404,7 @@ msgid "Press OK to get further details for %s"
 msgstr "Drücken Sie OK, um weitere Details zu %s zu erhalten."
 
 #, fuzzy, python-format
-msgid "Press OK to keep the currently selected%s skin."
+msgid "Press OK to keep the currently selected %s skin."
 msgstr "OK drücken, um den markierten Skin zu aktivieren."
 
 msgid "Press OK to scan"
@@ -7397,9 +7409,6 @@ msgstr "Filmauswahl"
 msgid "Select a network adapter"
 msgstr "Netzwerkadapter auswählen"
 
-msgid "Select a skin"
-msgstr "Benutzeroberfläche wählen"
-
 msgid "Select a tuner"
 msgstr "Tuner auswählen"
 
@@ -8050,6 +8059,9 @@ msgstr "Zweite Infoleiste anzeigen"
 msgid "Show service list"
 msgstr "Senderliste anzeigen"
 
+msgid "Show service name and event description among each other instead of side by side."
+msgstr ""
+
 msgid "Show service type icons"
 msgstr "Servicetyp-Symbole anzeigen"
 
@@ -8085,6 +8097,9 @@ msgstr "TV-Wiedergabemodus…"
 
 msgid "Show transponder info"
 msgstr "Transponder-Info anzeigen"
+
+msgid "Show two lines per entry"
+msgstr ""
 
 msgid "Show underline characters in filenames"
 msgstr "Unterstriche anzeigen"
@@ -8657,11 +8672,23 @@ msgstr "Untertitel-Auswahl…"
 msgid "Subtitle settings"
 msgstr "Untertitel-Einstellungen"
 
+#, fuzzy
+msgid "Subtitle show/hide..."
+msgstr "Untertitel-Auswahl…"
+
 msgid "Subtitles"
 msgstr "Untertitel"
 
 msgid "Subtitles Settings"
 msgstr "Untertitel Einstellungen"
+
+#, fuzzy
+msgid "Subtitles disabled"
+msgstr "Untertitel Einstellungen"
+
+#, fuzzy
+msgid "Subtitles enabled"
+msgstr "Limits aktiviert"
 
 msgid "Succeeded:"
 msgstr "Erfolgreich:"
@@ -8717,14 +8744,16 @@ msgstr "Kanal umschalten"
 msgid "Switch channel up"
 msgstr "Kanal hochschalten"
 
-msgid "Switch off the display during Standby Mode"
-msgstr ""
-
-msgid "Switch off the display during Suspend Mode"
-msgstr ""
+#, fuzzy
+msgid "Switch on the display during Standby Mode"
+msgstr "Eine Liste der verfügbaren Display- und Userinterface-Erweiterungen anzeigen."
 
 #, fuzzy
-msgid "Switch off the display during operation."
+msgid "Switch on the display during Suspend Mode"
+msgstr "Eine Liste der verfügbaren Display- und Userinterface-Erweiterungen anzeigen."
+
+#, fuzzy
+msgid "Switch on the display during operation."
 msgstr "Eine Liste der verfügbaren Display- und Userinterface-Erweiterungen anzeigen."
 
 msgid "Switch to TV mode"
@@ -9437,6 +9466,10 @@ msgstr "Schaltet neue Texteinfügungen vor oder überschreibt vorhandenen Text"
 msgid "Toggle show/hide"
 msgstr "Ein- / ausblenden"
 
+#, fuzzy
+msgid "Toggle subtitles show/hide"
+msgstr "Ein- / ausblenden"
+
 msgid "Toggle the tv and the radio player..."
 msgstr "Toggle den Fernseher und den Radio-Player…"
 
@@ -9768,6 +9801,10 @@ msgstr "Softwarekatalog wird aktualisiert."
 
 msgid "Upper case"
 msgstr "Großbuchstaben"
+
+#, fuzzy
+msgid "Uptime"
+msgstr "Ausschalt-Timer"
 
 msgid "Uruguay"
 msgstr "Uruguay"
@@ -10468,14 +10505,15 @@ msgid "With popup"
 msgstr "mit Popup"
 
 #, fuzzy
-msgid "With this option you can switch off the display during operation."
+msgid "With this option you can switch on the display during operation."
 msgstr "Mit dieser Option können Sie das Display ausschalten."
 
-msgid "With this option you can switch off the display in Deep Standby Mode."
-msgstr ""
+#, fuzzy
+msgid "With this option you can switch on the display in Deep Standby Mode."
+msgstr "Mit dieser Option können Sie das Display ausschalten."
 
 #, fuzzy
-msgid "With this option you can switch off the display in Standby Mode."
+msgid "With this option you can switch on the display in Standby Mode."
 msgstr "Mit dieser Option können Sie das Display ausschalten."
 
 msgid "With this option you can switch the LED color or deactivate the LED."

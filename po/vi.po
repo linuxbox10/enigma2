@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma 2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-10 20:18+0200\n"
+"POT-Creation-Date: 2020-07-12 12:17+0200\n"
 "PO-Revision-Date: 2019-11-19 08:58+0700\n"
 "Last-Translator: krong\n"
 "Language-Team: none\n"
@@ -205,6 +205,12 @@ msgstr[0] "%d lõi"
 msgstr[1] "%d lõi"
 
 #, python-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#, python-format
 msgid "%d file"
 msgid_plural "%d files"
 msgstr[0] "%d tệp tin"
@@ -238,7 +244,7 @@ msgstr "%d kB/s"
 msgid "%d min"
 msgstr "%d phút"
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%d phút"
@@ -556,24 +562,6 @@ msgstr "9"
 
 msgid ": 0000 - default (disabled)"
 msgstr ": 0000 - mặc định (bị tắt)"
-
-#, fuzzy
-msgid "< Current >"
-msgstr "Giá trị hiện tại: "
-
-#, fuzzy
-msgid "< Default + Picon >"
-msgstr "<Da mặc định>"
-
-#, fuzzy
-msgid "< Default >"
-msgstr "<Da mặc định>"
-
-msgid "< Emergency >"
-msgstr ""
-
-msgid "< Pending restart >"
-msgstr ""
 
 msgid "<Current movielist location>"
 msgstr "<Vị trí di chuyển hiện tại>"
@@ -2398,6 +2386,10 @@ msgstr "Cuba"
 msgid "Curacao"
 msgstr "Curacao"
 
+#, fuzzy
+msgid "Current"
+msgstr "Giá trị hiện tại: "
+
 msgid "Current CEC address"
 msgstr "Địa chỉ CEC hiện tại"
 
@@ -2584,6 +2576,10 @@ msgstr "Thiết lập mặc định"
 msgid "Default timer type"
 msgstr "Xóa bộ đếm thời gian"
 
+#, fuzzy
+msgid "Default+Picon"
+msgstr "<Da mặc định>"
+
 msgid "Define the location of the EPG Cache file."
 msgstr "Xác định vị trí của tệp EPG Cache."
 
@@ -2657,6 +2653,10 @@ msgstr "Xóa bỏ"
 msgid "Delete Image"
 msgstr "Xóa hình ảnh"
 
+#, fuzzy
+msgid "Delete all the text"
+msgstr "Xóa mục nhập danh sách phát"
+
 msgid "Delete entry"
 msgstr "Xóa mục nhập"
 
@@ -2674,9 +2674,6 @@ msgstr "Xóa mục nhập danh sách phát"
 
 msgid "Delete saved playlist"
 msgstr "Xóa danh sách phát đã lưu"
-
-msgid "Delete the all the text"
-msgstr ""
 
 #, fuzzy
 msgid "Delete the character to the left of text cursor"
@@ -3158,6 +3155,9 @@ msgstr "Hướng dẫn chương trình điện tử"
 
 msgid "Embedded"
 msgstr "Nhúng"
+
+msgid "Emergency"
+msgstr ""
 
 msgid "Empty slot"
 msgstr "Chỗ trống"
@@ -3997,6 +3997,10 @@ msgstr "Đi 0"
 msgid "Goto X"
 msgstr "Đi X"
 
+#, fuzzy
+msgid "Goto down service"
+msgstr "Đi đến dịch vụ cuối cùng"
+
 msgid "Goto index position"
 msgstr "Vị trí chỉ số Goto"
 
@@ -4020,6 +4024,10 @@ msgstr "Giờ nguyên thủy / bây giờ"
 
 msgid "Goto specific date/time"
 msgstr "Ngày / giờ cụ thể"
+
+#, fuzzy
+msgid "Goto up service"
+msgstr "Đi đến dịch vụ cuối cùng"
 
 msgid "Goto:"
 msgstr "Đi đến:"
@@ -5886,6 +5894,10 @@ msgstr "Tạm dừng phát lại"
 msgid "Pause/Continue playback"
 msgstr "Tạm dừng / Tiếp tục phát lại"
 
+#, fuzzy
+msgid "Pending restart"
+msgstr "Chờ / khởi động lại"
+
 msgid "Percentage left"
 msgstr "Tỷ lệ còn lại"
 
@@ -6367,7 +6379,7 @@ msgid "Press OK on your remote control to continue."
 msgstr "Nhấn OK trên điều khiển từ xa của bạn để tiếp tục."
 
 #, fuzzy, python-format
-msgid "Press OK to activate the selected%s skin."
+msgid "Press OK to activate the selected %s skin."
 msgstr "Nhấn OK để kích hoạt giao diện đã chọn."
 
 msgid "Press OK to activate the settings."
@@ -6381,7 +6393,7 @@ msgid "Press OK to get further details for %s"
 msgstr "Nhấn OK để biết thêm chi tiết cho%s"
 
 #, fuzzy, python-format
-msgid "Press OK to keep the currently selected%s skin."
+msgid "Press OK to keep the currently selected %s skin."
 msgstr "Nhấn OK để kích hoạt giao diện đã chọn."
 
 msgid "Press OK to scan"
@@ -7383,9 +7395,6 @@ msgstr "Chọn một bộ phim"
 msgid "Select a network adapter"
 msgstr "Chọn bộ điều hợp mạng"
 
-msgid "Select a skin"
-msgstr "Chọn một làn da"
-
 msgid "Select a tuner"
 msgstr "Chọn bộ chỉnh"
 
@@ -8036,6 +8045,9 @@ msgstr "Hiển thị thông tin thứ hai"
 msgid "Show service list"
 msgstr "Hiển thị danh sách dịch vụ"
 
+msgid "Show service name and event description among each other instead of side by side."
+msgstr ""
+
 msgid "Show service type icons"
 msgstr "Hiển thị biểu tượng loại dịch vụ"
 
@@ -8071,6 +8083,9 @@ msgstr "Hiển thị trình phát tv ..."
 
 msgid "Show transponder info"
 msgstr "Hiển thị thông tin transponder"
+
+msgid "Show two lines per entry"
+msgstr ""
 
 msgid "Show underline characters in filenames"
 msgstr "Hiển thị các ký tự gạch chân trong tên tệp"
@@ -8639,11 +8654,23 @@ msgstr "Lựa chọn phụ đề ..."
 msgid "Subtitle settings"
 msgstr "Cài đặt phụ đề"
 
+#, fuzzy
+msgid "Subtitle show/hide..."
+msgstr "Lựa chọn phụ đề ..."
+
 msgid "Subtitles"
 msgstr "Phụ đề"
 
 msgid "Subtitles Settings"
 msgstr "Cài đặt phụ đề"
+
+#, fuzzy
+msgid "Subtitles disabled"
+msgstr "Cài đặt phụ đề"
+
+#, fuzzy
+msgid "Subtitles enabled"
+msgstr "Giới hạn kích hoạt"
 
 msgid "Succeeded:"
 msgstr "Thành công:"
@@ -8699,14 +8726,16 @@ msgstr "Chuyển kênh xuống"
 msgid "Switch channel up"
 msgstr "Chuyển kênh lên"
 
-msgid "Switch off the display during Standby Mode"
-msgstr ""
-
-msgid "Switch off the display during Suspend Mode"
-msgstr ""
+#, fuzzy
+msgid "Switch on the display during Standby Mode"
+msgstr "Xem danh sách các phần mở rộng hiển thị và giao diện người dùng."
 
 #, fuzzy
-msgid "Switch off the display during operation."
+msgid "Switch on the display during Suspend Mode"
+msgstr "Xem danh sách các phần mở rộng hiển thị và giao diện người dùng."
+
+#, fuzzy
+msgid "Switch on the display during operation."
 msgstr "Xem danh sách các phần mở rộng hiển thị và giao diện người dùng."
 
 msgid "Switch to TV mode"
@@ -9415,6 +9444,10 @@ msgstr "Chuyển đổi chèn văn bản mới trước hoặc ghi đè văn b�
 msgid "Toggle show/hide"
 msgstr "Chuyển đổi hiển thị / ẩn"
 
+#, fuzzy
+msgid "Toggle subtitles show/hide"
+msgstr "Chuyển đổi hiển thị / ẩn"
+
 msgid "Toggle the tv and the radio player..."
 msgstr "Chuyển đổi tv và trình phát radio ..."
 
@@ -9746,6 +9779,10 @@ msgstr "Cập nhật danh mục phần mềm"
 
 msgid "Upper case"
 msgstr "Chữ hoa"
+
+#, fuzzy
+msgid "Uptime"
+msgstr "Hẹn giờ ngủ"
 
 msgid "Uruguay"
 msgstr "Uruguay"
@@ -10440,14 +10477,15 @@ msgid "With popup"
 msgstr "Với cửa sổ bật lên"
 
 #, fuzzy
-msgid "With this option you can switch off the display during operation."
+msgid "With this option you can switch on the display during operation."
 msgstr "Tùy chọn này cho phép bạn tắt nguồn màn hình."
 
-msgid "With this option you can switch off the display in Deep Standby Mode."
-msgstr ""
+#, fuzzy
+msgid "With this option you can switch on the display in Deep Standby Mode."
+msgstr "Tùy chọn này cho phép bạn tắt nguồn màn hình."
 
 #, fuzzy
-msgid "With this option you can switch off the display in Standby Mode."
+msgid "With this option you can switch on the display in Standby Mode."
 msgstr "Tùy chọn này cho phép bạn tắt nguồn màn hình."
 
 msgid "With this option you can switch the LED color or deactivate the LED."
